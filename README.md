@@ -9,6 +9,15 @@ Type of datasets include
 3. Free Text 
 4. Audio 
 
+Table of Contents 
+
+1. Common Diseases
+    - Diabetes 
+        - Diabetic Retinopathy Detection
+2. Chest Related Datasets 
+    - NIH Chest X-ray Dataset 
+        - Chest X-ray Images Pneumonia
+
 ### Chest Related Datasets
 
 #### NIH Chest X-ray Dataset
