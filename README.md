@@ -12,12 +12,12 @@ Type of datasets include
 Table of Contents 
 
 1. [Common Diseases](#Common-Diseases)
-    - Diabetic Retinopathy Detection
-2. Chest Related Datasets 
-    - NIH Chest X-ray Dataset 
-    - Chest X-ray Images Pneumonia
-3. Other Diseases 
-    - Chula RBC-12-Dataset  
+    - [Diabetic Retinopathy Detection](#Diabetic-Retinopathy-Detection) 
+2. [Chest Related Datasets](#Chest-Related-Datasets)
+    - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
+    - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
+3. [Other Diseases](#Other-Diseases) 
+    - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
 
 ### Common Diseases 
 
