@@ -16,6 +16,8 @@ Table of Contents
 2. Chest Related Datasets 
     - NIH Chest X-ray Dataset 
     - Chest X-ray Images Pneumonia
+3. Other Diseases 
+    - Chula RBC-12-Dataset  
 
 ### Common Diseases 
 
@@ -64,10 +66,52 @@ Table of Contents
          NORMAL: <img src="https://user-images.githubusercontent.com/66881214/178702525-0eb5a853-a771-4821-8518-3bcc0dc8e642.jpeg" width="150" height="150">
          
          PNEUMONIA: <img src="https://user-images.githubusercontent.com/66881214/178702776-eeee3f64-c6c1-45ba-90b8-ec8ffa045631.jpeg" width="150" height="150">
-
-      
+         
   -   Note: NA
-
   -   Citations
       -  Please cite [this](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
+
+### Other Diseases 
+
+#### Chula RBC-12-Dataset
+  -   Source:  [Click here to proceed to site](https://github.com/Chula-PIC-Lab/Chula-RBC-12-Dataset)
+  
+  -   Data Type: Images + Free Text 
+  
+  -   Size: Depends. One image is about 79KB. 
+  
+  -   Example of data + Special Instructions(if any) 
+      1. Download images in Dataset folder and corresponding text files in Label folder from Source.
+         
+      2. Example: 1.jpg in Dataset folder will correspond to 1.txt in Label folder
       
+         <img src="https://user-images.githubusercontent.com/66881214/178712949-f819cf02-e1cc-4cb8-994c-d83d28823179.jpg" width="150" height="150"> <img width="115" alt="Screenshot 2022-07-13 at 6 38 07 PM" src="https://user-images.githubusercontent.com/66881214/178714773-24a74e22-dcd2-47a8-acec-f37606ebf1b4.png"> 
+         
+         Each row contains 3 values which corresponds to the x coordinate, y coordinate and the type of red blood cell found at the coordinate. There are 13 types as follows:
+         
+         Number  | Type of Red Blood Cell
+         ------------- | -------------
+         0  | Normal cell
+         1  | Macrocyte
+         2 | Microcyte 
+         3 | Spherocyte
+         4 | Target cell
+         5 | Stomatocyte
+         6 | Ovalocyte
+         7 | Teardrop
+         8 | Burr cell
+         9 | Schistocyte
+         10 | uncategorised
+         11 | Hypochromia
+         12 | Elliptocyte
+         
+      3. There are other images that correspond to other red blood diseases that can be found in the RBC Diseases folder from Source. 
+  -   Note: NA
+  
+  -   Citations
+      - Please cite [this](https://arxiv.org/abs/2012.01321)    
+
+         
+         
+    
+
