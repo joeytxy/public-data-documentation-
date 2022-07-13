@@ -12,11 +12,17 @@ Type of datasets include
 Table of Contents 
 
 1. Common Diseases
-    - Diabetes 
-        - Diabetic Retinopathy Detection
+    - Diabetic Retinopathy Detection
 2. Chest Related Datasets 
     - NIH Chest X-ray Dataset 
-        - Chest X-ray Images Pneumonia
+    - Chest X-ray Images Pneumonia
+
+### Common Diseases 
+
+#### Diabetic Retinopathy Detection 
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/competitions/diabetic-retinopathy-detection/data)
+  - Data Type: Images 
+  - Size
 
 ### Chest Related Datasets
 
