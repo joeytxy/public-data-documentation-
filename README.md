@@ -11,7 +11,7 @@ Type of datasets include
 
 Table of Contents 
 
-1. Common Diseases
+1. [Common Diseases](#Common-Diseases)
     - Diabetic Retinopathy Detection
 2. Chest Related Datasets 
     - NIH Chest X-ray Dataset 
