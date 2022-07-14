@@ -123,6 +123,31 @@ Table of Contents
             
         4. K. P. Bennett & O. L. Mangasarian: "Robust linear programming discrimination of two linearly inseparable sets", Optimization Methods and Software 1, 1992, 23-34 (Gordon & Breach Science Publishers).
 
+#### Breast Cancer Wisconsin (Prognostic) Data Set
+  -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Prognostic%29)
+  -   Data Type: Free Text/Tabular 
+  -   Size: 20 KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download wpbc.data stored in Data Folder from Source 
+      2. Example:
+            
+         
+         
+         Columns present (from left to right):
+         * 
+   -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
+   
+       To download as .csv file, right click on wpbc.data as shown :
+            
+       <img width="909" alt="Screenshot 2022-07-14 at 9 07 11 PM" src="https://user-images.githubusercontent.com/66881214/178989493-b7de3cca-da5f-4598-83cb-a28838ec52e0.png">
+            
+       Proceed to add the .csv extention in file name and save to desired location 
+            
+       <img width="326" alt="Screenshot 2022-07-14 at 9 08 03 PM" src="https://user-images.githubusercontent.com/66881214/178989650-9b61aa22-48be-4c78-ad15-5d488fbbf0a7.png">
+       
+   -   Citations
+      - 
+
 ### Chest Related Datasets
 
 #### NIH Chest X-ray Dataset
