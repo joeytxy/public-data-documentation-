@@ -15,7 +15,7 @@ Table of Contents
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
 2. [Cancer Datasets](#Cancer-Datasets)
     - [Breast Cancer Data set](#Breast-Cancer-Data-set)
-    - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-(Original)-Data-Set)
+    - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-(Prognostic)-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-(Diagnostic)-Data-Set)
 3. [Chest Related Datasets](#Chest-Related-Datasets)
