@@ -36,9 +36,11 @@ Table of Contents
       -  3KB for IDs_mapping.csv
   -   Example of data + Special Instructions(if any) 
       1. Download dataset_diabetes.zip from Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Common%20Disease/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data) 
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Common%20Disease/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data)
+  - Note: NA
   - Citations
     - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
  
 ### Cancer Datasets
 
@@ -77,6 +79,7 @@ Table of Contents
 
   -   Citations
       - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
+      - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
       
 #### Breast Cancer Wisconsin (Original) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
@@ -122,19 +125,35 @@ Table of Contents
         3. O. L. Mangasarian, R. Setiono, and W.H. Wolberg: "Pattern recognition via linear programming: Theory and application to medical diagnosis", in: "Large-scale numerical optimization", Thomas F. Coleman and Yuying Li, editors, SIAM Publications, Philadelphia 1990, pp 22-30.
             
         4. K. P. Bennett & O. L. Mangasarian: "Robust linear programming discrimination of two linearly inseparable sets", Optimization Methods and Software 1, 1992, 23-34 (Gordon & Breach Science Publishers).
+       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
 #### Breast Cancer Wisconsin (Prognostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Prognostic%29)
   -   Data Type: Free Text/Tabular 
-  -   Size: 20 KB
+  -   Size: 44 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wpbc.data stored in Data Folder from Source 
-      2. Example:
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Prognostic)%20Data%20Set/Preview%20of%20Data)
             
-         
-         
          Columns present (from left to right):
-         * 
+         * ID number 
+         * Outcome (R = recur, N = nonrecur)
+         * Time (recurrence time if field 2 = R, disease-free time if field 2 = N)
+         * Ten real-valued features are computed for each cell nucleus (Column 4 to Column 33):
+
+            a) radius (mean of distances from center to points on the perimeter)
+            b) texture (standard deviation of gray-scale values)
+            c) perimeter
+            d) area
+            e) smoothness (local variation in radius lengths)
+            f) compactness (perimeter^2 / area - 1.0)
+            g) concavity (severity of concave portions of the contour)
+            h) concave points (number of concave portions of the contour)
+            i) symmetry
+            j) fractal dimension ("coastline approximation" - 1)
+            
+            In other words, column 4 to column 13 represent the above 10 values for the first cell nucleus and so on. 
+            
    -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
    
        To download as .csv file, right click on wpbc.data as shown :
@@ -146,8 +165,47 @@ Table of Contents
        <img width="326" alt="Screenshot 2022-07-14 at 9 08 03 PM" src="https://user-images.githubusercontent.com/66881214/178989650-9b61aa22-48be-4c78-ad15-5d488fbbf0a7.png">
        
    -   Citations
-      - 
+       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
+#### Breast Cancer Wisconsin (Diagnostic) Data Set
+  -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
+  -   Data Type: Free Text/Tabular 
+  -   Size: 124 KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download wdbc.data stored in Data Folder from Source 
+      2. Example: [Click here to preview top 2 records of dataset]()
+            
+         Columns present (from left to right):
+         * ID number 
+         * Diagnosis (M = malignant, B = benign)
+         * Ten real-valued features are computed for each cell nucleus (Column 3 to Column 32):
+
+            a) radius (mean of distances from center to points on the perimeter)
+            b) texture (standard deviation of gray-scale values)
+            c) perimeter
+            d) area
+            e) smoothness (local variation in radius lengths)
+            f) compactness (perimeter^2 / area - 1.0)
+            g) concavity (severity of concave portions of the contour)
+            h) concave points (number of concave portions of the contour)
+            i) symmetry
+            j) fractal dimension ("coastline approximation" - 1)
+            
+            In other words, column 3 to column 12 represent the above 10 values for the first cell nucleus and so on. 
+            
+   -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
+   
+       To download as .csv file, right click on wdbc.data as shown :
+            <img width="915" alt="Screenshot 2022-07-14 at 11 08 42 PM" src="https://user-images.githubusercontent.com/66881214/179015321-d168c542-291a-40af-8b6c-1703ce17a751.png">
+            
+       Proceed to add the .csv extention in file name and save to desired location 
+            
+       <img width="322" alt="Screenshot 2022-07-14 at 11 09 00 PM" src="https://user-images.githubusercontent.com/66881214/179015383-cdb7a990-cc67-47ec-ac68-3e1390ac657e.png">
+
+       
+   -   Citations
+       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+       
 ### Chest Related Datasets
 
 #### NIH Chest X-ray Dataset
