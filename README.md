@@ -52,7 +52,7 @@ Table of Contents
   -   Size: 19 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer.data stored in Data Folder from Source 
-      2. Example (No headers in file):
+      2. Example: CSV version(No headers in file)
       
          <img width="652" alt="Screenshot 2022-07-14 at 4 33 48 PM" src="https://user-images.githubusercontent.com/66881214/178939273-d1810b64-d7c3-46ac-9ddd-bb9c076c89cb.png">
          
@@ -89,7 +89,7 @@ Table of Contents
   -   Size: 20 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
-      2. Example (No headers in file):
+      2. Example: CSV version(No headers in file)
             
          <img width="718" alt="Screenshot 2022-07-14 at 6 11 27 PM" src="https://user-images.githubusercontent.com/66881214/178959171-12d41257-eadc-4bea-bedd-0f13b67adbbb.png">
          
