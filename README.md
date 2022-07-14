@@ -13,10 +13,15 @@ Table of Contents
 
 1. [Common Diseases](#Common-Diseases)
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
-2. [Chest Related Datasets](#Chest-Related-Datasets)
+2. [Cancer Datasets](#Cancer-Datasets)
+    - [Breast Cancer Data set](#Breast-Cancer-Data-set)
+    - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-(Original)-Data-Set)
+    - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-(Prognostic)-Data-Set)
+    - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-(Diagnostic)-Data-Set)
+3. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
-3. [Other Diseases](#Other-Diseases) 
+4. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
 
 ### Common Diseases 
@@ -26,11 +31,32 @@ Table of Contents
   
   - Data Type: Tabular 
   
-  - Size: 19.2MB for diabetic_data.csv and 3KB for IDs_mapping.csv
+  -   Size of files
+      -  19.2MB for diabetic_data.csv
+      -  3KB for IDs_mapping.csv
+  -   Example of data + Special Instructions(if any) 
+      1. Download dataset_diabetes.zip from Data Folder from Source 
+      2. Example: 
+      
+    
   
   - Citations
     - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
  
+### Cancer Datasets
+
+#### Breast Cancer Data set
+  -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
+  -   Data Type: Free Text/Tabular 
+  -   Size: 19 KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download breast-cancer.data stored in Data Folder from Source 
+      2. Da
+
+  -   Note: NA
+
+  -   Citations
+      - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
 
 ### Chest Related Datasets
 
