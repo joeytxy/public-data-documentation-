@@ -36,10 +36,7 @@ Table of Contents
       -  3KB for IDs_mapping.csv
   -   Example of data + Special Instructions(if any) 
       1. Download dataset_diabetes.zip from Data Folder from Source 
-      2. Example: 
-      
-    
-  
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Common%20Disease/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data) 
   - Citations
     - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
  
@@ -51,9 +48,19 @@ Table of Contents
   -   Size: 19 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer.data stored in Data Folder from Source 
-      2. Da
+      2. Example:
+      
+         <img width="652" alt="Screenshot 2022-07-14 at 4 33 48 PM" src="https://user-images.githubusercontent.com/66881214/178939273-d1810b64-d7c3-46ac-9ddd-bb9c076c89cb.png">
 
-  -   Note: NA
+  -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
+            
+      To download as .csv file, right click on breast-cancer.data as shown :
+            
+      <img width="698" alt="Screenshot 2022-07-14 at 4 44 53 PM" src="https://user-images.githubusercontent.com/66881214/178941770-0c1bf718-e4c1-4eb3-bc65-7e755211f723.png">
+            
+      Proceed to add the .csv extention in file name and save to desired location
+            
+      <img width="323" alt="Screenshot 2022-07-14 at 4 46 13 PM" src="https://user-images.githubusercontent.com/66881214/178942033-445f2292-c76f-4967-b090-2dc35f269737.png">
 
   -   Citations
       - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
