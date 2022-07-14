@@ -173,7 +173,7 @@ Table of Contents
   -   Size: 124 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wdbc.data stored in Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset]()
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Diagnostic)%20Data%20Set/Preview%20of%20Data)
             
          Columns present (from left to right):
          * ID number 
