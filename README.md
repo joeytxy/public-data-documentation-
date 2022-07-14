@@ -12,7 +12,7 @@ Type of datasets include
 Table of Contents 
 
 1. [Common Diseases](#Common-Diseases)
-    - [Diabetic Retinopathy Detection](#Diabetic-Retinopathy-Detection) 
+    - [Diabetes](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
 2. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
@@ -21,16 +21,22 @@ Table of Contents
 
 ### Common Diseases 
 
-#### Diabetic Retinopathy Detection 
-  - Source:  [Click here to proceed to site](https://www.kaggle.com/competitions/diabetic-retinopathy-detection/data)
-  - Data Type: Images 
-  - Size
+#### Diabetes 130-US hospitals for years 1999-2008 Data Set
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
+  
+  - Data Type: Tabular 
+  
+  - Size: 19.2MB for diabetic_data.csv and 3KB for IDs_mapping.csv
+  
+  - Citations
+    - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
+ 
 
 ### Chest Related Datasets
 
 #### NIH Chest X-ray Dataset
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/nih-chest-xrays/data?resource=download)
-  -   Data Type: Images + Tabular 
+  -   Data Type: Images + Tabular
   -   Size of files
       -  2 to 4 GB per image zip folder depending on number of images in the folder 
       -  7.9 MB for Data_Entry_2017.csv
