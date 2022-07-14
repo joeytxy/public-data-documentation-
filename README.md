@@ -50,7 +50,7 @@ Table of Contents
   -   Size: 19 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer.data stored in Data Folder from Source 
-      2. Example:
+      2. Example (No headers in file):
       
          <img width="652" alt="Screenshot 2022-07-14 at 4 33 48 PM" src="https://user-images.githubusercontent.com/66881214/178939273-d1810b64-d7c3-46ac-9ddd-bb9c076c89cb.png">
          
@@ -87,7 +87,7 @@ Table of Contents
   -   Size: 20 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
-      2. Example:
+      2. Example (No headers in file):
             
          <img width="718" alt="Screenshot 2022-07-14 at 6 11 27 PM" src="https://user-images.githubusercontent.com/66881214/178959171-12d41257-eadc-4bea-bedd-0f13b67adbbb.png">
          
@@ -133,24 +133,23 @@ Table of Contents
   -   Size: 44 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wpbc.data stored in Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Prognostic)%20Data%20Set/Preview%20of%20Data)
+      2. Example (No headers in file): [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Prognostic)%20Data%20Set/Preview%20of%20Data)
             
          Columns present (from left to right):
          * ID number 
          * Outcome (R = recur, N = nonrecur)
          * Time (recurrence time if field 2 = R, disease-free time if field 2 = N)
          * Ten real-valued features are computed for each cell nucleus (Column 4 to Column 33):
-
-            a) radius (mean of distances from center to points on the perimeter)
-            b) texture (standard deviation of gray-scale values)
-            c) perimeter
-            d) area
-            e) smoothness (local variation in radius lengths)
-            f) compactness (perimeter^2 / area - 1.0)
-            g) concavity (severity of concave portions of the contour)
-            h) concave points (number of concave portions of the contour)
-            i) symmetry
-            j) fractal dimension ("coastline approximation" - 1)
+           - radius (mean of distances from center to points on the perimeter)
+           - texture (standard deviation of gray-scale values)
+           - perimeter
+           - area
+           - smoothness (local variation in radius lengths)
+           - compactness (perimeter^2 / area - 1.0)
+           - concavity (severity of concave portions of the contour)
+           - concave points (number of concave portions of the contour)
+           - symmetry
+           - fractal dimension ("coastline approximation" - 1)
             
             In other words, column 4 to column 13 represent the above 10 values for the first cell nucleus and so on. 
             
@@ -173,23 +172,22 @@ Table of Contents
   -   Size: 124 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wdbc.data stored in Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Diagnostic)%20Data%20Set/Preview%20of%20Data)
+      2. Example (No headers in file): [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Diagnostic)%20Data%20Set/Preview%20of%20Data)
             
          Columns present (from left to right):
          * ID number 
          * Diagnosis (M = malignant, B = benign)
          * Ten real-valued features are computed for each cell nucleus (Column 3 to Column 32):
-
-            a) radius (mean of distances from center to points on the perimeter)
-            b) texture (standard deviation of gray-scale values)
-            c) perimeter
-            d) area
-            e) smoothness (local variation in radius lengths)
-            f) compactness (perimeter^2 / area - 1.0)
-            g) concavity (severity of concave portions of the contour)
-            h) concave points (number of concave portions of the contour)
-            i) symmetry
-            j) fractal dimension ("coastline approximation" - 1)
+           - radius (mean of distances from center to points on the perimeter)
+           - texture (standard deviation of gray-scale values)
+           - perimeter
+           - area
+           - smoothness (local variation in radius lengths)
+           - compactness (perimeter^2 / area - 1.0)
+           - concavity (severity of concave portions of the contour)
+           - concave points (number of concave portions of the contour)
+           - symmetry
+           - fractal dimension ("coastline approximation" - 1)
             
             In other words, column 3 to column 12 represent the above 10 values for the first cell nucleus and so on. 
             
