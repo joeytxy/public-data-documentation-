@@ -51,6 +51,19 @@ Table of Contents
       2. Example:
       
          <img width="652" alt="Screenshot 2022-07-14 at 4 33 48 PM" src="https://user-images.githubusercontent.com/66881214/178939273-d1810b64-d7c3-46ac-9ddd-bb9c076c89cb.png">
+         
+         Columns present (from left to right):
+            
+         * Class: no-recurrence-events, recurrence-events
+         * age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.
+         * menopause: lt40, ge40, premeno.
+         * tumor-size: 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59.
+         * inv-nodes: 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39.
+         * node-caps: yes, no.
+         * deg-malig: 1, 2, 3.
+         * breast: left, right.
+         * breast-quad: left-up, left-low, right-up, right-low, central.
+         * irradiat: yes, no.
 
   -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
             
@@ -64,6 +77,53 @@ Table of Contents
 
   -   Citations
       - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
+      
+#### Breast Cancer Wisconsin (Original) Data Set
+  -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
+  -   Data Type: Free Text/Tabular 
+  -   Size: 20 KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
+      2. Example:
+            
+         <img width="718" alt="Screenshot 2022-07-14 at 6 11 27 PM" src="https://user-images.githubusercontent.com/66881214/178959171-12d41257-eadc-4bea-bedd-0f13b67adbbb.png">
+         
+         Columns present (from left to right):
+         
+         * Sample code number: id number
+         * Clump Thickness: 1 - 10
+         * Uniformity of Cell Size: 1 - 10
+         * Uniformity of Cell Shape: 1 - 10
+         * Marginal Adhesion: 1 - 10
+         * Single Epithelial Cell Size: 1 - 10
+         * Bare Nuclei: 1 - 10
+         * Bland Chromatin: 1 - 10
+         * Normal Nucleoli: 1 - 10
+         * Mitoses: 1 - 10
+         * Class: (2 for benign, 4 for malignant)
+  
+   -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
+   
+       To download as .csv file, right click on breast-cancer-wiscoinsin.data as shown :
+            
+       <img width="700" alt="Screenshot 2022-07-14 at 5 58 13 PM" src="https://user-images.githubusercontent.com/66881214/178956694-8c413b09-d736-49be-9776-50b8a8a5db5d.png">
+            
+       Proceed to add the .csv extention in file name and save to desired location 
+            
+       <img width="322" alt="Screenshot 2022-07-14 at 5 58 32 PM" src="https://user-images.githubusercontent.com/66881214/178956742-b203502f-0e8d-4eae-b31b-02dc2da7d2ac.png">
+         
+  -   Citations
+      - This breast cancer databases was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. If you publish results when using this database, then please include this information in your acknowledgements. Also, please cite one or more of:
+     
+        1. O. L. Mangasarian and W. H. Wolberg: "Cancer diagnosis via linear programming", SIAM News, Volume 23, Number 5, September 1990, pp 1 & 18.
+            
+        2. William H. Wolberg and O.L. Mangasarian: "Multisurface method of pattern separation for medical diagnosis applied to breast cytology", Proceedings of the National Academy of Sciences, U.S.A., Volume 87, December 1990, pp 9193-9196.
+            
+        3. O. L. Mangasarian, R. Setiono, and W.H. Wolberg: "Pattern recognition via linear programming: Theory and application to medical diagnosis", in: "Large-scale numerical optimization", Thomas F. Coleman and Yuying Li, editors, SIAM Publications, Philadelphia 1990, pp 22-30.
+            
+        4. K. P. Bennett & O. L. Mangasarian: "Robust linear programming discrimination of two linearly inseparable sets", Optimization Methods and Software 1, 1992, 23-34 (Gordon & Breach Science Publishers).
+
+
 
 ### Chest Related Datasets
 
