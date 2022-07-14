@@ -12,7 +12,7 @@ Type of datasets include
 Table of Contents 
 
 1. [Common Diseases](#Common-Diseases)
-    - [Diabetes](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
+    - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
 2. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
