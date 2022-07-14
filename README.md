@@ -260,9 +260,10 @@ Table of Contents
          
          PNEUMONIA: <img src="https://user-images.githubusercontent.com/66881214/178702776-eeee3f64-c6c1-45ba-90b8-ec8ffa045631.jpeg" width="150" height="150">
          
-  -   Note: NA
+  -   Note: A newer version of the dataset can be found [here.](https://data.mendeley.com/datasets/rscbjbr9sj/3) Please cite accordingly. 
   -   Citations
-      -  Please cite [this](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
+      -  Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
+         -  The paper can be found [here](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
 
 ### Other Diseases 
 
@@ -302,7 +303,7 @@ Table of Contents
   -   Note: NA
   
   -   Citations
-      - Please cite [this](https://arxiv.org/abs/2012.01321)    
+      - Naruenatthanaset, K., Chalidabhongse, T. H., Palasuwan, D., Anantrasirichai, N., &amp; Palasuwan, A. (2021, November 3). Red blood cell segmentation with overlapping cell separation and classification on Imbalanced Dataset. arXiv.org. Retrieved July 14, 2022, from https://arxiv.org/abs/2012.01321   
 
          
          
