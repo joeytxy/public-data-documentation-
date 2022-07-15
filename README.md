@@ -208,6 +208,28 @@ Table of Contents
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
 #### Skin Cancer MNIST: HAM10000
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
+    - The original challenge can be found [here](https://challenge2018.isic-archive.com) and the dataset can also be downloaded [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) after accepting their terms and conditions. 
+  
+  - Data Type: Images + Tabular
+  -   Size of files
+      - 1.37GB for HAM10000_images_part_1 
+      - 1.4GB for HAM10000_images_part_2
+      - 563KB for HAM10000_metadata.csv
+  -   Example of data + Special Instructions(if any) 
+      1. Download HAM10000_images_part_1.zip, HAM10000_images_part_2 and HAM10000_metadata.csv from Source 
+      2. Example: ISIC_0024306.jpg 
+      
+         <img src="https://user-images.githubusercontent.com/66881214/179134479-fc6a9393-17e5-4af3-93dc-81d8d8341073.jpg" width="150" height="150"> 
+         
+         Each image has its corresponding row in HAM10000_metadata.csv where its file name is its image_id as shown: 
+         
+         <img width="582" alt="Screenshot 2022-07-15 at 10 29 29 AM" src="https://user-images.githubusercontent.com/66881214/179134926-35dd84e3-f4b1-4f7d-a3f1-46ac395fb067.png">
+  - Note: NA
+  - Citations
+    - Noel Codella, Veronica Rotemberg, Philipp Tschandl, M. Emre Celebi, Stephen Dusza, David Gutman, Brian Helba, Aadi Kalloo, Konstantinos Liopyris, Michael Marchetti, Harald Kittler, Allan Halpern: “Skin Lesion Analysis Toward Melanoma Detection 2018: A Challenge Hosted by the International Skin Imaging Collaboration (ISIC)”, 2018; https://arxiv.org/abs/1902.03368
+    - Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci. Data 5, 180161 doi:10.1038/sdata.2018.161 (2018).
+
        
 ### Chest Related Datasets
 
