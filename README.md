@@ -20,6 +20,7 @@ Table of Contents
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
     - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
     - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
+    - [Thoracic Surgery Data Data Set](#Thoracic-Surgery-Data-Data-Set)
 2. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
@@ -244,7 +245,33 @@ Table of Contents
   - Citations
     - Noel Codella, Veronica Rotemberg, Philipp Tschandl, M. Emre Celebi, Stephen Dusza, David Gutman, Brian Helba, Aadi Kalloo, Konstantinos Liopyris, Michael Marchetti, Harald Kittler, Allan Halpern: “Skin Lesion Analysis Toward Melanoma Detection 2018: A Challenge Hosted by the International Skin Imaging Collaboration (ISIC)”, 2018; https://arxiv.org/abs/1902.03368
     - Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci. Data 5, 180161 doi:10.1038/sdata.2018.161 (2018).
+    
+#### Thoracic Surgery Data Data Set
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Thoracic+Surgery+Data)
+  
+  - Data Type: Free text (Can be converted) 
+  
+  -   Size: 24 KB
 
+
+  -   Example of data + Special Instructions(if any) 
+      1. Download  ThoraricSurgery.arff from Data Folder from Source
+      2. Example: 
+         <img width="351" alt="Screenshot 2022-07-15 at 2 42 52 PM" src="https://user-images.githubusercontent.com/66881214/179166600-f02bd66d-f08f-44f5-9606-1035ee64cca2.png">
+  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
+  
+    To convert to csv file, remove the highlighted text as shown and save:
+    
+    <img width="675" alt="Screenshot 2022-07-15 at 2 45 46 PM" src="https://user-images.githubusercontent.com/66881214/179167036-4318946c-4875-42e3-80e1-60bebcfd487b.png">
+    
+    Rename the new file by changing ".arff" to ".csv" extension. 
+    
+    Updated file:  
+    <img width="1106" alt="Screenshot 2022-07-15 at 2 53 11 PM" src="https://user-images.githubusercontent.com/66881214/179168276-453388e5-0741-481c-abbf-39d207e20bd4.png">
+    
+  - Citations
+    - ZiÄ™ba, M., Tomczak, J. M., Lubicz, M., & ÅšwiÄ…tek, J. (2013). Boosted SVM for extracting rules from imbalanced data in application to prediction of the post-operative life expectancy in the lung cancer patients. Applied Soft Computing [Link](https://www.sciencedirect.com/science/article/abs/pii/S0166432811002221?via%3Dihub)
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
        
 ### Chest Related Datasets
 
