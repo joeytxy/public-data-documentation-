@@ -27,12 +27,13 @@ Table of Contents
 3. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
+    - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
 
 ### Cancer Datasets
 
 #### Breast Cancer Data set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
-  -   Data Type: Free Text/Tabular 
+  -   Data Type: Text/Tabular 
   -   Size: 19 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer.data stored in Data Folder from Source 
@@ -69,7 +70,7 @@ Table of Contents
       
 #### Breast Cancer Wisconsin (Original) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
-  -   Data Type: Free Text/Tabular 
+  -   Data Type: Text/Tabular 
   -   Size: 20 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
@@ -115,7 +116,7 @@ Table of Contents
 
 #### Breast Cancer Wisconsin (Prognostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Prognostic%29)
-  -   Data Type: Free Text/Tabular 
+  -   Data Type: Text/Tabular 
   -   Size: 44 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wpbc.data stored in Data Folder from Source 
@@ -154,7 +155,7 @@ Table of Contents
 
 #### Breast Cancer Wisconsin (Diagnostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
-  -   Data Type: Free Text/Tabular 
+  -   Data Type: Text/Tabular 
   -   Size: 124 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wdbc.data stored in Data Folder from Source 
@@ -249,7 +250,7 @@ Table of Contents
 #### Thoracic Surgery Data Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Thoracic+Surgery+Data)
   
-  - Data Type: Free text (Can be converted) 
+  - Data Type: Text/Tabular
   
   -   Size: 24 KB
  
@@ -259,20 +260,7 @@ Table of Contents
          
          <img width="351" alt="Screenshot 2022-07-15 at 2 42 52 PM" src="https://user-images.githubusercontent.com/66881214/179166600-f02bd66d-f08f-44f5-9606-1035ee64cca2.png">
          
-  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
-  
-    To convert to csv file, remove the highlighted text as shown and save:
-    
-    <img width="675" alt="Screenshot 2022-07-15 at 2 45 46 PM" src="https://user-images.githubusercontent.com/66881214/179167036-4318946c-4875-42e3-80e1-60bebcfd487b.png">
-    
-    Rename the new file by changing ".arff" to ".csv" extension. 
-    
-    Updated file:  
-    
-    <img width="1106" alt="Screenshot 2022-07-15 at 2 53 11 PM" src="https://user-images.githubusercontent.com/66881214/179168276-453388e5-0741-481c-abbf-39d207e20bd4.png">
-    
-    Columns present (from left to right):
-            
+         Columns present (from left to right):   
          * DGN 
          * PRE4
          * PRE5
@@ -290,6 +278,18 @@ Table of Contents
          * PRE32
          * AGE
          * Risk1Yr
+         
+  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
+  
+    To convert to csv file, remove the highlighted text as shown and save:
+    
+    <img width="675" alt="Screenshot 2022-07-15 at 2 45 46 PM" src="https://user-images.githubusercontent.com/66881214/179167036-4318946c-4875-42e3-80e1-60bebcfd487b.png">
+    
+    Rename the new file by changing ".arff" to ".csv" extension. 
+    
+    Updated file:  
+    
+    <img width="1106" alt="Screenshot 2022-07-15 at 2 53 11 PM" src="https://user-images.githubusercontent.com/66881214/179168276-453388e5-0741-481c-abbf-39d207e20bd4.png">
     
   - Citations
     - ZiÄ™ba, M., Tomczak, J. M., Lubicz, M., & ÅšwiÄ…tek, J. (2013). Boosted SVM for extracting rules from imbalanced data in application to prediction of the post-operative life expectancy in the lung cancer patients. Applied Soft Computing [Link](https://www.sciencedirect.com/science/article/abs/pii/S0166432811002221?via%3Dihub)
@@ -364,7 +364,7 @@ Table of Contents
 #### Chula RBC-12-Dataset
   -   Source:  [Click here to proceed to site](https://github.com/Chula-PIC-Lab/Chula-RBC-12-Dataset)
   
-  -   Data Type: Images + Free Text 
+  -   Data Type: Images + Text/Tabular
   
   -   Size: Depends. One image is about 79KB. 
   
@@ -414,8 +414,45 @@ Table of Contents
   - Citations
     - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
- 
+
+#### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
+  
+  - Data Type: Text/Tabular  
+  
+  -   Size of files
+      -  194KB for train_data.txt 
+      -  47KB for test_data.txt
+  -   Example of data + Special Instructions(if any) 
+      1. Download Parkinson_Multiple_Sound_Recording.rar from Data Folder from Source 
+      2. Example:  
+         <img width="1270" alt="Screenshot 2022-07-15 at 3 28 31 PM" src="https://user-images.githubusercontent.com/66881214/179174170-e8b8e140-44ba-48f7-b1d1-198b3a6cd8d0.png">
          
+         Columns present (from left to right):
+         * Subject id
+         * features(column 2 to 27)
+           - features 1-5: Jitter (local),Jitter (local, absolute),Jitter (rap),Jitter (ppq5),Jitter (ddp)
+           - features 6-11: Shimmer (local),Shimmer (local, dB),Shimmer (apq3),Shimmer (apq5), Shimmer (apq11),Shimmer (dda)
+           - features 12-14: AC,NTH,HTN
+           - features 15-19: Median pitch,Mean pitch,Standard deviation,Minimum pitch,Maximum pitch
+           - features 20-23: Number of pulses,Number of periods,Mean period,Standard deviation of period
+           - features 24-26: Fraction of locally unvoiced frames,Number of voice breaks,Degree of voice breaks
+         * UPDRS
+         * class information (not present in test_data.txt)
+         
+  - Note: Dataset from Source is of .rar file. To open: 
+    - For Macbook
+      1. Download The Unarchiver from App Store. Ensure that RAR Archive is selected under Preferences as shown (Others are optional):
+         <img width="596" alt="Screenshot 2022-07-15 at 3 17 47 PM" src="https://user-images.githubusercontent.com/66881214/179172301-6678bb1f-1637-4040-8279-9c19a36f69c2.png">
+      2. Right click on downloaded file and click open with The Unarchiver and both files (train_data.txt and test_data.txt) can be accessed.
+      3. To convert to CSV file, rename train_data.txt to train_data.csv
+      
+    -For Windows (to be filled)
+      
+  - Citations
+    - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+     
          
     
 
