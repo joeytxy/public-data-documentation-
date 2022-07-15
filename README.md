@@ -18,6 +18,7 @@ Table of Contents
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
+    - [Cervical cancer (Risk Factors) Data Set](#Cervical-cancer-Risk-Factors-Data-Set)
     - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
     - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
     - [Thoracic Surgery Data Data Set](#Thoracic-Surgery-Data-Data-Set)
@@ -38,7 +39,7 @@ Table of Contents
   -   Size: 19 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer.data stored in Data Folder from Source 
-      2. Example: CSV version(No headers in file)
+      2. Example: CSV version
       
          <img width="652" alt="Screenshot 2022-07-14 at 4 33 48 PM" src="https://user-images.githubusercontent.com/66881214/178939273-d1810b64-d7c3-46ac-9ddd-bb9c076c89cb.png">
          
@@ -75,7 +76,7 @@ Table of Contents
   -   Size: 20 KB
   -   Example of data + Special Instructions(if any) 
       1. Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
-      2. Example: CSV version(No headers in file)
+      2. Example: CSV version
             
          <img width="718" alt="Screenshot 2022-07-14 at 6 11 27 PM" src="https://user-images.githubusercontent.com/66881214/178959171-12d41257-eadc-4bea-bedd-0f13b67adbbb.png">
          
@@ -121,7 +122,7 @@ Table of Contents
   -   Size: 44 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wpbc.data stored in Data Folder from Source 
-      2. Example (No headers in file): [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Prognostic)%20Data%20Set/Preview%20of%20Data)
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Prognostic)%20Data%20Set/Preview%20of%20Data)
             
          Columns present (from left to right):
          * ID number 
@@ -160,7 +161,7 @@ Table of Contents
   -   Size: 124 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wdbc.data stored in Data Folder from Source 
-      2. Example (No headers in file): [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Diagnostic)%20Data%20Set/Preview%20of%20Data)
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Diagnostic)%20Data%20Set/Preview%20of%20Data)
             
          Columns present (from left to right):
          * ID number 
@@ -191,6 +192,18 @@ Table of Contents
        
    -   Citations
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+#### Cervical cancer (Risk Factors) Data Set
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29)
+  - Data Type: Tabular 
+  -   Size: 102 KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download risk_factors_cervical_cancer.csv from Data Folder from Source 
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Cervical%20cancer%20(Risk%20Factors)%20Data%20Set/Preview%20of%20Data)
+  - Note: NA
+  - Citations
+    - Kelwin Fernandes, Jaime S. Cardoso, and Jessica Fernandes. 'Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.' Iberian Conference on Pattern Recognition and Image Analysis. Springer International Publishing, 2017.
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
 #### Lung and Colon Cancer Histopathological Images
   - Source:  [Click here to proceed to Kaggle site](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images) 
