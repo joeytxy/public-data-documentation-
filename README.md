@@ -495,11 +495,15 @@ sizes (Columns 8-15)
   - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
   
     To convert to csv file, remove the highlighted text as shown and save:
+    
     <img width="1016" alt="Screenshot 2022-07-15 at 4 05 56 PM" src="https://user-images.githubusercontent.com/66881214/179180814-8066caa4-de81-486d-8b19-f1dc9ce05534.png">
+    
     Rename the new file by changing ".arff" to ".csv" extension. 
     
     Updated file:  
+    
     <img width="1304" alt="Screenshot 2022-07-15 at 4 06 37 PM" src="https://user-images.githubusercontent.com/66881214/179180932-1d57f15a-783c-4da7-8c43-d3fe4afbda58.png">
+    
   - Citations
     - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
@@ -515,6 +519,7 @@ sizes (Columns 8-15)
   -   Example of data + Special Instructions(if any) 
       1. Download Parkinson_Multiple_Sound_Recording.rar from Data Folder from Source 
       2. Example:  
+ 
          <img width="1270" alt="Screenshot 2022-07-15 at 3 28 31 PM" src="https://user-images.githubusercontent.com/66881214/179174170-e8b8e140-44ba-48f7-b1d1-198b3a6cd8d0.png">
          
          Columns present (from left to right):
@@ -532,7 +537,9 @@ sizes (Columns 8-15)
   - Note: Dataset from Source is of .rar file. To open: 
     - For Macbook
       1. Download The Unarchiver from App Store. Ensure that RAR Archive is selected under Preferences as shown (Others are optional):
+  
          <img width="596" alt="Screenshot 2022-07-15 at 3 17 47 PM" src="https://user-images.githubusercontent.com/66881214/179172301-6678bb1f-1637-4040-8279-9c19a36f69c2.png">
+         
       2. Right click on downloaded file and click open with The Unarchiver and both files (train_data.txt and test_data.txt) can be accessed.
       3. To convert to CSV file, rename train_data.txt to train_data.csv
       
