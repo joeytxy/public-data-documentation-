@@ -200,6 +200,43 @@ Table of Contents
   -   Example of data + Special Instructions(if any) 
       1. Download risk_factors_cervical_cancer.csv from Data Folder from Source 
       2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Cervical%20cancer%20(Risk%20Factors)%20Data%20Set/Preview%20of%20Data)
+         Columns present (from left to right):
+         * Age
+         * Number of sexual partners
+         * First sexual intercourse (age)
+         * Num of pregnancies
+         * Smokes
+         * Smokes (years)
+         * Smokes (packs/year)
+         * Hormonal Contraceptives
+         * Hormonal Contraceptives (years)
+         * IUD
+         * IUD (years)
+         * STDs
+         * STDs (number)
+         * STDs:condylomatosis
+         * STDs:cervical condylomatosis
+         * STDs:vaginal condylomatosis
+         * STDs:vulvo-perineal condylomatosis
+         * STDs:syphilis
+         * STDs:pelvic inflammatory disease
+         * STDs:genital herpes
+         * STDs:molluscum contagiosum
+         * STDs:AIDS
+         * STDs:HIV
+         * STDs:Hepatitis B
+         * STDs:HPV
+         * STDs: Number of diagnosis
+         * STDs: Time since first diagnosis
+         * STDs: Time since last diagnosis
+         * Dx:Cancer
+         * Dx:CIN
+         * Dx:HPV
+         * Dx
+         * Hinselmann: target variable
+         * Schiller: target variable
+         * Cytology: target variable
+         * Biopsy: target variable
   - Note: NA
   - Citations
     - Kelwin Fernandes, Jaime S. Cardoso, and Jessica Fernandes. 'Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.' Iberian Conference on Pattern Recognition and Image Analysis. Springer International Publishing, 2017.
@@ -504,5 +541,3 @@ sizes (Columns 8-15)
   - Citations
     - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-    
-
