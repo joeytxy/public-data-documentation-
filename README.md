@@ -27,6 +27,7 @@ Table of Contents
 3. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
+    - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
 
 ### Cancer Datasets
@@ -409,11 +410,50 @@ Table of Contents
       -  3KB for IDs_mapping.csv
   -   Example of data + Special Instructions(if any) 
       1. Download dataset_diabetes.zip from Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Common%20Disease/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data)
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Other%20Diseases/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data)
   - Note: NA
   - Citations
     - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    
+#### Diabetic Retinopathy Debrecen Data Set Data Set
+
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetic+Retinopathy+Debrecen+Data+Set)
+  
+  - Data Type: Text/Tabular
+  
+  -   Size: 117 KB
+ 
+  -   Example of data + Special Instructions(if any) 
+      1. Download  messidor_features.arff from Data Folder from Source
+      2. Example: 
+         
+         <img width="823" alt="Screenshot 2022-07-15 at 4 05 20 PM" src="https://user-images.githubusercontent.com/66881214/179180696-f57026cd-1a4c-423d-921d-2a36c18c1f50.png">
+
+         Columns present (from left to right):   
+         * The binary result of quality assessment. 0 = bad quality 1 = sufficient quality.
+         * The binary result of pre-screening, where 1 indicates severe retinal abnormality and 0 its lack.
+         * The results of MA detection. Each feature value stand for the
+number of MAs found at the confidence levels alpha = 0.5, . . . , 1, respectively. (Columns 2-7)
+         * contain the same information as 2-7) for exudates. However, as exudates are represented by a set of points rather than the number of pixels constructing the lesions, these features are normalized by dividing the number of lesions with the diameter of the ROI to compensate different image
+sizes (Columns 8-15)
+         * The euclidean distance of the center of the macula and the center of the optic disc to provide important information regarding the patient's condition. This feature is also normalized with the diameter of the ROI.
+         * The diameter of the optic disc.
+         * The binary result of the AM/FM-based classification.
+         * Class label. 1 = contains signs of DR (Accumulative label for the Messidor classes 1, 2, 3), 0 = no signs of DR.
+         
+  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
+  
+    To convert to csv file, remove the highlighted text as shown and save:
+    <img width="1016" alt="Screenshot 2022-07-15 at 4 05 56 PM" src="https://user-images.githubusercontent.com/66881214/179180814-8066caa4-de81-486d-8b19-f1dc9ce05534.png">
+    Rename the new file by changing ".arff" to ".csv" extension. 
+    
+    Updated file:  
+    <img width="1304" alt="Screenshot 2022-07-15 at 4 06 37 PM" src="https://user-images.githubusercontent.com/66881214/179180932-1d57f15a-783c-4da7-8c43-d3fe4afbda58.png">
+  - Citations
+    - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
 
 #### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
