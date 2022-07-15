@@ -13,39 +13,20 @@ For large datasets, a short preview of about 2 records can be found in their res
 
 Table of Contents 
 
-1. [Common Diseases](#Common-Diseases)
-    - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
-2. [Cancer Datasets](#Cancer-Datasets)
+1. [Cancer Datasets](#Cancer-Datasets)
     - [Breast Cancer Data set](#Breast-Cancer-Data-set)
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
     - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
     - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
-3. [Chest Related Datasets](#Chest-Related-Datasets)
+2. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
-4. [Other Diseases](#Other-Diseases) 
+3. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
+    - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
 
-### Common Diseases 
-
-#### Diabetes 130-US hospitals for years 1999-2008 Data Set
-  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
-  
-  - Data Type: Tabular 
-  
-  -   Size of files
-      -  19.2MB for diabetic_data.csv
-      -  3KB for IDs_mapping.csv
-  -   Example of data + Special Instructions(if any) 
-      1. Download dataset_diabetes.zip from Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Common%20Disease/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data)
-  - Note: NA
-  - Citations
-    - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
-    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
- 
 ### Cancer Datasets
 
 #### Breast Cancer Data set
@@ -369,6 +350,22 @@ Table of Contents
   -   Citations
       - Naruenatthanaset, K., Chalidabhongse, T. H., Palasuwan, D., Anantrasirichai, N., &amp; Palasuwan, A. (2021, November 3). Red blood cell segmentation with overlapping cell separation and classification on Imbalanced Dataset. arXiv.org. Retrieved July 14, 2022, from https://arxiv.org/abs/2012.01321   
 
+#### Diabetes 130-US hospitals for years 1999-2008 Data Set
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
+  
+  - Data Type: Tabular 
+  
+  -   Size of files
+      -  19.2MB for diabetic_data.csv
+      -  3KB for IDs_mapping.csv
+  -   Example of data + Special Instructions(if any) 
+      1. Download dataset_diabetes.zip from Data Folder from Source 
+      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Common%20Disease/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data)
+  - Note: NA
+  - Citations
+    - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+ 
          
          
     
