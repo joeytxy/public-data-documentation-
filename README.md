@@ -252,12 +252,13 @@ Table of Contents
   - Data Type: Free text (Can be converted) 
   
   -   Size: 24 KB
-
-
+ 
   -   Example of data + Special Instructions(if any) 
       1. Download  ThoraricSurgery.arff from Data Folder from Source
       2. Example: 
+         
          <img width="351" alt="Screenshot 2022-07-15 at 2 42 52 PM" src="https://user-images.githubusercontent.com/66881214/179166600-f02bd66d-f08f-44f5-9606-1035ee64cca2.png">
+         
   - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
   
     To convert to csv file, remove the highlighted text as shown and save:
@@ -267,7 +268,28 @@ Table of Contents
     Rename the new file by changing ".arff" to ".csv" extension. 
     
     Updated file:  
+    
     <img width="1106" alt="Screenshot 2022-07-15 at 2 53 11 PM" src="https://user-images.githubusercontent.com/66881214/179168276-453388e5-0741-481c-abbf-39d207e20bd4.png">
+    
+    Columns present (from left to right):
+            
+         * DGN 
+         * PRE4
+         * PRE5
+         * PRE6
+         * PRE7
+         * PRE8
+         * PRE9
+         * PRE10
+         * PRE11
+         * PRE14
+         * PRE17
+         * PRE19
+         * PRE25
+         * PRE30
+         * PRE32
+         * AGE
+         * Risk1Yr
     
   - Citations
     - ZiÄ™ba, M., Tomczak, J. M., Lubicz, M., & ÅšwiÄ…tek, J. (2013). Boosted SVM for extracting rules from imbalanced data in application to prediction of the post-operative life expectancy in the lung cancer patients. Applied Soft Computing [Link](https://www.sciencedirect.com/science/article/abs/pii/S0166432811002221?via%3Dihub)
