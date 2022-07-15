@@ -245,6 +245,9 @@ Table of Contents
       2. Example: 00000032_037.png
       
          <img src="https://user-images.githubusercontent.com/66881214/178676386-7c3c1163-6972-443f-8525-ba8d22e3bf89.png" width="150" height="150">
+         
+         Each image has its corresponding row in Data_Entry_2017.csv where its file name (with extension) is its Image Index as shown: 
+         
          <img width="1191" alt="Screenshot 2022-07-13 at 3 55 31 PM" src="https://user-images.githubusercontent.com/66881214/178681269-37873e8b-6749-4658-843a-6ab3a6ff7c8d.png"> In this example, the image is classified to 3 different diseases, namely Cadiomegaly, Edema and Infiltration. There are a total of 15 class labels as follows:
          
             - Atelectasis
