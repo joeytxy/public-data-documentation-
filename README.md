@@ -20,6 +20,7 @@ Table of Contents
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
+    - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
     - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
 3. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
@@ -206,6 +207,39 @@ Table of Contents
        
    -   Citations
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+#### Lung and Colon Cancer Histopathological Images
+  - Source:  [Click here to proceed to Kaggle site](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images) 
+    - The data set can also be downloaded from [here](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)
+    - Relevant [github](https://github.com/tampapath/lung_colon_image_set/)
+  - Data Type: Images 
+  -   Size of files
+      - 959.8MB for colon_image_sets
+      - 929.7MB for lung_image_sets
+  -   Example of data + Special Instructions(if any) 
+      1. For colon images download colon_image_sets from Source. For lung images, download lung_image_sets from Source. 
+      2. Example: 
+
+         Colon adenocarcinoma (from colon_aca folder in colon_image_sets):
+         <img src="https://user-images.githubusercontent.com/66881214/179151676-341f0158-bd7b-4c86-9363-bebbe006054c.jpeg" width="150" height="150">
+
+         
+         Colon benign tissue (from colon_n folder in colon_image_sets):
+         <img src="https://user-images.githubusercontent.com/66881214/179151688-3daef551-d0ee-4e22-9dc4-00d0abcbf263.jpeg" width="150" height="150">
+         
+         Lung benign tissue(from lung_n folder in lung_image_sets):
+         <img src="https://user-images.githubusercontent.com/66881214/179151970-76a1616f-33fd-43da-8425-7277615da0b3.jpeg" width="150" height="150">
+
+         Lung adenocarcinoma(from lung_aca folder in lung_image_sets):
+         <img src="https://user-images.githubusercontent.com/66881214/179151977-1325c474-99ce-4b73-994d-ed852583c3a1.jpeg" width="150" height="150">
+
+         Lung squamous cell carcinoma(from lung_scc folder in lung_image_sets):
+         <img src="https://user-images.githubusercontent.com/66881214/179151986-1a1019c1-ff53-413f-9e63-514c583f2c94.jpeg" width="150" height="150">
+  - Note: NA
+  - Citations
+    - [Original Article](https://arxiv.org/abs/1912.12142v1): Borkowski AA, Bui MM, Thomas LB, Wilson CP, DeLand LA, Mastorides SM. Lung and Colon Cancer Histopathological Image Dataset (LC25000). arXiv:1912.12142v1 [eess.IV], 2019
+   
+
 
 #### Skin Cancer MNIST: HAM10000
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
