@@ -20,6 +20,7 @@ Table of Contents
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
+    - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
 3. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
@@ -205,6 +206,8 @@ Table of Contents
        
    -   Citations
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+#### Skin Cancer MNIST: HAM10000
        
 ### Chest Related Datasets
 
