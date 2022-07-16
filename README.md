@@ -30,6 +30,7 @@ Table of Contents
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
+    - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
 ### Cancer Datasets
 
@@ -548,3 +549,49 @@ sizes (Columns 8-15)
   - Citations
     - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    
+#### Respiratory Sound Database 
+  - Source:  [Click here to proceed to site](https://bhichallenge.med.auth.gr/)
+  
+  - Data Type: Audio + Text/Tabular  
+  
+  -   Size of files
+      -  1KB for diagnosis file
+      -  3KB for demographic data file
+      -  2.18GB for database folder 
+  -   Example of data + Special Instructions(if any) 
+      1. Download the relevant files from Source 
+         - To obtain class labels/diagnosis of each subject: <img width="803" alt="Screenshot 2022-07-16 at 11 51 25 PM" src="https://user-images.githubusercontent.com/66881214/179362176-ca8cc73f-7801-4833-9345-d812d179e8bf.png">
+         - To obtain demographic information regarding subjects: <img width="968" alt="Screenshot 2022-07-16 at 11 57 06 PM" src="https://user-images.githubusercontent.com/66881214/179362433-dbff5d53-a2a0-4c6b-a112-c7318676e34c.png">
+         - To obtain recordings: <img width="960" alt="Screenshot 2022-07-16 at 11 59 00 PM" src="https://user-images.githubusercontent.com/66881214/179362510-9f76cd39-cdf6-4be6-8bcb-da11028885f7.png">
+      2. Example:  
+         Diagnosis file: 
+         <img width="182" alt="Screenshot 2022-07-17 at 12 03 45 AM" src="https://user-images.githubusercontent.com/66881214/179362686-2666aaee-5fb8-4ef5-87e0-7359ac6f3ad5.png">
+         
+         Demographic data: <img width="303" alt="Screenshot 2022-07-17 at 12 04 46 AM" src="https://user-images.githubusercontent.com/66881214/179362726-0b64c3d2-1797-4c96-a068-d13192b6b640.png">
+         
+         Columns present (from left to right):
+         * Participant ID
+         * Age
+         * Sex
+         * Adult BMI (kg/m2)
+         * Child Weight (kg)
+         * Child Height (cm)
+         
+         Recording (101_1b1_Al_sv_Meditron.wav): https://user-images.githubusercontent.com/66881214/179362930-9cebcdf7-41c4-4115-8d84-348992d008d2.mp4
+         
+         File name is divided into 5 elements. Refer to image below for more details: 
+         <img width="506" alt="Screenshot 2022-07-17 at 12 13 01 AM" src="https://user-images.githubusercontent.com/66881214/179363061-13dbed57-72fb-4c2c-ab71-8bd9f89fb85b.png">
+         
+         A corresponding text file (in this case 101_1b1_Al_sv_Meditron.txt) can also be found in the database folder: <img width="198" alt="Screenshot 2022-07-17 at 12 14 14 AM" src="https://user-images.githubusercontent.com/66881214/179363104-28ef50ec-ac22-4df1-b5c4-f4b44a0d9e3c.png">
+         
+         Columns present: 
+         * Beginning of respiratory cycle(s)
+         * End of respiratory cycle(s)
+         * Presence/absence of crackles (presence=1, absence=0)
+         * Presence/absence of wheezes (presence=1, absence=0)
+  - Note: NA
+  - Citations
+    - Rocha BM, Filos D, Mendes L, Vogiatzis I, Perantoni E, Kaimakamis E, Natsiavas P, Oliveira A, Jácome C, Marques A, Paiva RP (2018) In Precision Medicine Powered by pHealth and Connected Health (pp. 51-55). Springer, Singapore 
+      - The paper can be found [here](https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf)
+    
