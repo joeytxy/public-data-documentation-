@@ -578,19 +578,22 @@ sizes (Columns 8-15)
          * Child Weight (kg)
          * Child Height (cm)
          
-         Recording (101_1b1_Al_sv_Meditron.wav): https://user-images.githubusercontent.com/66881214/179362930-9cebcdf7-41c4-4115-8d84-348992d008d2.mp4
+         Recording (101_1b1_Al_sv_Meditron.wav): 
+         
+         https://user-images.githubusercontent.com/66881214/179362930-9cebcdf7-41c4-4115-8d84-348992d008d2.mp4
          
          File name is divided into 5 elements. Refer to image below for more details: 
          <img width="506" alt="Screenshot 2022-07-17 at 12 13 01 AM" src="https://user-images.githubusercontent.com/66881214/179363061-13dbed57-72fb-4c2c-ab71-8bd9f89fb85b.png">
          
          A corresponding text file (in this case 101_1b1_Al_sv_Meditron.txt) can also be found in the database folder: <img width="198" alt="Screenshot 2022-07-17 at 12 14 14 AM" src="https://user-images.githubusercontent.com/66881214/179363104-28ef50ec-ac22-4df1-b5c4-f4b44a0d9e3c.png">
          
-         Columns present: 
+         Columns present (from left to right): 
          * Beginning of respiratory cycle(s)
          * End of respiratory cycle(s)
          * Presence/absence of crackles (presence=1, absence=0)
          * Presence/absence of wheezes (presence=1, absence=0)
-  - Note: NA
+  - Note: If .wav files are not supported, try using online converter tools to convert to a audio file type that is supported by your device.
+    - For example: [FreeConvert](https://www.freeconvert.com/audio-converter)     
   - Citations
     - Rocha BM, Filos D, Mendes L, Vogiatzis I, Perantoni E, Kaimakamis E, Natsiavas P, Oliveira A, Jácome C, Marques A, Paiva RP (2018) In Precision Medicine Powered by pHealth and Connected Health (pp. 51-55). Springer, Singapore 
       - The paper can be found [here](https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf)
