@@ -495,6 +495,7 @@ Table of Contents
   -   Note: According to site, pre-processing has to be done for any machine learning algorithm to be applied. Some special characters might be observed in Microsoft Excel ([See here](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Microsoft%20Excel))). Using other applications such as Numbers(Macbook), these special characters correspond to mathematical symbols such as >= or <=
   -   Citations
       - M. A. Islam, S. Akter, M. S. Hossen, S. A. Keya, S. A. Tisha and S. Hossain, 'Risk Factor Prediction of Chronic Kidney Disease based on Machine Learning Algorithms,' 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS), Thoothukudi, India, 2020, pp. 952-957, doi: 10.1109/ICISS49785.2020.9315878.  [Link](https://ieeexplore.ieee.org/document/9315878)
+      - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
 ### Other Diseases 
 
