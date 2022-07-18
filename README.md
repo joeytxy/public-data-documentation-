@@ -19,6 +19,7 @@ Table of Contents
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
     - [Cervical cancer (Risk Factors) Data Set](#Cervical-cancer-Risk-Factors-Data-Set)
+    - [Leukemia Classification](#Leukemia-Classification)
     - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
     - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
     - [Thoracic Surgery Data Data Set](#Thoracic-Surgery-Data-Data-Set)
@@ -28,13 +29,16 @@ Table of Contents
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
-3. [Heart Related Datasets](#Heart-Related-Datasets)
+3. [Eye Related Datasets](#Eye-Related-Datasets)
+   - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)  
+
+4. [Heart Related Datasets](#Heart-Related-Datasets)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
-4. [Kidney Related Datasets](#Kidney-Related-Datasets)
+5. [Kidney Related Datasets](#Kidney-Related-Datasets)
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
-5. [Other Diseases](#Other-Diseases) 
+6. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
@@ -254,6 +258,23 @@ Table of Contents
     - Kelwin Fernandes, Jaime S. Cardoso, and Jessica Fernandes. 'Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.' Iberian Conference on Pattern Recognition and Image Analysis. Springer International Publishing, 2017.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
+#### Leukemia Classification 
+
+- Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/leukemia-classification)  
+- Data Type: Images 
+-   Size:    
+-   Example of data + Special Instructions(if any) 
+      1. Download  from Source
+      2. Example: 
+  - Note: NA
+  - Citations
+    - Gupta, A., & Gupta, R. (2019). ALL Challenge dataset of ISBI 2019 [Data set]. The Cancer Imaging Archive. [Link](https://doi.org/10.7937/tcia.2019.dc64i46r)
+    - Publication Citation (if required): 
+      - Anubha Gupta, Rahul Duggal, Ritu Gupta, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy, “GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images,”, under review. Ritu Gupta, Pramit Mallick, Rahul Duggal, Anubha Gupta, and Ojaswa Sharma, "Stain Color Normalization and Segmentation of Plasma Cells in Microscopic Images as a Prelude to Development of Computer Assisted Automated Disease Diagnostic Tool in Multiple Myeloma," 16th International Myeloma Workshop (IMW), India, March 2017.
+      - Rahul Duggal, Anubha Gupta, Ritu Gupta, Manya Wadhwa, and Chirag Ahuja, “Overlapping Cell Nuclei Segmentation in Microscopic Images UsingDeep Belief Networks,” Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP), India, December 2016. Rahul Duggal, Anubha Gupta, and Ritu Gupta, “Segmentation of overlapping/touching white blood cell nuclei using artificial neural networks,” CME Series on Hemato-Oncopathology, All India Institute of Medical Sciences (AIIMS), New Delhi, India, July 2016.
+      - Rahul Duggal, Anubha Gupta, Ritu Gupta, and Pramit Mallick, "SD-Layer: Stain Deconvolutional Layer for CNNs in Medical Microscopic Imaging," In: Descoteaux M., Maier-Hein L., Franz A., Jannin P., Collins D., Duchesne S. (eds) Medical Image Computing and Computer-Assisted Intervention − MICCAI 2017, MICCAI 2017. Lecture Notes in Computer Science, Part III, LNCS 10435, pp. 435–443. Springer, Cham. DOI: https://doi.org/10.1007/978-3-319-66179-7_50 .
+
+
 #### Lung and Colon Cancer Histopathological Images
   - Source:  [Click here to proceed to Kaggle site](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images) 
     - The data set can also be downloaded from [here](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)
@@ -467,6 +488,29 @@ Table of Contents
   - Citations
     - Rocha BM, Filos D, Mendes L, Vogiatzis I, Perantoni E, Kaimakamis E, Natsiavas P, Oliveira A, Jácome C, Marques A, Paiva RP (2018) In Precision Medicine Powered by pHealth and Connected Health (pp. 51-55). Springer, Singapore 
       - The paper can be found [here](https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf)
+
+### Eye Related Datasets 
+
+#### Retinal OCT Images (optical coherence tomography)
+
+- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)  
+- Data Type: Images 
+-   Size: 7.19GB  
+-   Example of data + Special Instructions(if any) 
+      1. Download from Source
+      2. Example: 
+         
+         NORMAL: <img src="https://user-images.githubusercontent.com/66881214/179479055-048a3b6a-ee7a-4f0c-ae73-fdf7e07784e2.jpeg" width="150" height="150">
+         
+         CNV: <img src="https://user-images.githubusercontent.com/66881214/179479097-161cb450-7dd8-4ab0-a214-316b3582c740.jpeg" width="150" height="150">
+         
+         DME: <img src="https://user-images.githubusercontent.com/66881214/179479179-f8f138fb-ff86-4166-9e3c-e39b9d8685e2.jpeg" width="150" height="150">
+         
+         DRUSEN: <img src="https://user-images.githubusercontent.com/66881214/179479213-ed54e3cc-052e-47d1-b897-006fc29d2581.jpeg" width="150" height="150">
+
+  - Note: In the same folder, a folder named chest_xray can be found. These images are the latest version mentioned in [Chest X-ray Images (Pneumonia)](#Chest-X-ray Images-Pneumonia) 
+  - Citations
+    - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
 
 ### Heart Related Datasets
 
