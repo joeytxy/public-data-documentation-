@@ -22,6 +22,7 @@ Table of Contents
     - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
     - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
     - [Thoracic Surgery Data Data Set](#Thoracic-Surgery-Data-Data-Set)
+    
 2. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
@@ -30,7 +31,10 @@ Table of Contents
 3. [Heart Related Datasets](#Heart-Related-Datasets)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
-4. [Other Diseases](#Other-Diseases) 
+4. [Kidney Related Datasets](#Kidney-Related-Datasets)
+    - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
+
+5. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
@@ -476,6 +480,21 @@ Table of Contents
   - Note: NA
   - Citations
     - Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). [Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)
+
+### Kidney Related Datasets 
+
+#### Risk Factor prediction of Chronic Kidney Disease Data Set
+
+  -   Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Risk+Factor+prediction+of+Chronic+Kidney+Disease)
+  -   Data Type: Tabular
+  -   Size: 34KB3
+  -   Example of data + Special Instructions(if any) 
+      1. Download ckd-dataset-v2.csv from Data Folder from Source
+      2. Example: [Click here to preview dataset without special characters](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Without%20special%20characters)
+      
+  -   Note: According to site, pre-processing has to be done for any machine learning algorithm to be applied. Some special characters might be observed in Microsoft Excel ([See here](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Microsoft%20Excel))). Using other applications such as Numbers(Macbook), these special characters correspond to mathematical symbols such as >= or <=
+  -   Citations
+      - M. A. Islam, S. Akter, M. S. Hossen, S. A. Keya, S. A. Tisha and S. Hossain, 'Risk Factor Prediction of Chronic Kidney Disease based on Machine Learning Algorithms,' 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS), Thoothukudi, India, 2020, pp. 952-957, doi: 10.1109/ICISS49785.2020.9315878.  [Link](https://ieeexplore.ieee.org/document/9315878)
 
 ### Other Diseases 
 
