@@ -29,7 +29,6 @@ Table of Contents
 
 3. [Heart Related Datasets](#Heart-Related-Datasets)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
-    - 
 
 4. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
@@ -37,6 +36,7 @@ Table of Contents
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
+    - [Patient-Physician Medical Interviews](#Patient-Physician-Medical-Interviews) 
     
 ### Cancer Datasets
 
