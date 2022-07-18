@@ -605,6 +605,7 @@ sizes (Columns 8-15)
       1. Download lymphography.data stored in Data Folder from Source 
       2. Example: CSV version
          <img width="1236" alt="Screenshot 2022-07-18 at 3 13 38 PM" src="https://user-images.githubusercontent.com/66881214/179461104-07f53663-be9a-4641-9bb5-d8f6d5f2eb6f.png">
+         
          Columns present (from left to right): 
          * class: normal find, metastases, malign lymph, fibrosis
          * lymphatics: normal, arched, deformed, displaced
@@ -625,7 +626,11 @@ sizes (Columns 8-15)
          * dislocation of: no, yes
          * exclusion of no: no, yes
          * no. of nodes in: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, >=70
-
+         
+         All attribute values in the database have been entered as numeric values corresponding to their index in the list of attribute values for that attribute domain as given above. 
+         
+         For example, a '3' in first column (refer to first row of image above) will correspond to class = malign lymph
+         
   -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
             
       To download as .csv file, right click on lymphography.data as shown :
