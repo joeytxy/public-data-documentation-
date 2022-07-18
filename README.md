@@ -642,4 +642,27 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
   - Citations
     - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-    
+
+#### Patient-Physician Medical Interviews 
+  - Source:  [Click here to proceed to site](https://figshare.com/s/d83162fad67407081b32/articles/16550013)
+  - Data Type: Audio + Free Text 
+  -   Size: 1.05 GB 
+  -   Example of data + Special Instructions(if any) 
+      1. Download Data.zip from source 
+      2. Example: CAR0001.mp3 in Audio Recordings will correspond to CAR0001.txt in Clean Transcripts
+         
+         https://user-images.githubusercontent.com/66881214/179450404-a22b08df-2073-4193-ab42-fbf1483f25ba.mp4
+         
+         The clean transcript can be found [here](https://github.com/joeytxy/public-data-documentation-/blob/main/Other%20Diseases/Patient-Physician%20Medical%20Interviews/Clean%20Transcript%20Example)
+                 
+  - Note: First 3 characters of the file name represent the categories the case belong to. 
+    - Respiratory cases (designated “RES”)
+    - Musculoskeletal cases (designated “MSK”)
+    - Cardiac cases (designated “CAR”)
+    - Dermatological case (designated “DER”)
+    - Gastrointestinal cases (designated “GAS”)       
+      
+  - Citations
+    - Fareez, F., Parikh, T., Wavell, C. et al. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. Sci Data 9, 313 (2022). [Link](https://doi.org/10.1038/s41597-022-01423-1)
+
+
