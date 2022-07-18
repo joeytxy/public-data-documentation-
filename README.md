@@ -490,7 +490,7 @@ Table of Contents
   -   Size: 34KB3
   -   Example of data + Special Instructions(if any) 
       1. Download ckd-dataset-v2.csv from Data Folder from Source
-      2. Example: [Click here to preview dataset without special characters](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Without%20special%20characters)
+      2. Example: [Click here to preview dataset without special characters](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Without%20special%20characters))
       
   -   Note: According to site, pre-processing has to be done for any machine learning algorithm to be applied. Some special characters might be observed in Microsoft Excel ([See here](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Microsoft%20Excel))). Using other applications such as Numbers(Macbook), these special characters correspond to mathematical symbols such as >= or <=
   -   Citations
