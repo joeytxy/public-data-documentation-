@@ -508,7 +508,7 @@ Table of Contents
          
          DRUSEN: <img src="https://user-images.githubusercontent.com/66881214/179479213-ed54e3cc-052e-47d1-b897-006fc29d2581.jpeg" width="150" height="150">
 
-  - Note: In the same folder, a folder named chest_xray can be found. These images are the latest version mentioned in [Chest X-ray Images (Pneumonia)](#Chest-X-ray Images-Pneumonia) 
+  - Note: In the same folder, a folder named chest_xray can be found. These images belong to the latest version mentioned in [Chest X-ray Images (Pneumonia)](#Chest-X-ray-Images-Pneumonia) 
   - Citations
     - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
 
