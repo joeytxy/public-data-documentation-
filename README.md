@@ -18,6 +18,7 @@ Table of Contents
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
+    - [Colorectal Cancer Dataset](#Colorectal-Cancer-Dataset)
     - [Cervical cancer (Risk Factors) Data Set](#Cervical-cancer-Risk-Factors-Data-Set)
     - [Leukemia Classification](#Leukemia-Classification)
     - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
@@ -209,6 +210,32 @@ Table of Contents
    -   Citations
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
+#### Colorectal Cancer Dataset
+
+  - Source:  [Click here to proceed to site](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/download/)
+  - Data Type: Images 
+  -   Size: 259.4MB
+  -   Example of data + Special Instructions(if any) 
+      1. Download by clicking 'Warwick-QU-dataset' on Source
+      2. Example: 
+         
+         train_1.bmp (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179518421-dfb0da1b-3f34-480f-93c0-5d514a96ed7d.jpg" width="150" height="150">
+         
+         Each image will have its corresponding annotated image (filename_anno.bmp) and its grade in the Grade.csv file as shown:
+         
+         train_1_anno.bmp : <img src="https://user-images.githubusercontent.com/66881214/179518541-ffbe18d2-303f-4220-9378-5dc5be06f0e5.jpg" width="150" height="150">
+         
+         
+         Grade: <img width="582" alt="Screenshot 2022-07-18 at 9 12 13 PM" src="https://user-images.githubusercontent.com/66881214/179518739-e211b4ea-69d4-4665-ac15-01ae2f2d97d1.png">
+
+  - Note: 
+  
+    Comment regarding the annotated images can be found in the Q&A section in the same source link. A screenshot is attached below: <img width="511" alt="Screenshot 2022-07-18 at 9 16 42 PM" src="https://user-images.githubusercontent.com/66881214/179519661-a5465462-7033-479e-a641-9cae3c5889f8.png">
+  
+  - Citations
+    - K. Sirinukunwattana, J. P. W. Pluim, H. Chen, X Qi, P. Heng, Y. Guo, L. Wang, B. J. Matuszewski, E. Bruni, U. Sanchez, A. Böhm, O. Ronneberger, B. Ben Cheikh, D. Racoceanu, P. Kainz, M. Pfeiffer, M. Urschler, D. R. J. Snead, N. M. Rajpoot, "Gland Segmentation in Colon Histology Images: The GlaS Challenge Contest" [Link](http://arxiv.org/abs/1603.00275)
+    - K. Sirinukunwattana, D.R.J. Snead, N.M. Rajpoot, "A Stochastic Polygons Model for Glandular Structures in Colon Histology Images," in IEEE Transactions on Medical Imaging, 2015
+doi: 10.1109/TMI.2015.2433900 
 #### Cervical cancer (Risk Factors) Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29)
   - Data Type: Tabular 
@@ -275,7 +302,7 @@ Table of Contents
 
     For example: 
     
-    1.bmp: <img src="https://user-images.githubusercontent.com/66881214/179483000-488156a0-9a80-44b8-8081-175e8a96f229.jpg" width="150" height="150"> 
+    1.bmp (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179483000-488156a0-9a80-44b8-8081-175e8a96f229.jpg" width="150" height="150"> 
     
     The label for this image can be found in its corresponding row in the csv file. The image file name will be the value of new_names in the csv file as shown below (second column):  
     
