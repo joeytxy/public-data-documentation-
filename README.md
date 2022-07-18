@@ -9,7 +9,7 @@ Type of datasets include
 3. Free Text 
 4. Audio 
 
-For large datasets, a short preview of about 2 records can be found in their respective folders in this repository. A link is provided in their sections below.
+For large datasets, a short preview can be found in their respective folders in this repository. A link is provided in their sections below.
 
 Table of Contents 
 
