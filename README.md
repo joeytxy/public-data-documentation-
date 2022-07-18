@@ -38,6 +38,7 @@ Table of Contents
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
+    - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews) 
@@ -594,6 +595,51 @@ sizes (Columns 8-15)
   - Citations
     - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+#### Lymphography Data Set
+
+  -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Lymphography)
+  -   Data Type: Tabular 
+  -   Size: 6 KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download lymphography.data stored in Data Folder from Source 
+      2. Example: CSV version
+         <img width="1236" alt="Screenshot 2022-07-18 at 3 13 38 PM" src="https://user-images.githubusercontent.com/66881214/179461104-07f53663-be9a-4641-9bb5-d8f6d5f2eb6f.png">
+         Columns present (from left to right): 
+         * class: normal find, metastases, malign lymph, fibrosis
+         * lymphatics: normal, arched, deformed, displaced
+         * block of affere: no, yes
+         * bl. of lymph. c: no, yes
+         * bl. of lymph. s: no, yes
+         * by pass: no, yes
+         * extravasates: no, yes
+         * regeneration of: no, yes
+         * early uptake in: no, yes
+         * lym.nodes dimin: 0-3
+         * lym.nodes enlar: 1-4
+         * changes in lym.: bean, oval, round
+         * defect in node: no, lacunar, lac. marginal, lac. central
+         * changes in node: no, lacunar, lac. margin, lac. central
+         * changes in stru: no, grainy, drop-like, coarse, diluted, reticular, stripped, faint,
+         * special forms: no, chalices, vesicles
+         * dislocation of: no, yes
+         * exclusion of no: no, yes
+         * no. of nodes in: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, >=70
+
+  -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
+            
+      To download as .csv file, right click on lymphography.data as shown :
+            
+      <img width="828" alt="Screenshot 2022-07-18 at 3 10 34 PM" src="https://user-images.githubusercontent.com/66881214/179460679-5a5e0e31-01d6-4f82-b77d-17e8b9c04872.png">
+
+      Proceed to add the .csv extention in file name and save to desired location
+      
+      <img width="329" alt="Screenshot 2022-07-18 at 3 10 55 PM" src="https://user-images.githubusercontent.com/66881214/179460724-4e670fc5-c8e5-4dc0-aac5-f64ee191e21b.png">
+
+  -   Citations
+      - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
+      - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
 
 #### Monkeypox Skin Lesion Dataset 
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
