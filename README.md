@@ -29,6 +29,7 @@ Table of Contents
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
+    - [Monkeypox-Skin-Lesion-Dataset](#Monkeypox-Skin-Lesion-Dataset)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
@@ -274,8 +275,6 @@ Table of Contents
   - Citations
     - [Original Article](https://arxiv.org/abs/1912.12142v1): Borkowski AA, Bui MM, Thomas LB, Wilson CP, DeLand LA, Mastorides SM. Lung and Colon Cancer Histopathological Image Dataset (LC25000). arXiv:1912.12142v1 [eess.IV], 2019
    
-
-
 #### Skin Cancer MNIST: HAM10000
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
     - The original challenge can be found [here](https://challenge2018.isic-archive.com) and the dataset can also be downloaded [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) after accepting their terms and conditions. 
@@ -508,6 +507,33 @@ sizes (Columns 8-15)
   - Citations
     - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+#### Monkeypox Skin Lesion Dataset 
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
+  
+  - Data Type: Image + Tabular   
+  
+  -   Size of files
+      -  1.5MB for Original Images folder
+      -  5KB for Monkeypox_Dataset_metadata.csv
+      -  25.9MB for Augmented_Images.zip
+      -  20.9MB for Fold1
+  -   Example of data + Special Instructions(if any) 
+      1. Download relevant files from Source 
+         - Users may choose to use the folds/augmented images directly (Refer to source for more information)
+      2. Example:  
+         
+         Monkeypox: <img src="https://user-images.githubusercontent.com/66881214/179441844-22a9b005-841c-41f4-8d59-e3cde0d03843.jpg" width="150" height="150">
+         
+         Others:  <img src="https://user-images.githubusercontent.com/66881214/179441888-5c49b47e-00da-4a05-a4c7-43f583ad1110.jpg" width="150" height="150">
+        
+  - Note: There is a csv file that indicates the labels of the images. This may not be needed as the images are already sorted into their respective folders in main folder  
+          <img width="132" alt="Screenshot 2022-07-18 at 11 46 15 AM" src="https://user-images.githubusercontent.com/66881214/179442387-5fbe6faa-bade-497d-bdc0-e8e4749543b2.png">
+
+  - Citations
+    - If this dataset helped your research, please cite:
+Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). [Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study](https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
+
 
 #### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
