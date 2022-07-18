@@ -495,21 +495,28 @@ doi: 10.1109/TMI.2015.2433900
 
       2. Example:  
             
-         <u>QaTa-COV19-v2</u>
+         **QaTa-COV19-v2**
          
-         - covid_1: <img src="https://user-images.githubusercontent.com/66881214/179535373-8cabf179-92ac-4d19-86d9-9ee31cd27b13.png" width="150" height="150">
+         covid_1: <img src="https://user-images.githubusercontent.com/66881214/179535373-8cabf179-92ac-4d19-86d9-9ee31cd27b13.png" width="150" height="150">
          
-           - Each image for covid cases has its corresponding image, named mask_FILENAME.png in the Ground-truths folder
+         Each image for covid cases has its corresponding image, named mask_FILENAME.png in the Ground-truths folder
          
-           - mask_covid_1: <img src="https://user-images.githubusercontent.com/66881214/179535721-7810fd94-2b6d-45b9-ac2e-1412191586e5.png" width="150" height="150">
+         mask_covid_1: <img src="https://user-images.githubusercontent.com/66881214/179535721-7810fd94-2b6d-45b9-ac2e-1412191586e5.png" width="150" height="150">
          
-         Control_Group 
+         **Control_Group**
          
          In Control_Group_I, all are normal.
          
          normal_1: <img src="https://user-images.githubusercontent.com/66881214/179536163-4b909717-dd40-4713-bc68-444c51995637.png" width="150" height="150">
          
-         In Control_Group_II, 
+         In Control_Group_II, there is a variety of cases. More details can be found in their readme.txt file in the downloaded folder.
+         
+                Control_Group: The chest X-rays that are in the control group can be found under Control_Group/ folder. 
+                There are two control groups in this folder. Control Group-I  consists  of  only  normal  (healthy) chest X-rays with 12,544 images. 
+                On the other hand, Control Group-II consists of 116,365 chest X-rays from normal and 14 different thoracic disease images. 
+                In Control Group II, the CHESTXRAY-14 folder includes train and test sets of ChestXray-14 dataset. 
+                In addition to this, bacterial and viral pneumonia from pediatric patients can be found in this folder. 
+                However, for the pediatric patient data, there are no train and test sets predefined. 
     
 
       
