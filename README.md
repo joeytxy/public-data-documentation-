@@ -27,7 +27,11 @@ Table of Contents
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
-3. [Other Diseases](#Other-Diseases) 
+3. [Heart Related Datasets](#Heart-Related-Datasets)
+    - [Heart Failure Prediction](#Heart-Failure-Prediction)
+    - 
+
+4. [Other Diseases](#Other-Diseases) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
@@ -458,6 +462,20 @@ Table of Contents
   - Citations
     - Rocha BM, Filos D, Mendes L, Vogiatzis I, Perantoni E, Kaimakamis E, Natsiavas P, Oliveira A, Jácome C, Marques A, Paiva RP (2018) In Precision Medicine Powered by pHealth and Connected Health (pp. 51-55). Springer, Singapore 
       - The paper can be found [here](https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf)
+
+### Heart Related Datasets
+
+#### Heart Failure Prediction
+
+- Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)  
+- Data Type: Tabular 
+-   Size: 12KB   
+-   Example of data + Special Instructions(if any) 
+      1. Download heart_failure_clinical_records_dataset.csv from Source
+      2. Example: <img width="1036" alt="Screenshot 2022-07-18 at 12 24 40 PM" src="https://user-images.githubusercontent.com/66881214/179445189-7e885834-643e-4c73-9d42-78e4abdae1fa.png">
+  - Note: NA
+  - Citations
+    - Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). [Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)
 
 ### Other Diseases 
 
