@@ -484,6 +484,41 @@ doi: 10.1109/TMI.2015.2433900
       -  Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
          -  The paper can be found [here](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
          
+#### QaTa COV19 Dataset 
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/aysendegerli/qatacov19-dataset)
+  - Data Type: Images
+  -   Size of files 
+      - 215.8MB for QaTa-COV19-v2 folder
+      - 4.45GB for Control_Group 
+  -   Example of data + Special Instructions(if any) 
+      1. Download the relevant files from Source 
+
+      2. Example:  
+            
+         <u>QaTa-COV19-v2</u>
+         
+         - covid_1: <img src="https://user-images.githubusercontent.com/66881214/179535373-8cabf179-92ac-4d19-86d9-9ee31cd27b13.png" width="150" height="150">
+         
+           - Each image for covid cases has its corresponding image, named mask_FILENAME.png in the Ground-truths folder
+         
+           - mask_covid_1: <img src="https://user-images.githubusercontent.com/66881214/179535721-7810fd94-2b6d-45b9-ac2e-1412191586e5.png" width="150" height="150">
+         
+         Control_Group 
+         
+         In Control_Group_I, all are normal.
+         
+         normal_1: <img src="https://user-images.githubusercontent.com/66881214/179536163-4b909717-dd40-4713-bc68-444c51995637.png" width="150" height="150">
+         
+         In Control_Group_II, 
+    
+
+      
+
+        
+  - Note: If you would like to use other versions in the source, please cite accordingly as stated in the source.    
+  - Citations
+    - A. Degerli, S. Kiranyaz, M. E. H. Chowdhury, and M. Gabbouj, "OSegNet: Operational Segmentation Network for COVID-19 Detection using Chest X-ray Images," arXiv:2202.10185, 2022.
+    
 #### Respiratory Sound Database 
   - Source:  [Click here to proceed to site](https://bhichallenge.med.auth.gr/)
   
@@ -593,10 +628,14 @@ doi: 10.1109/TMI.2015.2433900
   -   Data Type: Images + Text/Tabular
   
   -   Size: Depends. One image is about 79KB. 
+      - 73.5MB for Dataset folder 
+      - 216KB for Labels folder
   
   -   Example of data + Special Instructions(if any) 
       1. Download images in Dataset folder and corresponding text files in Label folder from Source.
-         
+         - You could also download the entire folder by downloading the zip folder as shown below:
+           <img width="927" alt="Screenshot 2022-07-18 at 10 23 20 PM" src="https://user-images.githubusercontent.com/66881214/179533073-c46fcd53-bf27-4148-b3f7-71744719a75b.png">
+
       2. Example: 1.jpg in Dataset folder will correspond to 1.txt in Label folder
       
          <img src="https://user-images.githubusercontent.com/66881214/178712949-f819cf02-e1cc-4cb8-994c-d83d28823179.jpg" width="150" height="150"> <img width="115" alt="Screenshot 2022-07-13 at 6 38 07 PM" src="https://user-images.githubusercontent.com/66881214/178714773-24a74e22-dcd2-47a8-acec-f37606ebf1b4.png"> 
@@ -795,7 +834,8 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
       2. Right click on downloaded file and click open with The Unarchiver and both files (train_data.txt and test_data.txt) can be accessed.
       3. To convert to CSV file, rename train_data.txt to train_data.csv
       
-    -For Windows (to be filled)
+    - For Windows 
+      [Click here for more information](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)  
       
   - Citations
     - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
