@@ -36,7 +36,7 @@ Table of Contents
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
-    - [Patient-Physician Medical Interviews](#Patient-Physician-Medical-Interviews) 
+    - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews) 
     
 ### Cancer Datasets
 
@@ -643,7 +643,7 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
     - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
-#### Patient-Physician Medical Interviews 
+#### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/s/d83162fad67407081b32/articles/16550013)
   - Data Type: Audio + Free Text 
   -   Size: 1.05 GB 
