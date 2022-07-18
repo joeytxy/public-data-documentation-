@@ -262,11 +262,27 @@ Table of Contents
 
 - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/leukemia-classification)  
 - Data Type: Images 
--   Size:    
+-   Size: 10.42GB   
 -   Example of data + Special Instructions(if any) 
-      1. Download  from Source
+      1. Download from Source
       2. Example: 
-  - Note: NA
+ 
+         Acute lymphoblastic leukemia (ALL): <img src="https://user-images.githubusercontent.com/66881214/179482213-1aec30af-9390-4f52-b582-7916ab44ce50.jpg" width="150" height="150">
+         
+         Normal (Images in hem folder): <img src="https://user-images.githubusercontent.com/66881214/179482557-ae81cbe2-037b-4ae7-a138-d6669c7c2019.jpg" width="150" height="150">
+
+  - Note: Labels for images in validation_data can be found in the csv file that is stored in the same folder. 
+
+    For example: 
+    
+    1.bmp: <img src="https://user-images.githubusercontent.com/66881214/179483000-488156a0-9a80-44b8-8081-175e8a96f229.jpg" width="150" height="150"> 
+    
+    The label for this image can be found in its corresponding row in the csv file. The image file name will be the value of new_names in the csv file as shown below (second column):  
+    
+    <img width="291" alt="Screenshot 2022-07-18 at 5 28 01 PM" src="https://user-images.githubusercontent.com/66881214/179483054-360c06f1-4890-41de-ba67-bcb247de6af8.png">
+    
+    The labels for the testing data was not given. [Click here for more information](https://competitions.codalab.org/competitions/20395#learn_the_details-overview)
+
   - Citations
     - Gupta, A., & Gupta, R. (2019). ALL Challenge dataset of ISBI 2019 [Data set]. The Cancer Imaging Archive. [Link](https://doi.org/10.7937/tcia.2019.dc64i46r)
     - Publication Citation (if required): 
@@ -290,7 +306,6 @@ Table of Contents
          Colon adenocarcinoma (from colon_aca folder in colon_image_sets):
          <img src="https://user-images.githubusercontent.com/66881214/179151676-341f0158-bd7b-4c86-9363-bebbe006054c.jpeg" width="150" height="150">
 
-         
          Colon benign tissue (from colon_n folder in colon_image_sets):
          <img src="https://user-images.githubusercontent.com/66881214/179151688-3daef551-d0ee-4e22-9dc4-00d0abcbf263.jpeg" width="150" height="150">
          
@@ -532,7 +547,7 @@ Table of Contents
 
   -   Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Risk+Factor+prediction+of+Chronic+Kidney+Disease)
   -   Data Type: Tabular
-  -   Size: 34KB3
+  -   Size: 34KB
   -   Example of data + Special Instructions(if any) 
       1. Download ckd-dataset-v2.csv from Data Folder from Source
       2. Example: [Click here to preview dataset without special characters](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Without%20special%20characters))
