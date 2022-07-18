@@ -29,7 +29,7 @@ Table of Contents
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
-    - [Monkeypox-Skin-Lesion-Dataset](#Monkeypox-Skin-Lesion-Dataset)
+    - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
