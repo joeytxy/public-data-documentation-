@@ -27,21 +27,21 @@ Table of Contents
     - [MRI and Alzheimers](#MRI-and-Alzheimers)
     - [Stroke Prediction](#Stroke-Prediction)
     
-3. [Chest Related Datasets](#Chest-Related-Datasets)
+3. [Eye Related Datasets](#Eye-Related-Datasets)
+   - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)  
+
+4. [Heart Related Datasets](#Heart-Related-Datasets)
+    - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
+    - [Heart Failure Prediction](#Heart-Failure-Prediction)
+
+5. [Kidney Related Datasets](#Kidney-Related-Datasets)
+    - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
+
+6. [Lung Related Datasets](#Lung-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
-
-4. [Eye Related Datasets](#Eye-Related-Datasets)
-   - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)  
-
-5. [Heart Related Datasets](#Heart-Related-Datasets)
-    - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
-    - [Heart Failure Prediction](#Heart-Failure-Prediction)
-
-6. [Kidney Related Datasets](#Kidney-Related-Datasets)
-    - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
 7. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
@@ -480,7 +480,108 @@ doi: 10.1109/TMI.2015.2433900
   -   Citations
       - Liu, Tianyu; Fan, Wenhui; Wu, Cheng (2019), “Data for: A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets”, Mendeley Data, V1, doi: 10.17632/x8ygrw87jw.1
            
-### Chest Related Datasets
+### Eye Related Datasets 
+
+#### Retinal OCT Images (optical coherence tomography)
+
+- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)  
+- Data Type: Images 
+-   Size: 7.19GB  
+-   Example of data + Special Instructions(if any) 
+      1. Download from Source
+      2. Example: 
+         
+         NORMAL: <img src="https://user-images.githubusercontent.com/66881214/179479055-048a3b6a-ee7a-4f0c-ae73-fdf7e07784e2.jpeg" width="150" height="150">
+         
+         CNV: <img src="https://user-images.githubusercontent.com/66881214/179479097-161cb450-7dd8-4ab0-a214-316b3582c740.jpeg" width="150" height="150">
+         
+         DME: <img src="https://user-images.githubusercontent.com/66881214/179479179-f8f138fb-ff86-4166-9e3c-e39b9d8685e2.jpeg" width="150" height="150">
+         
+         DRUSEN: <img src="https://user-images.githubusercontent.com/66881214/179479213-ed54e3cc-052e-47d1-b897-006fc29d2581.jpeg" width="150" height="150">
+
+  - Note: In the same folder, a folder named chest_xray can be found. These images belong to the latest version mentioned in [Chest X-ray Images (Pneumonia)](#Chest-X-ray-Images-Pneumonia) 
+  - Citations
+    - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
+
+### Heart Related Datasets
+
+#### An Extensive Dataset for the Heart Disease Classification System
+
+- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/65gxgy2nmg/2)  
+- Data Type: Text/Tabular 
+-   Size: 51 KB   
+-   Example of data + Special Instructions(if any) 
+      1. Download Medicaldataset.arff from Source
+      2. Example: 
+       
+         <img width="273" alt="Screenshot 2022-07-19 at 4 17 35 PM" src="https://user-images.githubusercontent.com/66881214/179702124-4324e73b-8569-43a0-9f1c-0906f63765c8.png">
+         
+         Columns present (from left to right):
+            
+         * age
+         * gender
+         * impulse
+         * pressurehight
+         * pressurelow
+         * glucose
+         * kcm
+         * troponin
+         * class
+
+  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
+  
+    To convert to csv file, remove the highlighted text as shown and save:
+    
+    <img width="751" alt="Screenshot 2022-07-19 at 4 18 48 PM" src="https://user-images.githubusercontent.com/66881214/179702389-5b3600d9-58ec-43be-b810-e58a25e3a26f.png">
+    
+    Rename the new file by changing ".arff" to ".csv" extension. 
+    
+    Updated file:  
+    
+    <img width="586" alt="Screenshot 2022-07-19 at 4 19 37 PM" src="https://user-images.githubusercontent.com/66881214/179702539-cb30bdc9-30ff-4102-a299-8070f0b64e0b.png">
+
+  - Citations
+    - Maghdid, Sozan; Rashid, Tarik A. (2022), “An Extensive Dataset for the Heart Disease Classification System ”, Mendeley Data, V2, doi: 10.17632/65gxgy2nmg.2
+
+#### Heart Failure Prediction
+
+- Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)  
+- Data Type: Tabular 
+-   Size: 12KB   
+-   Example of data + Special Instructions(if any) 
+      1. Download heart_failure_clinical_records_dataset.csv from Source
+      2. Example: <img width="1036" alt="Screenshot 2022-07-18 at 12 24 40 PM" src="https://user-images.githubusercontent.com/66881214/179445189-7e885834-643e-4c73-9d42-78e4abdae1fa.png">
+  - Note: NA
+  - Citations
+    - Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). [Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)
+
+### Kidney Related Datasets 
+
+#### Risk Factor prediction of Chronic Kidney Disease Data Set
+
+  -   Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Risk+Factor+prediction+of+Chronic+Kidney+Disease)
+  -   Data Type: Tabular
+  -   Size: 34KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download ckd-dataset-v2.csv from Data Folder from Source
+      2. Example: 
+      
+            | **bp (Diastolic)** | **bp limit** | **sg**        | **al**   | **class** | **rbc**  | **su**   | **pc**   | **pcc**  | **ba**   | **bgr**   | **bu**      | **sod**   | **sc**   | **pot**  | **hemo**    | **pcv**     | **rbcc**    | **wbcc**      | **htn**  | **dm**   | **cad**  | **appet** | **pe**   | **ane**  | **grf**           | **stage** | **affected** | **age**  |
+            | ------------------ | ------------ | ------------- | -------- | --------- | -------- | -------- | -------- | -------- | -------- | --------- | ----------- | --------- | -------- | -------- | ----------- | ----------- | ----------- | ------------- | -------- | -------- | -------- | --------- | -------- | -------- | ----------------- | --------- | ------------ | -------- |
+            | discrete           | discrete     | discrete      | discrete | discrete  | discrete | discrete | discrete | discrete | discrete | discrete  | discrete    | discrete  | discrete | discrete | discrete    | discrete    | discrete    | discrete      | discrete | discrete | discrete | discrete  | discrete | discrete | discrete          | discrete  | discrete     | discrete |
+            |                    |              |               |          |           |          |          |          |          |          |           |             |           |          |          |             |             |             |               |          |          |          |           |          |          |                   |           | class        | meta     |
+            | 0                  | 0            | 1.019 - 1.021 | 1 - 1    | ckd       | 0        | < 0      | 0        | 0        | 0        | < 112     | < 48.1      | 138 - 143 | < 3.65   | < 7.31   | 11.3 - 12.6 | 33.5 - 37.4 | 4.46 - 5.05 | 7360 - 9740   | 0        | 0        | 0        | 0         | 0        | 0        | ≥ 227.944         | s1        | 1            | < 12     |
+            | 0                  | 0            | 1.009 - 1.011 | < 0      | ckd       | 0        | < 0      | 0        | 0        | 0        | 112 - 154 | < 48.1      | 133 - 138 | < 3.65   | < 7.31   | 11.3 - 12.6 | 33.5 - 37.4 | 4.46 - 5.05 | 12120 - 14500 | 0        | 0        | 0        | 0         | 0        | 0        | ≥ 227.944         | s1        | 1            | < 12     |
+            | 0                  | 0            | 1.009 - 1.011 | ≥ 4      | ckd       | 1        | < 0      | 1        | 0        | 1        | < 112     | 48.1 - 86.2 | 133 - 138 | < 3.65   | < 7.31   | 8.7 - 10    | 29.6 - 33.5 | 4.46 - 5.05 | 14500 - 16880 | 0        | 0        | 0        | 1         | 0        | 0        | 127.281 - 152.446 | s1        | 1            | < 12     |
+            | 1                  | 1            | 1.009 - 1.011 | 3 - 3    | ckd       | 0        | < 0      | 0        | 0        | 0        | 112 - 154 | < 48.1      | 133 - 138 | < 3.65   | < 7.31   | 13.9 - 15.2 | 41.3 - 45.2 | 4.46 - 5.05 | 7360 - 9740   | 0        | 0        | 0        | 0         | 0        | 0        | 127.281 - 152.446 | s1        | 1            | < 12     |
+
+      
+  -   Note: According to site, pre-processing has to be done for any machine learning algorithm to be applied. Some special characters might be observed in Microsoft Excel. Using other applications such as Numbers(Macbook), these special characters correspond to mathematical symbols such as >= or <=
+  -   Citations
+      - M. A. Islam, S. Akter, M. S. Hossen, S. A. Keya, S. A. Tisha and S. Hossain, 'Risk Factor Prediction of Chronic Kidney Disease based on Machine Learning Algorithms,' 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS), Thoothukudi, India, 2020, pp. 952-957, doi: 10.1109/ICISS49785.2020.9315878.  [Link](https://ieeexplore.ieee.org/document/9315878)
+      - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+### Lung Related Datasets
 
 #### NIH Chest X-ray Dataset
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/nih-chest-xrays/data?resource=download)
@@ -629,107 +730,6 @@ doi: 10.1109/TMI.2015.2433900
   - Citations
     - Rocha BM, Filos D, Mendes L, Vogiatzis I, Perantoni E, Kaimakamis E, Natsiavas P, Oliveira A, Jácome C, Marques A, Paiva RP (2018) In Precision Medicine Powered by pHealth and Connected Health (pp. 51-55). Springer, Singapore 
       - The paper can be found [here](https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf)
-
-### Eye Related Datasets 
-
-#### Retinal OCT Images (optical coherence tomography)
-
-- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)  
-- Data Type: Images 
--   Size: 7.19GB  
--   Example of data + Special Instructions(if any) 
-      1. Download from Source
-      2. Example: 
-         
-         NORMAL: <img src="https://user-images.githubusercontent.com/66881214/179479055-048a3b6a-ee7a-4f0c-ae73-fdf7e07784e2.jpeg" width="150" height="150">
-         
-         CNV: <img src="https://user-images.githubusercontent.com/66881214/179479097-161cb450-7dd8-4ab0-a214-316b3582c740.jpeg" width="150" height="150">
-         
-         DME: <img src="https://user-images.githubusercontent.com/66881214/179479179-f8f138fb-ff86-4166-9e3c-e39b9d8685e2.jpeg" width="150" height="150">
-         
-         DRUSEN: <img src="https://user-images.githubusercontent.com/66881214/179479213-ed54e3cc-052e-47d1-b897-006fc29d2581.jpeg" width="150" height="150">
-
-  - Note: In the same folder, a folder named chest_xray can be found. These images belong to the latest version mentioned in [Chest X-ray Images (Pneumonia)](#Chest-X-ray-Images-Pneumonia) 
-  - Citations
-    - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
-
-### Heart Related Datasets
-
-#### An Extensive Dataset for the Heart Disease Classification System
-
-- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/65gxgy2nmg/2)  
-- Data Type: Text/Tabular 
--   Size: 51 KB   
--   Example of data + Special Instructions(if any) 
-      1. Download Medicaldataset.arff from Source
-      2. Example: 
-       
-         <img width="273" alt="Screenshot 2022-07-19 at 4 17 35 PM" src="https://user-images.githubusercontent.com/66881214/179702124-4324e73b-8569-43a0-9f1c-0906f63765c8.png">
-         
-         Columns present (from left to right):
-            
-         * age
-         * gender
-         * impulse
-         * pressurehight
-         * pressurelow
-         * glucose
-         * kcm
-         * troponin
-         * class
-
-  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
-  
-    To convert to csv file, remove the highlighted text as shown and save:
-    
-    <img width="751" alt="Screenshot 2022-07-19 at 4 18 48 PM" src="https://user-images.githubusercontent.com/66881214/179702389-5b3600d9-58ec-43be-b810-e58a25e3a26f.png">
-    
-    Rename the new file by changing ".arff" to ".csv" extension. 
-    
-    Updated file:  
-    
-    <img width="586" alt="Screenshot 2022-07-19 at 4 19 37 PM" src="https://user-images.githubusercontent.com/66881214/179702539-cb30bdc9-30ff-4102-a299-8070f0b64e0b.png">
-
-  - Citations
-    - Maghdid, Sozan; Rashid, Tarik A. (2022), “An Extensive Dataset for the Heart Disease Classification System ”, Mendeley Data, V2, doi: 10.17632/65gxgy2nmg.2
-
-#### Heart Failure Prediction
-
-- Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)  
-- Data Type: Tabular 
--   Size: 12KB   
--   Example of data + Special Instructions(if any) 
-      1. Download heart_failure_clinical_records_dataset.csv from Source
-      2. Example: <img width="1036" alt="Screenshot 2022-07-18 at 12 24 40 PM" src="https://user-images.githubusercontent.com/66881214/179445189-7e885834-643e-4c73-9d42-78e4abdae1fa.png">
-  - Note: NA
-  - Citations
-    - Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). [Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)
-
-### Kidney Related Datasets 
-
-#### Risk Factor prediction of Chronic Kidney Disease Data Set
-
-  -   Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Risk+Factor+prediction+of+Chronic+Kidney+Disease)
-  -   Data Type: Tabular
-  -   Size: 34KB
-  -   Example of data + Special Instructions(if any) 
-      1. Download ckd-dataset-v2.csv from Data Folder from Source
-      2. Example: 
-      
-            | **bp (Diastolic)** | **bp limit** | **sg**        | **al**   | **class** | **rbc**  | **su**   | **pc**   | **pcc**  | **ba**   | **bgr**   | **bu**      | **sod**   | **sc**   | **pot**  | **hemo**    | **pcv**     | **rbcc**    | **wbcc**      | **htn**  | **dm**   | **cad**  | **appet** | **pe**   | **ane**  | **grf**           | **stage** | **affected** | **age**  |
-            | ------------------ | ------------ | ------------- | -------- | --------- | -------- | -------- | -------- | -------- | -------- | --------- | ----------- | --------- | -------- | -------- | ----------- | ----------- | ----------- | ------------- | -------- | -------- | -------- | --------- | -------- | -------- | ----------------- | --------- | ------------ | -------- |
-            | discrete           | discrete     | discrete      | discrete | discrete  | discrete | discrete | discrete | discrete | discrete | discrete  | discrete    | discrete  | discrete | discrete | discrete    | discrete    | discrete    | discrete      | discrete | discrete | discrete | discrete  | discrete | discrete | discrete          | discrete  | discrete     | discrete |
-            |                    |              |               |          |           |          |          |          |          |          |           |             |           |          |          |             |             |             |               |          |          |          |           |          |          |                   |           | class        | meta     |
-            | 0                  | 0            | 1.019 - 1.021 | 1 - 1    | ckd       | 0        | < 0      | 0        | 0        | 0        | < 112     | < 48.1      | 138 - 143 | < 3.65   | < 7.31   | 11.3 - 12.6 | 33.5 - 37.4 | 4.46 - 5.05 | 7360 - 9740   | 0        | 0        | 0        | 0         | 0        | 0        | ≥ 227.944         | s1        | 1            | < 12     |
-            | 0                  | 0            | 1.009 - 1.011 | < 0      | ckd       | 0        | < 0      | 0        | 0        | 0        | 112 - 154 | < 48.1      | 133 - 138 | < 3.65   | < 7.31   | 11.3 - 12.6 | 33.5 - 37.4 | 4.46 - 5.05 | 12120 - 14500 | 0        | 0        | 0        | 0         | 0        | 0        | ≥ 227.944         | s1        | 1            | < 12     |
-            | 0                  | 0            | 1.009 - 1.011 | ≥ 4      | ckd       | 1        | < 0      | 1        | 0        | 1        | < 112     | 48.1 - 86.2 | 133 - 138 | < 3.65   | < 7.31   | 8.7 - 10    | 29.6 - 33.5 | 4.46 - 5.05 | 14500 - 16880 | 0        | 0        | 0        | 1         | 0        | 0        | 127.281 - 152.446 | s1        | 1            | < 12     |
-            | 1                  | 1            | 1.009 - 1.011 | 3 - 3    | ckd       | 0        | < 0      | 0        | 0        | 0        | 112 - 154 | < 48.1      | 133 - 138 | < 3.65   | < 7.31   | 13.9 - 15.2 | 41.3 - 45.2 | 4.46 - 5.05 | 7360 - 9740   | 0        | 0        | 0        | 0         | 0        | 0        | 127.281 - 152.446 | s1        | 1            | < 12     |
-
-      
-  -   Note: According to site, pre-processing has to be done for any machine learning algorithm to be applied. Some special characters might be observed in Microsoft Excel. Using other applications such as Numbers(Macbook), these special characters correspond to mathematical symbols such as >= or <=
-  -   Citations
-      - M. A. Islam, S. Akter, M. S. Hossen, S. A. Keya, S. A. Tisha and S. Hossain, 'Risk Factor Prediction of Chronic Kidney Disease based on Machine Learning Algorithms,' 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS), Thoothukudi, India, 2020, pp. 952-957, doi: 10.1109/ICISS49785.2020.9315878.  [Link](https://ieeexplore.ieee.org/document/9315878)
-      - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
 ### Other Diseases 
 
