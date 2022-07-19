@@ -46,6 +46,7 @@ Table of Contents
 7. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
     - [CT Medical Images](#CT-Medical-Images)  
+    - [Association of body mass index and age with incident diabetes in Chinese adults](Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
     - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
@@ -803,6 +804,30 @@ doi: 10.1109/TMI.2015.2433900
       - Albertina, B., Watson, M., Holback, C., Jarosz, R., Kirk, S., Lee, Y., … Lemmerman, J. (2016). Radiology Data from The Cancer Genome Atlas Lung Adenocarcinoma [TCGA-LUAD] collection. The Cancer Imaging Archive. http://doi.org/10.7937/K9/TCIA.2016.JGNIHEP5
       - Clark K, Vendt B, Smith K, Freymann J, Kirby J, Koppel P, Moore S, Phillips S, Maffitt D, Pringle M, Tarbox L, Prior F. The Cancer Imaging Archive (TCIA): Maintaining and Operating a Public Information Repository, Journal of Digital Imaging, Volume 26, Number 6, December, 2013, pp 1045-1057. (paper)  
 
+#### Association of body mass index and age with incident diabetes in Chinese adults
+
+  -   Source:  [Click here to proceed to site](https://zenodo.org/record/4997196#.YtZvkpNBw-Q)
+  
+  -   Data Type: Tabular  
+  
+  -   Size: 28.3 KB
+  
+  -   Example of data + Special Instructions(if any) 
+      1. Download RC Health Care Data-20180820.xlsx from Source.
+
+      2. Example: 
+            
+            | id | Age (y) | Gender(1, male; 2, female) | site | height(cm) | weight(kg) | BMI(kg/m2) | SBP(mmHg) | DBP(mmHg) | FPG (mmol/L) | Cholesterol(mmol/L) | Triglyceride(mmol/L) | HDL-c(mmol/L) | LDL(mmol/L) | ALT(U/L) | AST(U/L) | BUN(mmol/L) | CCR(umol/L) | FPG of final visit(mmol/L) | Diabetes diagnosed during followup（1,Yes） | censor of diabetes at followup(1, Yes; 0, No) | year of followup | smoking status(1,current smoker;2, ever smoker;3,never smoker) | drinking status(1,current drinker;2, ever drinker;3,never drinker) | family histroy of diabetes(1,Yes;0,No) |
+            | -- | ------- | -------------------------- | ---- | ---------- | ---------- | ---------- | --------- | --------- | ------------ | ------------------- | -------------------- | ------------- | ----------- | -------- | -------- | ----------- | ----------- | -------------------------- | ----------------------------------------- | --------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- |
+            | 1  | 43      | 2                          | 16   | 166.4      | 53.5       | 19.3       | 96        | 57        | 4.99         | 5.13                | 0.78                 |               |             | 10       |          | 3.08        | 50.3        | 4.97                       |                                           | 0                                             | 2.15195          | 3                                                              | 3                                                                  | 1                                      |
+            | 2  | 34      | 1                          | 2    | 169        | 57         | 20         | 124       | 69        | 3.51         | 4.61                | 1.75                 | 1.09          | 3.13        | 29.1     |          | 6.13        | 83.7        | 5.5                        |                                           | 0                                             | 3.96988          |                                                                |                                                                    | 0                                      |
+            | 3  | 32      | 2                          | 2    | 157        | 51         | 20.7       | 98        | 68        | 4.25         | 4.73                | 0.47                 |               |             | 6.9      | 19.5     | 4.45        | 42.8        | 4.9                        |                                           | 0                                             | 3.93977          |                                                                |                                                                    | 0                                      |
+               
+  -   Note: NA
+  
+  -   Citations
+      - Chen, Ying, Zhang, Xiao-Ping, Yuan, Jie, Cai, Bo, Wang, Xiao-Li, Wu, Xiao-Li, Zhang, Yue-Hua, Zhang, Xiao-Yi, Yin, Tong, Zhu, Xiao-Hui, Gu, Yun-Juan, Cui, Shi-Wei, Lu, Zhi-Qiang, & Li, Xiao-Ying. (2018). Data from: Association of body mass index and age with incident diabetes in Chinese adults: a population-based cohort study [Data set]. https://doi.org/10.5061/dryad.ft8750v
+      
 #### Clinical characteristics, types and complications of diabetics with young age at the onset
 
   -   Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jf429jpgwt/1)
