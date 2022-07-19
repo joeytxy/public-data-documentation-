@@ -46,6 +46,7 @@ Table of Contents
 7. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
     - [CT Medical Images](#CT-Medical-Images)  
+    - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
     - [Fetal Health Classification](#Fetal-Health-Classification)
@@ -802,6 +803,24 @@ doi: 10.1109/TMI.2015.2433900
       - Albertina, B., Watson, M., Holback, C., Jarosz, R., Kirk, S., Lee, Y., … Lemmerman, J. (2016). Radiology Data from The Cancer Genome Atlas Lung Adenocarcinoma [TCGA-LUAD] collection. The Cancer Imaging Archive. http://doi.org/10.7937/K9/TCIA.2016.JGNIHEP5
       - Clark K, Vendt B, Smith K, Freymann J, Kirby J, Koppel P, Moore S, Phillips S, Maffitt D, Pringle M, Tarbox L, Prior F. The Cancer Imaging Archive (TCIA): Maintaining and Operating a Public Information Repository, Journal of Digital Imaging, Volume 26, Number 6, December, 2013, pp 1045-1057. (paper)  
 
+#### Clinical characteristics, types and complications of diabetics with young age at the onset
+
+  -   Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jf429jpgwt/1)
+  
+  -   Data Type: Tabular  
+  
+  -   Size: 22 KB
+  
+  -   Example of data + Special Instructions(if any) 
+      1. Download 9. Master Chart.xlsx from Source.
+
+      2. Example: 
+         <img width="1130" alt="Screenshot 2022-07-19 at 4 45 06 PM" src="https://user-images.githubusercontent.com/66881214/179707993-1c6512f6-7b93-4605-b968-c44bfb4417b8.png">
+               
+  -   Note: NA
+  
+  -   Citations
+      - SAHU, PRANABANANDA; Das, Sidhartha (2019), “Data for: Clinical characteristics, types and complications of diabetics with young age at the onset ( 14 to 25 years).”, Mendeley Data, V1, doi: 10.17632/jf429jpgwt.1
 
 #### Diabetes 130-US hospitals for years 1999-2008 Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
