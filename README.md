@@ -138,11 +138,11 @@ Table of Contents
   -   Size: 44 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wpbc.data stored in Data Folder from Source 
-      2. Example: 
+      2. Example (No headers): 
        
-             | 119513 | N | 31 | 18.02 | 27.6  | 117.5 | 1013 | 0.09489 | 0.1036 | 0.1086 | 0.07055 | 0.1865 | 0.06333 | 0.6249 | 1.89   | 3.972 | 71.55 | 0.004433 | 0.01421 | 0.03233 | 0.009854 | 0.01694 | 0.003495 | 21.63 | 37.08 | 139.7 | 1436 | 0.1195 | 0.1926 | 0.314  | 0.117  | 0.2677 | 0.08113 | 5 | 5     |
-             | ------ | - | -- | ----- | ----- | ----- | ---- | ------- | ------ | ------ | ------- | ------ | ------- | ------ | ------ | ----- | ----- | -------- | ------- | ------- | -------- | ------- | -------- | ----- | ----- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ------- | - | ----- |
-             | 8423   | N | 61 | 17.99 | 10.38 | 122.8 | 1001 | 0.1184  | 0.2776 | 0.3001 | 0.1471  | 0.2419 | 0.07871 | 1.095  | 0.9053 | 8.589 | 153.4 | 0.006399 | 0.04904 | 0.05373 | 0.01587  | 0.03003 | 0.006193 | 25.38 | 17.33 | 184.6 | 2019 | 0.1622 | 0.6656 | 0.7119 | 0.2654 | 0.4601 | 0.1189  | 3 | 2<br> |
+            | 119513 | N | 31 | 18.02 | 27.6  | 117.5 | 1013 | 0.09489 | 0.1036 | 0.1086 | 0.07055 | 0.1865 | 0.06333 | 0.6249 | 1.89   | 3.972 | 71.55 | 0.004433 | 0.01421 | 0.03233 | 0.009854 | 0.01694 | 0.003495 | 21.63 | 37.08 | 139.7 | 1436 | 0.1195 | 0.1926 | 0.314  | 0.117  | 0.2677 | 0.08113 | 5 | 5     |
+            | ------ | - | -- | ----- | ----- | ----- | ---- | ------- | ------ | ------ | ------- | ------ | ------- | ------ | ------ | ----- | ----- | -------- | ------- | ------- | -------- | ------- | -------- | ----- | ----- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ------- | - | ----- |
+            | 8423   | N | 61 | 17.99 | 10.38 | 122.8 | 1001 | 0.1184  | 0.2776 | 0.3001 | 0.1471  | 0.2419 | 0.07871 | 1.095  | 0.9053 | 8.589 | 153.4 | 0.006399 | 0.04904 | 0.05373 | 0.01587  | 0.03003 | 0.006193 | 25.38 | 17.33 | 184.6 | 2019 | 0.1622 | 0.6656 | 0.7119 | 0.2654 | 0.4601 | 0.1189  | 3 | 2     |
 
          
          Columns present (from left to right):
@@ -182,7 +182,12 @@ Table of Contents
   -   Size: 124 KB
   -   Example of data + Special Instructions(if any) 
       1. Download wdbc.data stored in Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Breast%20Cancer%20Wisconsin%20(Diagnostic)%20Data%20Set/Preview%20of%20Data)
+      2. Example(No headers): 
+
+            | 842302 | M | 17.99 | 10.38 | 122.8 | 1001 | 0.1184  | 0.2776  | 0.3001 | 0.1471  | 0.2419 | 0.07871 | 1.095  | 0.9053 | 8.589 | 153.4 | 0.006399 | 0.04904 | 0.05373 | 0.01587 | 0.03003 | 0.006193 | 25.38 | 17.33 | 184.6 | 2019 | 0.1622 | 0.6656 | 0.7119 | 0.2654 | 0.4601 | 0.1189  |
+            | ------ | - | ----- | ----- | ----- | ---- | ------- | ------- | ------ | ------- | ------ | ------- | ------ | ------ | ----- | ----- | -------- | ------- | ------- | ------- | ------- | -------- | ----- | ----- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ------- |
+            | 842517 | M | 20.57 | 17.77 | 132.9 | 1326 | 0.08474 | 0.07864 | 0.0869 | 0.07017 | 0.1812 | 0.05667 | 0.5435 | 0.7339 | 3.398 | 74.08 | 0.005225 | 0.01308 | 0.0186  | 0.0134  | 0.01389 | 0.003532 | 24.99 | 23.41 | 158.8 | 1956 | 0.1238 | 0.1866 | 0.2416 | 0.186  | 0.275  | 0.08902 |
+
             
          Columns present (from left to right):
          * ID number 
@@ -240,13 +245,22 @@ Table of Contents
     - K. Sirinukunwattana, J. P. W. Pluim, H. Chen, X Qi, P. Heng, Y. Guo, L. Wang, B. J. Matuszewski, E. Bruni, U. Sanchez, A. Böhm, O. Ronneberger, B. Ben Cheikh, D. Racoceanu, P. Kainz, M. Pfeiffer, M. Urschler, D. R. J. Snead, N. M. Rajpoot, "Gland Segmentation in Colon Histology Images: The GlaS Challenge Contest" [Link](http://arxiv.org/abs/1603.00275)
     - K. Sirinukunwattana, D.R.J. Snead, N.M. Rajpoot, "A Stochastic Polygons Model for Glandular Structures in Colon Histology Images," in IEEE Transactions on Medical Imaging, 2015
 doi: 10.1109/TMI.2015.2433900 
+
 #### Cervical cancer (Risk Factors) Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29)
   - Data Type: Tabular 
   -   Size: 102 KB
   -   Example of data + Special Instructions(if any) 
       1. Download risk_factors_cervical_cancer.csv from Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Cancer%20Datasets/Cervical%20cancer%20(Risk%20Factors)%20Data%20Set/Preview%20of%20Data)
+      2. Example: 
+           
+            | Age | Number of sexual partners | First sexual intercourse | Num of pregnancies | Smokes | Smokes (years) | Smokes (packs/year) | Hormonal Contraceptives | Hormonal Contraceptives (years) | IUD | IUD (years) | STDs | STDs (number) | STDs:condylomatosis | STDs:cervical condylomatosis | STDs:vaginal condylomatosis | STDs:vulvo-perineal condylomatosis | STDs:syphilis | STDs:pelvic inflammatory disease | STDs:genital herpes | STDs:molluscum contagiosum | STDs:AIDS | STDs:HIV | STDs:Hepatitis B | STDs:HPV | STDs: Number of diagnosis | STDs: Time since first diagnosis | STDs: Time since last diagnosis | Dx:Cancer | Dx:CIN | Dx:HPV | Dx | Hinselmann | Schiller | Citology | Biopsy |
+            | --- | ------------------------- | ------------------------ | ------------------ | ------ | -------------- | ------------------- | ----------------------- | ------------------------------- | --- | ----------- | ---- | ------------- | ------------------- | ---------------------------- | --------------------------- | ---------------------------------- | ------------- | -------------------------------- | ------------------- | -------------------------- | --------- | -------- | ---------------- | -------- | ------------------------- | -------------------------------- | ------------------------------- | --------- | ------ | ------ | -- | ---------- | -------- | -------- | ------ |
+            | 18  | 4                         | 15                       | 1                  | 0      | 0              | 0                   | 0                       | 0                               | 0   | 0           | 0    | 0             | 0                   | 0                            | 0                           | 0                                  | 0             | 0                                | 0                   | 0                          | 0         | 0        | 0                | 0        | 0                         | ?                                | ?                               | 0         | 0      | 0      | 0  | 0          | 0        | 0        | 0      |
+            | 15  | 1                         | 14                       | 1                  | 0      | 0              | 0                   | 0                       | 0                               | 0   | 0           | 0    | 0             | 0                   | 0                            | 0                           | 0                                  | 0             | 0                                | 0                   | 0                          | 0         | 0        | 0                | 0        | 0                         | ?                                | ?                               | 0         | 0      | 0      | 0  | 0          | 0        | 0        | 0      |
+
+
+            
          Columns present (from left to right):
          * Age
          * Number of sexual partners
@@ -623,9 +637,19 @@ doi: 10.1109/TMI.2015.2433900
   -   Size: 34KB
   -   Example of data + Special Instructions(if any) 
       1. Download ckd-dataset-v2.csv from Data Folder from Source
-      2. Example: [Click here to preview dataset without special characters](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Without%20special%20characters))
+      2. Example: 
       
-  -   Note: According to site, pre-processing has to be done for any machine learning algorithm to be applied. Some special characters might be observed in Microsoft Excel ([See here](https://github.com/joeytxy/public-data-documentation-/blob/main/Kidney%20Related%20Datasets/Risk%20Factor%20prediction%20of%20Chronic%20Kidney%20Disease%20Data%20Set/Preview%20of%20Data%20(Microsoft%20Excel))). Using other applications such as Numbers(Macbook), these special characters correspond to mathematical symbols such as >= or <=
+            | **bp (Diastolic)** | **bp limit** | **sg**        | **al**   | **class** | **rbc**  | **su**   | **pc**   | **pcc**  | **ba**   | **bgr**   | **bu**      | **sod**   | **sc**   | **pot**  | **hemo**    | **pcv**     | **rbcc**    | **wbcc**      | **htn**  | **dm**   | **cad**  | **appet** | **pe**   | **ane**  | **grf**           | **stage** | **affected** | **age**  |
+            | ------------------ | ------------ | ------------- | -------- | --------- | -------- | -------- | -------- | -------- | -------- | --------- | ----------- | --------- | -------- | -------- | ----------- | ----------- | ----------- | ------------- | -------- | -------- | -------- | --------- | -------- | -------- | ----------------- | --------- | ------------ | -------- |
+            | discrete           | discrete     | discrete      | discrete | discrete  | discrete | discrete | discrete | discrete | discrete | discrete  | discrete    | discrete  | discrete | discrete | discrete    | discrete    | discrete    | discrete      | discrete | discrete | discrete | discrete  | discrete | discrete | discrete          | discrete  | discrete     | discrete |
+            |                    |              |               |          |           |          |          |          |          |          |           |             |           |          |          |             |             |             |               |          |          |          |           |          |          |                   |           | class        | meta     |
+            | 0                  | 0            | 1.019 - 1.021 | 1 - 1    | ckd       | 0        | < 0      | 0        | 0        | 0        | < 112     | < 48.1      | 138 - 143 | < 3.65   | < 7.31   | 11.3 - 12.6 | 33.5 - 37.4 | 4.46 - 5.05 | 7360 - 9740   | 0        | 0        | 0        | 0         | 0        | 0        | ≥ 227.944         | s1        | 1            | < 12     |
+            | 0                  | 0            | 1.009 - 1.011 | < 0      | ckd       | 0        | < 0      | 0        | 0        | 0        | 112 - 154 | < 48.1      | 133 - 138 | < 3.65   | < 7.31   | 11.3 - 12.6 | 33.5 - 37.4 | 4.46 - 5.05 | 12120 - 14500 | 0        | 0        | 0        | 0         | 0        | 0        | ≥ 227.944         | s1        | 1            | < 12     |
+            | 0                  | 0            | 1.009 - 1.011 | ≥ 4      | ckd       | 1        | < 0      | 1        | 0        | 1        | < 112     | 48.1 - 86.2 | 133 - 138 | < 3.65   | < 7.31   | 8.7 - 10    | 29.6 - 33.5 | 4.46 - 5.05 | 14500 - 16880 | 0        | 0        | 0        | 1         | 0        | 0        | 127.281 - 152.446 | s1        | 1            | < 12     |
+            | 1                  | 1            | 1.009 - 1.011 | 3 - 3    | ckd       | 0        | < 0      | 0        | 0        | 0        | 112 - 154 | < 48.1      | 133 - 138 | < 3.65   | < 7.31   | 13.9 - 15.2 | 41.3 - 45.2 | 4.46 - 5.05 | 7360 - 9740   | 0        | 0        | 0        | 0         | 0        | 0        | 127.281 - 152.446 | s1        | 1            | < 12     |
+
+      
+  -   Note: According to site, pre-processing has to be done for any machine learning algorithm to be applied. Some special characters might be observed in Microsoft Excel. Using other applications such as Numbers(Macbook), these special characters correspond to mathematical symbols such as >= or <=
   -   Citations
       - M. A. Islam, S. Akter, M. S. Hossen, S. A. Keya, S. A. Tisha and S. Hossain, 'Risk Factor Prediction of Chronic Kidney Disease based on Machine Learning Algorithms,' 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS), Thoothukudi, India, 2020, pp. 952-957, doi: 10.1109/ICISS49785.2020.9315878.  [Link](https://ieeexplore.ieee.org/document/9315878)
       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
@@ -684,7 +708,13 @@ doi: 10.1109/TMI.2015.2433900
       -  3KB for IDs_mapping.csv
   -   Example of data + Special Instructions(if any) 
       1. Download dataset_diabetes.zip from Data Folder from Source 
-      2. Example: [Click here to preview top 2 records of dataset](https://github.com/joeytxy/public-data-documentation-/blob/main/Other%20Diseases/Diabetes%20130-US%20hospitals%20for%20years%201999-2008%20Data%20Set/Preview%20of%20Data)
+      2. Example: 
+
+           | encounter_id | patient_nbr | race      | gender | age     | weight | admission_type_id | discharge_disposition_id | admission_source_id | time_in_hospital | payer_code | medical_specialty        | num_lab_procedures | num_procedures | num_medications | number_outpatient | number_emergency | number_inpatient | diag_1 | diag_2 | diag_3 | number_diagnoses | max_glu_serum | A1Cresult | metformin | repaglinide | nateglinide | chlorpropamide | glimepiride | acetohexamide | glipizide | glyburide | tolbutamide | pioglitazone | rosiglitazone | acarbose | miglitol | troglitazone | tolazamide | examide | citoglipton | insulin | glyburide-metformin | glipizide-metformin | glimepiride-pioglitazone | metformin-rosiglitazone | metformin-pioglitazone | change | diabetesMed | readmitted |
+           |--------------|-------------|-----------|--------|---------|--------|-------------------|--------------------------|---------------------|------------------|------------|--------------------------|--------------------|----------------|-----------------|-------------------|------------------|------------------|--------|--------|--------|------------------|---------------|-----------|-----------|-------------|-------------|----------------|-------------|---------------|-----------|-----------|-------------|--------------|---------------|----------|----------|--------------|------------|---------|-------------|---------|---------------------|---------------------|--------------------------|-------------------------|------------------------|--------|-------------|------------|
+           | 2278392      | 8222157     | Caucasian | Female | [0-10)  | ?      | 6                 | 25                       | 1                   | 1                | ?          | Pediatrics-Endocrinology | 41                 | 0              | 1               | 0                 | 0                | 0                | 250.83 | ?      | ?      | 1                | None          | None      | No        | No          | No          | No             | No          | No            | No        | No        | No          | No           | No            | No       | No       | No           | No         | No      | No          | No      | No                  | No                  | No                       | No                      | No                     | No     | No          | NO         |
+           | 149190       | 55629189    | Caucasian | Female | [10-20) | ?      | 1                 | 1                        | 7                   | 3                | ?          | ?                        | 59                 | 0              | 18              | 0                 | 0                | 0                | 276    | 250.01 | 255    | 9                | None          | None      | No        | No          | No          | No             | No          | No            | No        | No        | No          | No           | No            | No       | No       | No           | No         | No      | No          | Up      | No                  | No                  | No                       | No                      | No                     | Ch     | Yes         | >30        |
+
   - Note: NA
   - Citations
     - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. [Link](https://www.hindawi.com/journals/bmri/2014/781670/)
@@ -861,7 +891,255 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
          
          https://user-images.githubusercontent.com/66881214/179450404-a22b08df-2073-4193-ab42-fbf1483f25ba.mp4
          
-         The clean transcript can be found [here](https://github.com/joeytxy/public-data-documentation-/blob/main/Other%20Diseases/Patient-Physician%20Medical%20Interviews/Clean%20Transcript%20Example)
+         <details><summary>Click here to expand full clean transcript</summary>
+         <p>
+    
+              D: What brought you in today?
+
+              P: Sure, I'm I'm just having a lot of chest pain and and so I thought I should get it checked out.
+
+              D: OK, before we start, could you remind me of your gender and age? 
+
+              P: Sure 39, I'm a male.
+
+              D: OK, and so when did this chest pain start?
+
+              P: It started last night, but it's becoming sharper.
+
+              D: OK, and where is this pain located? 
+
+              P: It's located on the left side of my chest.
+
+              D: OK, and, so how long has it been going on for then if it started last night?
+
+              P: So I guess it would be a couple of hours now, maybe like 8.
+
+              D: OK. Has it been constant throughout that time, or uh, or changing? 
+
+              P: I would say it's been pretty constant, yeah.
+
+              D: OK, and how would you describe the pain? People will use words sometimes like sharp, burning, achy. 
+
+              P: I'd say it's pretty sharp, yeah.
+
+              D: Sharp OK. Uh, anything that you have done tried since last night that's made the pain better?
+
+              P: Um not laying down helps.
+
+              D: OK, so do you find laying down makes the pain worse?
+
+              P: Yes, definitely.
+
+              D: OK, do you find that the pain is radiating anywhere?
+
+              P: No.
+
+              D: OK, and is there anything else that makes the pain worse besides laying down? 
+
+              P: Not that I've noticed, no.
+
+              D: OK, so not like taking a deep breath or anything like that?
+
+              P: Maybe taking a deep breath. Yeah.
+
+              D: OK. And when the pain started, could you tell me uh, could you think of anything that you were doing at the time?
+
+              P: I mean, I was moving some furniture around, but, that I've done that before.
+
+              D: OK, so you didn't feel like you hurt yourself when you were doing that?
+
+              P: No.
+
+              D: OK, and in regards to how severe the pain is on a scale of 1 to 10, 10 being the worst pain you've ever felt, how severe would you say the pain is?
+
+              P: I'd say it's like a seven or eight. It's pretty bad.
+
+              D: OK, and with the pain, do you have any other associated symptoms?
+
+              P: I feel a little lightheaded and I'm having some trouble breathing.
+
+              D: OK. Have you had any loss of consciousness?
+
+              P: No.
+
+              D: OK. Uh, have you been experiencing any like racing of the heart? 
+
+              P: Um, a little bit, yeah.
+
+              D: OK. And have you been sweaty at all?
+
+              P: Just from the from having issues breathing.
+
+              D: OK, have you been having issues breathing since the pain started? 
+
+              P: Yes.
+
+              D: OK. Um recently have you had any periods of time where you like have been immobilized or or, you haven't been like able to move around a lot?
+
+              P: No no. 
+
+              D: OK. And have you been feeling sick at all? Any infectious symptoms? 
+
+              P: No. 
+
+              D: OK, have you had any nausea or vomiting? 
+
+              P: No. 
+
+              D: Any fevers or chills?
+
+              P: No. 
+
+              D: OK, how about any abdominal pain?
+
+              P: No.
+
+              D: Any urinary problems?
+
+              P: No.
+
+              D: Or bowel problems?
+
+              P: No.
+
+              D: OK, have you had a cough?
+
+              P: No.
+
+              D: OK. You haven't brought up any blood?
+
+              P: No. 
+
+              D: OK, have you had a wheeze with your difficulty breathing?
+
+              P: No, not that I've heard.
+
+              D: OK, any changes to the breath sounds at all like any noisy breathing?
+
+              P: No. Well, I guess if when I'm really having trouble breathing, yeah.
+
+              D: OK. Has anything like this ever happened to you before?
+
+              P: No. 
+             
+              D: No, OK. And have you had any night sweats?
+             
+              P: No
+             
+              D: Alright, and then how about any rashes or skin changes?
+             
+              P: No rashes, but I guess like my neck seems to be a little swollen. 
+
+              D: OK, do you have any neck pain? 
+
+              P: No. 
+
+              D: OK, have you had any like accidents like a car accident or anything where you really jerked your neck? 
+
+              P: No.
+
+              D: OK. Um any any trauma at all to the chest or or back?
+
+              P: No.
+
+              D: OK, so just in regards to past medical history, do you have any prior medical conditions? 
+
+              P: No.
+
+              D: OK, any recent hospitalizations?
+
+              P: No. 
+
+              D: OK, any prior surgeries?
+
+              P: No.
+
+              D: OK, do you take any medications regularly? Are they prescribed or over the counter?
+
+              P: No. 
+
+              D: Alright, how about any allergies to medications? 
+
+              P: None.
+
+              D: Alright, any immunizations or are they up to date? 
+
+              P: They are all up to date.
+
+              D: Excellent. Alright, and could you tell me a little bit about your living situation currently? 
+
+              P: Sure, I live in an apartment by myself. I, uh, yep, that's about it.
+
+              D: OK, and how do you support yourself financially?
+
+              P: I'm an accountant.
+
+              D: OK, sounds like a pretty stressful job or that it can be. Do you smoke cigarettes? 
+
+              P: I do.
+
+              D: OK, and how much do you smoke?
+
+              P: I smoke about a pack a day.
+
+              D: OK, how long have you been smoking for?
+
+              P: For the past 10 to 15 years.
+
+              D: OK, and do you smoke cannabis?
+
+              P: Uh sometimes. 
+
+              D: Uh, how much marijuana would you smoke per per week? 
+
+              P: Per week, maybe about 5 milligrams. Not that much.
+
+              D: OK, and do you use any other recreational drugs like cocaine, crystal, meth, opioids?
+
+              P: No.
+
+              D: OK. Have you used IV drugs before?
+
+              P: No. 
+
+              D: OK. And do you drink alcohol?
+
+              P: I do.
+
+              D: OK. How much alcohol do you drink each week?
+
+              P: Uhm about I would say I have like one or two drinks a day, so about 10 drinks a week. 
+
+              D: OK, uh, yeah and um alright, and then briefly, could you tell me a little bit about your like diet and exercise?
+
+              P: Sure, I try to eat healthy for dinner at least, but most of my lunches are, uh I eat out. And then in terms of exercise, I try to exercise every other day, I run for about half an hour.
+
+              D; OK, well that's great that you've been working on the the activity and the diet as well. So has anything like this happened in your family before?
+
+              P: No. 
+
+              D: OK, has anybody in the family had a heart attack before?
+
+              P: Actually, yes, my father had a heart attack when he was 45.
+
+              D: OK, and anybody in the family have cholesterol problems?
+
+              P: I think my father did.
+
+              D: I see OK, and how about anybody in the family have a stroke?
+
+              P: No strokes.
+
+              D: OK, and then any cancers in the family?
+
+              P: No.
+
+              D: OK, and is there anything else that you wanted to tell me about today that that I on on history? 
+
+              P: No, I don't think so. I think you asked me everything.
+
+         </p>
+         </details>
                  
   - Note: First 3 characters of the file name represent the categories the case belong to. 
     - Respiratory cases (designated “RES”)
