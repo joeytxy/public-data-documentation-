@@ -665,6 +665,18 @@ doi: 10.1109/TMI.2015.2433900
       2. Example: 
        
          <img width="273" alt="Screenshot 2022-07-19 at 4 17 35 PM" src="https://user-images.githubusercontent.com/66881214/179702124-4324e73b-8569-43a0-9f1c-0906f63765c8.png">
+         
+         Columns present (from left to right):
+            
+         * age
+         * gender
+         * impulse
+         * pressurehight
+         * pressurelow
+         * glucose
+         * kcm
+         * troponin
+         * class
 
   - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
   
