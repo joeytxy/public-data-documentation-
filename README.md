@@ -35,6 +35,7 @@ Table of Contents
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
 5. [Kidney Related Datasets](#Kidney-Related-Datasets)
+    - [A Brazilian dataset for screening the risk of the Chronic Kidney Disease](#A-Brazilian-dataset-for-screening-the-risk-of-the-Chronic-Kidney-Disease)
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
 6. [Lung Related Datasets](#Lung-Related-Datasets)
@@ -558,6 +559,33 @@ doi: 10.1109/TMI.2015.2433900
     - Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). [Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5)
 
 ### Kidney Related Datasets 
+
+#### A Brazilian dataset for screening the risk of the Chronic Kidney Disease
+
+- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/2gkg7vvcrm/3)  
+- Data Type: Text/Tabular  
+-   Size of files:
+    - 2 KB for Original.arff
+    - 2 KB for Augmented.arff         
+-   Example of data + Special Instructions(if any) 
+      1. Download relevant file from Source
+         - In Augmented.arff, authors have augmented the dataset to decrease the impact of imbalanced data.  
+      2. Example: <img width="406" alt="Screenshot 2022-07-19 at 5 27 05 PM" src="https://user-images.githubusercontent.com/66881214/179717003-2ae83296-68d1-4940-aaa5-12c2589cd18a.png">
+  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
+  
+    To convert to csv file, remove the highlighted text as shown and save:
+    
+    <img width="679" alt="Screenshot 2022-07-19 at 5 28 38 PM" src="https://user-images.githubusercontent.com/66881214/179717333-24a0b174-8506-466e-ab26-a72ef79ad542.png">
+
+    
+    Rename the new file by changing ".arff" to ".csv" extension. 
+    
+    Updated file:  
+    
+    <img width="616" alt="Screenshot 2022-07-19 at 5 29 09 PM" src="https://user-images.githubusercontent.com/66881214/179717458-25397a0d-0c4d-4146-b33a-6016d02ceca1.png">
+
+  - Citations
+    - Sobrinho, Alvaro; Dias da Silva, Leandro ; Perkusich, Angelo; Queiroz, Andressa; Eliete Pinheiro, Maria (2021), “A Brazilian dataset for screening the risk of the Chronic Kidney Disease”, Mendeley Data, V3, doi: 10.17632/2gkg7vvcrm.3
 
 #### Risk Factor prediction of Chronic Kidney Disease Data Set
 
@@ -1319,5 +1347,3 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
       
   - Citations
     - Fareez, F., Parikh, T., Wavell, C. et al. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. Sci Data 9, 313 (2022). [Link](https://doi.org/10.1038/s41597-022-01423-1)
-
-
