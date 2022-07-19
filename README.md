@@ -39,7 +39,8 @@ Table of Contents
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
 6. [Others](#Others) 
-    - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
+    - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
+    - [CT Medical Images](#CT-Medical-Images)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
     - [Fetal Health Classification](#Fetal-Health-Classification)
@@ -694,6 +695,34 @@ doi: 10.1109/TMI.2015.2433900
   
   -   Citations
       - Naruenatthanaset, K., Chalidabhongse, T. H., Palasuwan, D., Anantrasirichai, N., &amp; Palasuwan, A. (2021, November 3). Red blood cell segmentation with overlapping cell separation and classification on Imbalanced Dataset. arXiv.org. Retrieved July 14, 2022, from https://arxiv.org/abs/2012.01321   
+
+#### CT Medical Images
+
+  -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/siim-medical-images?select=dicom_dir)
+  
+  -   Data Type: Images 
+  
+  -   Size of files
+      - 52.8MB for dicom_dir folder 
+      - 209.7MB for tiff_images folder
+  
+  -   Example of data + Special Instructions(if any) 
+      1. Download relevant folders from Source.
+
+      2. Example: 
+       
+         ID_0000_AGE_0060_CONTRAST_1_CT.dcm (converted to jpg [here](https://convertio.co/dcm-jpg/)): <img src="https://user-images.githubusercontent.com/66881214/179672281-09bf949d-3204-4f6f-a6e5-5e91bfffdee4.jpg" width="150" height="150">
+   
+         ID_0000_AGE_0060_CONTRAST_1_CT.tif (converted to jpg [here](https://www.freeconvert.com/tif-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179672420-3f9ea3e7-de97-4107-9fbd-52b0eb1702f9.jpg" width="150" height="150">
+
+         <img width="1158" alt="Screenshot 2022-07-19 at 1 32 27 PM" src="https://user-images.githubusercontent.com/66881214/179672551-6c76f8c4-1327-4936-90a9-df32283f72bb.png">
+               
+  -   Note: The dataset from Source is only a subset from the cancer imaging archive. For more, [click here](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LUAD)
+  
+  -   Citations
+      - Albertina, B., Watson, M., Holback, C., Jarosz, R., Kirk, S., Lee, Y., … Lemmerman, J. (2016). Radiology Data from The Cancer Genome Atlas Lung Adenocarcinoma [TCGA-LUAD] collection. The Cancer Imaging Archive. http://doi.org/10.7937/K9/TCIA.2016.JGNIHEP5
+      - Clark K, Vendt B, Smith K, Freymann J, Kirby J, Koppel P, Moore S, Phillips S, Maffitt D, Pringle M, Tarbox L, Prior F. The Cancer Imaging Archive (TCIA): Maintaining and Operating a Public Information Repository, Journal of Digital Imaging, Volume 26, Number 6, December, 2013, pp 1045-1057. (paper)  
+
 
 #### Diabetes 130-US hospitals for years 1999-2008 Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
