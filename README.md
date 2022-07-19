@@ -540,10 +540,10 @@ doi: 10.1109/TMI.2015.2433900
          
          polyps: <img src="https://user-images.githubusercontent.com/66881214/179727473-b0604275-0b39-48ae-a6fe-a9e166d126cf.jpg" width="150" height="150">
         
-        ulcerative-colitis: <img src="https://user-images.githubusercontent.com/66881214/179727531-0e4191d2-8d76-4224-9570-d30e5f978181.jpg" width="150" height="150">
+         ulcerative-colitis: <img src="https://user-images.githubusercontent.com/66881214/179727531-0e4191d2-8d76-4224-9570-d30e5f978181.jpg" width="150" height="150">
         
-        <\p>
-        <\details>    
+         </p>
+         </details>   
         
   -   Note: NA
   -   Citations
