@@ -28,23 +28,26 @@ Table of Contents
     - [Stroke Prediction](#Stroke-Prediction)
     
 3. [Eye Related Datasets](#Eye-Related-Datasets)
-   - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)  
+   - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)
 
-4. [Heart Related Datasets](#Heart-Related-Datasets)
+4. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
+   -  [Kvasir Dataset](#Kvasir-Dataset)
+
+5. [Heart Related Datasets](#Heart-Related-Datasets)
     - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
-5. [Kidney Related Datasets](#Kidney-Related-Datasets)
+6. [Kidney Related Datasets](#Kidney-Related-Datasets)
     - [A Brazilian dataset for screening the risk of the Chronic Kidney Disease](#A-Brazilian-dataset-for-screening-the-risk-of-the-Chronic-Kidney-Disease)
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
-6. [Lung Related Datasets](#Lung-Related-Datasets)
+7. [Lung Related Datasets](#Lung-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
-7. [Others](#Others) 
+8. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
     - [CT Medical Images](#CT-Medical-Images)  
     - [Association of body mass index and age with incident diabetes in Chinese adults](Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
@@ -505,6 +508,64 @@ doi: 10.1109/TMI.2015.2433900
   - Note: In the same folder, a folder named chest_xray can be found. These images belong to the latest version mentioned in [Chest X-ray Images (Pneumonia)](#Chest-X-ray-Images-Pneumonia) 
   - Citations
     - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
+
+### Gastrointestinal Related Datasets
+
+#### Kvasir Dataset
+
+
+  -   Source: [Click here to proceed to site](https://datasets.simula.no/kvasir/)
+  -   Data Type: Images
+  -   Size of files:
+      -  2.52GB for kvasir-dataset-v2
+      -  40.2MB for kvasir-dataset-v2-features   
+  -   Example of data + Special Instructions(if any) 
+      1. Download relevant folders from Source 
+      2. Example: 
+         
+         <details><summary>Click here to view sample images from dataset</summary>
+         <p>
+             
+         dyed-lifted-polyps: <img src="https://user-images.githubusercontent.com/66881214/179727101-c8dbe0a3-a1db-45b4-97b4-4bd99f8056bf.jpg" width="150" height="150">
+         
+         dyed-resection-margins: <img src="https://user-images.githubusercontent.com/66881214/179727222-655752a7-6069-4bd7-83fc-0d3a7a7a1b90.jpg" width="150" height="150">
+        
+         esophagitis: <img src="https://user-images.githubusercontent.com/66881214/179727280-447b7298-fd63-4e33-9431-9211dabd01d9.jpg" width="150" height="150">    
+         
+         normal-cecum: <img src="https://user-images.githubusercontent.com/66881214/179727334-b2b46012-545b-40d7-9c40-15c92518826e.jpg" width="150" height="150">
+         
+         normal-pylorus: <img src="https://user-images.githubusercontent.com/66881214/179727384-4791ebd6-7f43-4199-b174-47e10c7452a5.jpg" width="150" height="150">
+         
+         normal-z-line: <img src="https://user-images.githubusercontent.com/66881214/179727428-91cc9ef4-908e-46de-9357-b745e083793f.jpg" width="150" height="150">
+         
+         polyps: <img src="https://user-images.githubusercontent.com/66881214/179727473-b0604275-0b39-48ae-a6fe-a9e166d126cf.jpg" width="150" height="150">
+        
+        ulcerative-colitis: <img src="https://user-images.githubusercontent.com/66881214/179727531-0e4191d2-8d76-4224-9570-d30e5f978181.jpg" width="150" height="150">
+        
+        <\p>
+        <\details>    
+        
+  -   Note: NA
+  -   Citations
+      - @inproceedings{Pogorelov:2017:KMI:3083187.3083212, title = {KVASIR: A Multi-Class Image Dataset for Computer Aided Gastrointestinal Disease Detection},
+        author = {
+     Pogorelov, Konstantin and Randel, Kristin Ranheim and Griwodz, Carsten and
+     Eskeland, Sigrun Losada and de Lange, Thomas and Johansen, Dag and
+     Spampinato, Concetto and Dang-Nguyen, Duc-Tien and Lux, Mathias and
+     Schmidt, Peter Thelin and Riegler, Michael and Halvorsen, P{\aa}l
+      },
+       booktitle = {Proceedings of the 8th ACM on Multimedia Systems Conference},
+       series = {MMSys'17},
+       year = {2017},
+       isbn = {978-1-4503-5002-0},
+       location = {Taipei, Taiwan},
+       pages = {164--169},
+       numpages = {6},
+       doi = {10.1145/3083187.3083212},
+       acmid = {3083212},
+       publisher = {ACM},
+       address = {New York, NY, USA},
+      }
 
 ### Heart Related Datasets
 
