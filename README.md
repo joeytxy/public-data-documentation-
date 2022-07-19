@@ -25,6 +25,7 @@ Table of Contents
 
 2. [Brain Related Datasets](#Brain-Related-Datasets)
     - [MRI and Alzheimers](#MRI-and-Alzheimers)
+    - [Stroke Prediction](#Stroke-Prediction)
     
 3. [Chest Related Datasets](#Chest-Related-Datasets)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
@@ -462,6 +463,21 @@ doi: 10.1109/TMI.2015.2433900
   -   Note: NA
   -   Citations
       - When publishing findings that benefit from OASIS data, please include the following grant numbers in the acknowledgements section and in the associated Pubmed Central submission: P50 AG05681, P01 AG03991, R01 AG021910, P20 MH071616, U24 RR0213
+
+#### Stroke Prediction
+
+  -   Source: [Click here to proceed to site](https://data.mendeley.com/datasets/x8ygrw87jw/1)
+  -   Data Type: Tabular 
+  -   Size: 2.6 MB
+  -   Example of data + Special Instructions(if any) 
+      1. Download dataset.rar from Source 
+      2. Example: 
+         
+         <img width="906" alt="Screenshot 2022-07-19 at 4 00 39 PM" src="https://user-images.githubusercontent.com/66881214/179698751-b9b39338-4503-4011-a0e1-823959c0574a.png">
+       
+  -   Note: NA
+  -   Citations
+      - Liu, Tianyu; Fan, Wenhui; Wu, Cheng (2019), “Data for: A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets”, Mendeley Data, V1, doi: 10.17632/x8ygrw87jw.1
            
 ### Chest Related Datasets
 
