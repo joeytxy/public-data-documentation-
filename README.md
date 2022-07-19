@@ -37,6 +37,7 @@ Table of Contents
    - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)  
 
 5. [Heart Related Datasets](#Heart-Related-Datasets)
+    - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
 6. [Kidney Related Datasets](#Kidney-Related-Datasets)
@@ -653,6 +654,32 @@ doi: 10.1109/TMI.2015.2433900
     - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
 
 ### Heart Related Datasets
+
+#### An Extensive Dataset for the Heart Disease Classification System
+
+- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/65gxgy2nmg/2)  
+- Data Type: Text/Tabular 
+-   Size: 51 KB   
+-   Example of data + Special Instructions(if any) 
+      1. Download Medicaldataset.arff from Source
+      2. Example: 
+       
+         <img width="273" alt="Screenshot 2022-07-19 at 4 17 35 PM" src="https://user-images.githubusercontent.com/66881214/179702124-4324e73b-8569-43a0-9f1c-0906f63765c8.png">
+
+  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
+  
+    To convert to csv file, remove the highlighted text as shown and save:
+    
+    <img width="751" alt="Screenshot 2022-07-19 at 4 18 48 PM" src="https://user-images.githubusercontent.com/66881214/179702389-5b3600d9-58ec-43be-b810-e58a25e3a26f.png">
+    
+    Rename the new file by changing ".arff" to ".csv" extension. 
+    
+    Updated file:  
+    
+    <img width="586" alt="Screenshot 2022-07-19 at 4 19 37 PM" src="https://user-images.githubusercontent.com/66881214/179702539-cb30bdc9-30ff-4102-a299-8070f0b64e0b.png">
+
+  - Citations
+    - Maghdid, Sozan; Rashid, Tarik A. (2022), “An Extensive Dataset for the Heart Disease Classification System ”, Mendeley Data, V2, doi: 10.17632/65gxgy2nmg.2
 
 #### Heart Failure Prediction
 
