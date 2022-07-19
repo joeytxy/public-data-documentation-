@@ -38,10 +38,11 @@ Table of Contents
 5. [Kidney Related Datasets](#Kidney-Related-Datasets)
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
-6. [Other Diseases](#Other-Diseases) 
+6. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)  
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
+    - [Fetal Health Classification](#Fetal-Health-Classification)
     - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
@@ -533,12 +534,8 @@ doi: 10.1109/TMI.2015.2433900
                 On the other hand, Control Group-II consists of 116,365 chest X-rays from normal and 14 different thoracic disease images. 
                 In Control Group II, the CHESTXRAY-14 folder includes train and test sets of ChestXray-14 dataset. 
                 In addition to this, bacterial and viral pneumonia from pediatric patients can be found in this folder. 
-                However, for the pediatric patient data, there are no train and test sets predefined. 
-    
+                However, for the pediatric patient data, there are no train and test sets predefined.
 
-      
-
-        
   - Note: If you would like to use other versions in the source, please cite accordingly as stated in the source.    
   - Citations
     - A. Degerli, S. Kiranyaz, M. E. H. Chowdhury, and M. Gabbouj, "OSegNet: Operational Segmentation Network for COVID-19 Detection using Chest X-ray Images," arXiv:2202.10185, 2022.
@@ -761,6 +758,26 @@ sizes (Columns 8-15)
   - Citations
     - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    
+#### Fetal Health Classification 
+
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
+  - Data Type: Tabular 
+  -   Size: 229KB
+  -   Example of data + Special Instructions(if any) 
+      1. Download from Source
+      2. Example: 
+                
+            | baseline value | accelerations | fetal\_movement | uterine\_contractions | light\_decelerations | severe\_decelerations | prolongued\_decelerations | abnormal\_short\_term\_variability | mean\_value\_of\_short\_term\_variability | percentage\_of\_time\_with\_abnormal\_long\_term\_variability | mean\_value\_of\_long\_term\_variability | histogram\_width | histogram\_min | histogram\_max | histogram\_number\_of\_peaks | histogram\_number\_of\_zeroes | histogram\_mode | histogram\_mean | histogram\_median | histogram\_variance | histogram\_tendency | fetal\_health |
+            | -------------- | ------------- | --------------- | --------------------- | -------------------- | --------------------- | ------------------------- | ---------------------------------- | ----------------------------------------- | ------------------------------------------------------------- | ---------------------------------------- | ---------------- | -------------- | -------------- | ---------------------------- | ----------------------------- | --------------- | --------------- | ----------------- | ------------------- | ------------------- | ------------- |
+            | 120            | 0             | 0               | 0                     | 0                    | 0                     | 0                         | 73                                 | 0.5                                       | 43                                                            | 2.4                                      | 64               | 62             | 126            | 2                            | 0                             | 120             | 137             | 121               | 73                  | 1                   | 2             |
+            | 132            | 0.006         | 0               | 0.006                 | 0.003                | 0                     | 0                         | 17                                 | 2.1                                       | 0                                                             | 10.4                                     | 130              | 68             | 198            | 6                            | 1                             | 141             | 136             | 140               | 12                  | 0                   | 1             |
+            | 133            | 0.003         | 0               | 0.008                 | 0.003                | 0                     | 0                         | 16                                 | 2.1                                       | 0                                                             | 13.4                                     | 130              | 68             | 198            | 5                            | 1                             | 141             | 135             | 138               | 13                  | 0                   | 1             |
+        
+  - Note: NA
+  - Citations
+    - Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318 [Link](https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
+
 
 #### Lymphography Data Set
 
