@@ -28,6 +28,7 @@ Table of Contents
     - [Stroke Prediction](#Stroke-Prediction)
     
 3. [Eye Related Datasets](#Eye-Related-Datasets)
+   - [Bajwa Hospital (Multi Eye Disease Dataset)](#Bajwa-Hospital-Multi-Eye-Disease-Dataset)
    - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)
 
 4. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
@@ -487,6 +488,27 @@ doi: 10.1109/TMI.2015.2433900
       - Liu, Tianyu; Fan, Wenhui; Wu, Cheng (2019), “Data for: A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets”, Mendeley Data, V1, doi: 10.17632/x8ygrw87jw.1
            
 ### Eye Related Datasets 
+
+#### Bajwa Hospital (Multi Eye Disease Dataset)
+
+- Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rgwpd4m785/2)  
+- Data Type: Images 
+-   Size: 3.59GB    
+-   Example of data + Special Instructions(if any) 
+      1. Download file from Source
+      2. Example: 
+         
+         Normal: <img src="https://user-images.githubusercontent.com/66881214/179783463-a84dbf58-653f-4dbc-8a23-a4f1c5bb5b2c.png" width="150" height="150">
+         
+         Cataract: <img src="https://user-images.githubusercontent.com/66881214/179783530-bc98dfad-f095-401a-b6e4-3b620deef3eb.png" width="150" height="150">
+         
+         Glaucoma: <img src="https://user-images.githubusercontent.com/66881214/179783577-fd4346d9-2b18-4ee3-ba70-f0ff857c07ac.png" width="150" height="150">
+         
+         Retina Disease: <img src="https://user-images.githubusercontent.com/66881214/179783649-e58274ce-1ae9-4993-b434-e675b8dbf79b.png" width="150" height="150">
+
+  - Note: [Click here for more information on how to access .rar files](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)
+  - Citations
+    - Kaur, Palwinder (2022), “Bajwa Hospital (Multi Eye Disease Dataset)”, Mendeley Data, V2, doi: 10.17632/rgwpd4m785.2
 
 #### Retinal OCT Images (optical coherence tomography)
 
