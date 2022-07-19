@@ -55,6 +55,7 @@ Table of Contents
     - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
+    - [Early Classification of Diabetes](#Early-Classification-of-Diabetes)
     - [Fetal Health Classification](#Fetal-Health-Classification)
     - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
@@ -1021,6 +1022,32 @@ sizes (Columns 8-15)
   - Citations
     - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+#### Early Classification of Diabetes
+
+  -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification)
+  
+  -   Data Type: Tabular  
+  
+  -   Size: 21 KB
+  
+  -   Example of data + Special Instructions(if any) 
+      1. Download diabetes_data.csv from Source.
+
+      2. Example: 
+      
+           | **age** | **gender** | **polyuria** | **polydipsia** | **sudden\_weight\_loss** | **weakness** | **polyphagia** | **genital\_thrush** | **visual\_blurring** | **itching** | **irritability** | **delayed\_healing** | **partial\_paresis** | **muscle\_stiffness** | **alopecia** | **obesity** | **class** |
+          | ------- | ---------- | ------------ | -------------- | ------------------------ | ------------ | -------------- | ------------------- | -------------------- | ----------- | ---------------- | -------------------- | -------------------- | --------------------- | ------------ | ----------- | --------- |
+          | 40      | Male       | 0            | 1              | 0                        | 1            | 0              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 1           | 1         |
+          | 58      | Male       | 0            | 0              | 0                        | 1            | 0              | 0                   | 1                    | 0           | 0                | 0                    | 1                    | 0                     | 1            | 0           | 1         |
+          | 41      | Male       | 1            | 0              | 0                        | 1            | 1              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 0           | 1         |
+         
+               
+  -   Note: NA
+  
+  -   Citations
+      - Islam M.M.F., Ferdousi R., Rahman S., Bushra H.Y. (2020) Likelihood Prediction of Diabetes at Early Stage Using Data Mining Techniques. In: Gupta M., Konar D., Bhattacharyya S., Biswas S. (eds) Computer Vision and Machine Intelligence in Medical Image Analysis. Advances in Intelligent Systems and Computing, vol 992. Springer, Singapore. https://doi.org/10.1007/978-981-13-8798-2_12
+
     
 #### Fetal Health Classification 
 
