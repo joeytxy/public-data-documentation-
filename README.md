@@ -24,6 +24,7 @@ Table of Contents
     - [Thoracic Surgery Data Data Set](#Thoracic-Surgery-Data-Data-Set)
 
 2. [Brain Related Datasets](#Brain-Related-Datasets)
+    - [Brain tumor data](#Brain-tumor-data)
     - [MRI and Alzheimers](#MRI-and-Alzheimers)
     - [Stroke Prediction](#Stroke-Prediction)
     
@@ -457,6 +458,25 @@ doi: 10.1109/TMI.2015.2433900
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
        
 ### Brain Related Datasets
+
+#### Brain tumor data
+
+  -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/mvhssriraj/brain-tumor-dataset)
+  -   Data Type: Images
+  -   Size: 733.1MB
+  -   Example of data + Special Instructions(if any) 
+      1. Download relevant files from Source 
+      2. Example: 
+         
+         meningioma(1): <img src="https://user-images.githubusercontent.com/66881214/179969696-01a64b3f-053b-4b82-b4eb-ae82eececd10.png" width="150" height="150"> 
+
+         glioma(2): <img src="https://user-images.githubusercontent.com/66881214/179969724-a8bf71a4-ea1a-4f6d-aebf-fe8e2d906fa6.png" width="150" height="150">
+         
+         pituitary tumor(3): <img src="https://user-images.githubusercontent.com/66881214/179969753-135aff9c-a033-4061-bd5b-a3a458cf231f.png" width="150" height="150">
+
+  -   Note: NA
+  -   Citations
+      - Cheng, Jun (2017): brain tumor dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1512427.v5
 
 #### MRI and Alzheimers
 
