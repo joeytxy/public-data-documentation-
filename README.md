@@ -63,6 +63,7 @@ Table of Contents
     - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
+    - [Parkinson Tappy Keystroke Data](#Parkinson-Tappy-Keystroke-Data)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews) 
     
 ### Cancer Datasets
@@ -1005,11 +1006,11 @@ doi: 10.1109/TMI.2015.2433900
 
       2. Example: 
             
-            | id | Age (y) | Gender(1, male; 2, female) | site | height(cm) | weight(kg) | BMI(kg/m2) | SBP(mmHg) | DBP(mmHg) | FPG (mmol/L) | Cholesterol(mmol/L) | Triglyceride(mmol/L) | HDL-c(mmol/L) | LDL(mmol/L) | ALT(U/L) | AST(U/L) | BUN(mmol/L) | CCR(umol/L) | FPG of final visit(mmol/L) | Diabetes diagnosed during followup（1,Yes） | censor of diabetes at followup(1, Yes; 0, No) | year of followup | smoking status(1,current smoker;2, ever smoker;3,never smoker) | drinking status(1,current drinker;2, ever drinker;3,never drinker) | family histroy of diabetes(1,Yes;0,No) |
-            | -- | ------- | -------------------------- | ---- | ---------- | ---------- | ---------- | --------- | --------- | ------------ | ------------------- | -------------------- | ------------- | ----------- | -------- | -------- | ----------- | ----------- | -------------------------- | ----------------------------------------- | --------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- |
-            | 1  | 43      | 2                          | 16   | 166.4      | 53.5       | 19.3       | 96        | 57        | 4.99         | 5.13                | 0.78                 |               |             | 10       |          | 3.08        | 50.3        | 4.97                       |                                           | 0                                             | 2.15195          | 3                                                              | 3                                                                  | 1                                      |
-            | 2  | 34      | 1                          | 2    | 169        | 57         | 20         | 124       | 69        | 3.51         | 4.61                | 1.75                 | 1.09          | 3.13        | 29.1     |          | 6.13        | 83.7        | 5.5                        |                                           | 0                                             | 3.96988          |                                                                |                                                                    | 0                                      |
-            | 3  | 32      | 2                          | 2    | 157        | 51         | 20.7       | 98        | 68        | 4.25         | 4.73                | 0.47                 |               |             | 6.9      | 19.5     | 4.45        | 42.8        | 4.9                        |                                           | 0                                             | 3.93977          |                                                                |                                                                    | 0                                      |
+           | id | Age (y) | Gender(1, male; 2, female) | site | height(cm) | weight(kg) | BMI(kg/m2) | SBP(mmHg) | DBP(mmHg) | FPG (mmol/L) | Cholesterol(mmol/L) | Triglyceride(mmol/L) | HDL-c(mmol/L) | LDL(mmol/L) | ALT(U/L) | AST(U/L) | BUN(mmol/L) | CCR(umol/L) | FPG of final visit(mmol/L) | Diabetes diagnosed during followup（1,Yes） | censor of diabetes at followup(1, Yes; 0, No) | year of followup | smoking status(1,current smoker;2, ever smoker;3,never smoker) | drinking status(1,current drinker;2, ever drinker;3,never drinker) | family histroy of diabetes(1,Yes;0,No) |
+           | -- | ------- | -------------------------- | ---- | ---------- | ---------- | ---------- | --------- | --------- | ------------ | ------------------- | -------------------- | ------------- | ----------- | -------- | -------- | ----------- | ----------- | -------------------------- | ----------------------------------------- | --------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- |
+           | 1  | 43      | 2                          | 16   | 166.4      | 53.5       | 19.3       | 96        | 57        | 4.99         | 5.13                | 0.78                 |               |             | 10       |          | 3.08        | 50.3        | 4.97                       |                                           | 0                                             | 2.15195          | 3                                                              | 3                                                                  | 1                                      |
+           | 2  | 34      | 1                          | 2    | 169        | 57         | 20         | 124       | 69        | 3.51         | 4.61                | 1.75                 | 1.09          | 3.13        | 29.1     |          | 6.13        | 83.7        | 5.5                        |                                           | 0                                             | 3.96988          |                                                                |                                                                    | 0                                      |
+           | 3  | 32      | 2                          | 2    | 157        | 51         | 20.7       | 98        | 68        | 4.25         | 4.73                | 0.47                 |               |             | 6.9      | 19.5     | 4.45        | 42.8        | 4.9                        |                                           | 0                                             | 3.93977          |                                                                |                                                                    | 0                                      |
                
   -   Note: NA
   
@@ -1263,6 +1264,33 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
   - Citations
     - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+
+#### Parkinson Tappy Keystroke Data
+
+  -   Source:  [Click here to proceed to site](https://physionet.org/content/tappy/1.0.0/)
+  
+  -   Data Type: Text  
+  
+  -   Size of files
+      - 43KB for Archived users  
+      - 549.7MB for Tappy Data 
+         
+  -   Example of data + Special Instructions(if any) 
+      1. Download files from Source.
+      2. Example: 
+         
+         Each user will have their corresponding text file in Archived users with the following information: 
+         
+         <img width="454" alt="Screenshot 2022-07-20 at 5 10 10 PM" src="https://user-images.githubusercontent.com/66881214/179944256-b890ab5f-1d29-45ed-9c6c-13d9d0057d53.png">
+         
+         In Tappy Data folder, a participant may have more than one file. The filename comprises the 10 character code (matching the user details file) and the YYMM of the data:
+         
+         <img width="541" alt="Screenshot 2022-07-20 at 5 12 33 PM" src="https://user-images.githubusercontent.com/66881214/179944770-d19779aa-a9ba-43b2-89d9-94b9b5c42ec7.png">
+
+
+  -   Citations
+      - Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
+      - Adams WR (2017) High-accuracy detection of early Parkinson's Disease using multiple characteristics of finger movement while typing. PLOS ONE 12(11): e0188226. https://doi.org/10.1371/journal.pone.0188226
 
 #### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/s/d83162fad67407081b32/articles/16550013)
