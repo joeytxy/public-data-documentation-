@@ -594,25 +594,7 @@ doi: 10.1109/TMI.2015.2433900
         
   -   Note: NA
   -   Citations
-      - @inproceedings{Pogorelov:2017:KMI:3083187.3083212, title = {KVASIR: A Multi-Class Image Dataset for Computer Aided Gastrointestinal Disease Detection},
-        author = {
-     Pogorelov, Konstantin and Randel, Kristin Ranheim and Griwodz, Carsten and
-     Eskeland, Sigrun Losada and de Lange, Thomas and Johansen, Dag and
-     Spampinato, Concetto and Dang-Nguyen, Duc-Tien and Lux, Mathias and
-     Schmidt, Peter Thelin and Riegler, Michael and Halvorsen, P{\aa}l
-      },
-       booktitle = {Proceedings of the 8th ACM on Multimedia Systems Conference},
-       series = {MMSys'17},
-       year = {2017},
-       isbn = {978-1-4503-5002-0},
-       location = {Taipei, Taiwan},
-       pages = {164--169},
-       numpages = {6},
-       doi = {10.1145/3083187.3083212},
-       acmid = {3083212},
-       publisher = {ACM},
-       address = {New York, NY, USA},
-      }
+      - Pogorelov, K., Randel, K., Griwodz, C., Eskeland, S., Lange, T., Johansen, D., Spampinato, C., Dang-Nguyen, D.T., Lux, M., Schmidt, P., Riegler, M., & Halvorsen, P. (2017). KVASIR: A Multi-Class Image Dataset for Computer Aided Gastrointestinal Disease Detection. In Proceedings of the 8th ACM on Multimedia Systems Conference (pp. 164–169). ACM.
 
 ### Heart Related Datasets
 
