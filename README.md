@@ -32,6 +32,7 @@ Table of Contents
    - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)
 
 4. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
+   -  [Bowel Sounds](#Bowel-Sounds) 
    -  [Kvasir Dataset](#Kvasir-Dataset)
 
 5. [Heart Related Datasets](#Heart-Related-Datasets)
@@ -535,6 +536,25 @@ doi: 10.1109/TMI.2015.2433900
     - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
 
 ### Gastrointestinal Related Datasets
+
+#### Bowel Sounds 
+
+- Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/robertnowak/bowel-sounds)  
+- Data Type: Audio  
+-   Size:  
+-   Example of data + Special Instructions(if any) 
+      1. Download from Source
+      2. Example: 
+         
+         https://user-images.githubusercontent.com/66881214/179934116-d8c16f98-2319-4814-86ca-c77516a3b6b0.mp4
+         
+         Each audio file has its corresponding csv file:
+         
+         <img width="326" alt="Screenshot 2022-07-20 at 4 23 48 PM" src="https://user-images.githubusercontent.com/66881214/179934214-797e2584-bfb1-4b62-b276-87bf3ac8e523.png">
+
+  - Note: NA
+  - Citations
+    - 
 
 #### Kvasir Dataset
 
