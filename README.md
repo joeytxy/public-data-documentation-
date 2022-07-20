@@ -51,6 +51,7 @@ Table of Contents
 
 8. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
+    - [Coswara Dataset](#Coswara-Dataset)
     - [CT Medical Images](#CT-Medical-Images)  
     - [Association of body mass index and age with incident diabetes in Chinese adults](Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
     - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
@@ -914,6 +915,34 @@ doi: 10.1109/TMI.2015.2433900
   
   -   Citations
       - Naruenatthanaset, K., Chalidabhongse, T. H., Palasuwan, D., Anantrasirichai, N., &amp; Palasuwan, A. (2021, November 3). Red blood cell segmentation with overlapping cell separation and classification on Imbalanced Dataset. arXiv.org. Retrieved July 14, 2022, from https://arxiv.org/abs/2012.01321   
+
+#### Coswara Dataset
+
+  -   Source:  [Click here to proceed to site](https://github.com/iiscleap/Coswara-Data)
+ 
+  -   Data Type: Audio + Tabular
+  
+  -   Size:  
+  
+  -   Example of data + Special Instructions(if any) 
+      1. Download relevant files from Source
+
+      2. Example: 
+          
+           Audio sample to be included soon.
+            
+           Summary of metadata found in combined_data.csv in source:
+           
+           | id                           | a  | cold | record\_date | covid\_status  | ctScan | dT  | ep | fV | fever | g    | l\_c  | l\_l            | l\_s      | others\_resp | rU | smoker | testType | test\_date | test\_status | um | vacc | cough | ftg | mp   | st | diabetes | ht | bd | cld | diarrhoea | ctDate | ctScore | asthma | loss\_of\_smell | others\_preexist | ihd | pneumonia |
+| ---------------------------- | -- | ---- | ------------ | -------------- | ------ | --- | -- | -- | ----- | ---- | ----- | --------------- | --------- | ------------ | -- | ------ | -------- | ---------- | ------------ | -- | ---- | ----- | --- | ---- | -- | -------- | -- | -- | --- | --------- | ------ | ------- | ------ | --------------- | ---------------- | --- | --------- |
+           | eK8ikIYnLQPWGetLBHzkJVCGfpq2 | 27 | TRUE | 18/1/22      | positive\_mild | n      | web | y  | 2  | TRUE  | male | India | Shimoga         | Karnataka | TRUE         | n  | n      | rtpcr    | 17/1/22    | p            | y  | y    |       |     |      |    |          |    |    |     |           |        |         |        |                 |                  |     |           |
+           | AeP4E7hKFtOmcWye2MghbvDfGlo2 | 41 |      | 29/1/22      | positive\_mild | n      | web | y  | 2  | TRUE  | male | India | Bangalore rural | Karnataka |              | n  | n      | rtpcr    | 27/1/22    | p            | y  | y    | TRUE  |     | TRUE |    |          |    |    |     |           |        |         |        |                 |                  |     |           |
+
+  
+  -   Note: Audio files are in a zip file (example 20220224.tar.gz.aa). A extract_data.py is provided in source to extract the audio files which are of .wav format.
+  
+  -   Citations
+      - Coswara - A Database of Breathing, Cough, and Voice Sounds for COVID-19 Diagnosis (https://arxiv.org/abs/2005.10548)
 
 #### CT Medical Images
 
