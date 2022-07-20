@@ -79,7 +79,8 @@ Table of Contents
       
          <img width="652" alt="Screenshot 2022-07-14 at 4 33 48 PM" src="https://user-images.githubusercontent.com/66881214/178939273-d1810b64-d7c3-46ac-9ddd-bb9c076c89cb.png">
          
-         Columns present (from left to right):
+         <details><summary>Columns present (from left to right)</summary>
+         <p>
             
          * Class: no-recurrence-events, recurrence-events
          * age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.
@@ -91,6 +92,8 @@ Table of Contents
          * breast: left, right.
          * breast-quad: left-up, left-low, right-up, right-low, central.
          * irradiat: yes, no.
+         </p>
+         </details>
 
   -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
             
