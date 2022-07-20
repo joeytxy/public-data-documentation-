@@ -727,7 +727,9 @@ doi: 10.1109/TMI.2015.2433900
 
   - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jwyy9np4gv/3)
   - Data Type: Audio 
-  -   Size: 
+  -   Size of files:
+      - 46.8MB for Audio Files
+      - 13KB for Data annotation.xlsx   
   -   Example of data + Special Instructions(if any) 
       1. Download by Audio Files.zip and Data annotation.xlsx from Source
          - "Stethoscope Files.zip" contains the original records imported from the stethoscope  
