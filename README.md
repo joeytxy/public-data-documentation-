@@ -84,7 +84,7 @@ Table of Contents
          </p>
          </details>
          
-         <details><summary>Columns present (from left to right)</summary>
+         <details><summary>Columns present (from left to right):</summary>
          <p>
             
          * Class: no-recurrence-events, recurrence-events
@@ -364,7 +364,7 @@ doi: 10.1109/TMI.2015.2433900
          </p>
          </details>
             
-         <details></summary>Columns present (from left to right):</summary>
+         <details><summary>Columns present (from left to right):</summary>
          <p>
     
          * Age
