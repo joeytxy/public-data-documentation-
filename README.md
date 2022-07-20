@@ -798,14 +798,14 @@ doi: 10.1109/TMI.2015.2433900
 #### Chest X-ray Images (Pneumonia)
   -   Source: [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)
   -   Data Type: Images 
-  -   Size: 
+  -   Size: 1.27GB
   -   Example of data + Special Instructions(if any) 
       1. Download file from Source. Images can be found in the chest_xray folder. They have been split into train, val and test folders. Within each folder, there are two folders NORMAL and PNEUMONIA.
       2. Example: 
       
-         NORMAL: 
-         
-         PNEUMONIA: 
+         NORMAL: <img src="https://user-images.githubusercontent.com/66881214/179992729-42493677-e051-4e13-ae91-c6ce18f4882c.jpeg" width="150" height="150">
+
+         PNEUMONIA: <img src="https://user-images.githubusercontent.com/66881214/179992754-6a94cfae-a873-46ac-8f67-0bbdc01f6faf.jpeg" width="150" height="150">
          
   -   Note: NA
   -   Citations
@@ -1102,6 +1102,7 @@ sizes (Columns 8-15)
     
   - Citations
     - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
+        - The dataset is based on features extracted from the Messidor image dataset. However, link provided is no longer available: http://messidor.crihan.fr/index-en.php 
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
 #### Early Classification of Diabetes
