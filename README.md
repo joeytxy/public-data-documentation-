@@ -126,7 +126,8 @@ Table of Contents
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
   -   Data Type: Text/Tabular 
   -   Size: 20 KB
-  -   Example of data + Special Instructions(if any) 
+  -   Example of data + Special Instructions(if any):
+     
          Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
          <details><summary>Example: CSV version</summary>
          <p>
@@ -188,7 +189,8 @@ Table of Contents
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Prognostic%29)
   -   Data Type: Text/Tabular 
   -   Size: 44 KB
-  -   Example of data + Special Instructions(if any) 
+  -   Example of data + Special Instructions(if any):
+      
          Download wpbc.data stored in Data Folder from Source 
          <details><summary>Example (No headers)</summary>
          <p>
@@ -248,16 +250,22 @@ Table of Contents
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
   -   Data Type: Text/Tabular 
   -   Size: 124 KB
-  -   Example of data + Special Instructions(if any) 
-      1. Download wdbc.data stored in Data Folder from Source 
-      2. Example(No headers): 
+  -   Example of data + Special Instructions(if any):
+    
+         Download wdbc.data stored in Data Folder from Source 
+         <details><summary>Example(No headers)</summary>
+         <p>
 
             | 842302 | M | 17.99 | 10.38 | 122.8 | 1001 | 0.1184  | 0.2776  | 0.3001 | 0.1471  | 0.2419 | 0.07871 | 1.095  | 0.9053 | 8.589 | 153.4 | 0.006399 | 0.04904 | 0.05373 | 0.01587 | 0.03003 | 0.006193 | 25.38 | 17.33 | 184.6 | 2019 | 0.1622 | 0.6656 | 0.7119 | 0.2654 | 0.4601 | 0.1189  |
             | ------ | - | ----- | ----- | ----- | ---- | ------- | ------- | ------ | ------- | ------ | ------- | ------ | ------ | ----- | ----- | -------- | ------- | ------- | ------- | ------- | -------- | ----- | ----- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ------- |
             | 842517 | M | 20.57 | 17.77 | 132.9 | 1326 | 0.08474 | 0.07864 | 0.0869 | 0.07017 | 0.1812 | 0.05667 | 0.5435 | 0.7339 | 3.398 | 74.08 | 0.005225 | 0.01308 | 0.0186  | 0.0134  | 0.01389 | 0.003532 | 24.99 | 23.41 | 158.8 | 1956 | 0.1238 | 0.1866 | 0.2416 | 0.186  | 0.275  | 0.08902 |
+             
+         </p>
+         </details>
 
          <details><summary>Columns present (from left to right):</summary>
          <p>
+             
          * ID number 
          * Diagnosis (M = malignant, B = benign)
          * Ten real-valued features are computed for each cell nucleus (Column 3 to Column 32):
@@ -273,6 +281,7 @@ Table of Contents
            - fractal dimension ("coastline approximation" - 1)
             
             In other words, column 3 to column 12 represent the above 10 values for the first cell nucleus and so on. 
+             
          </p>
          </details>
             
@@ -300,7 +309,8 @@ Table of Contents
   - Source:  [Click here to proceed to site](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/download/)
   - Data Type: Images 
   -   Size: 259.4MB
-  -   Example of data + Special Instructions(if any) 
+  -   Example of data + Special Instructions(if any): 
+    
          Download by clicking 'Warwick-QU-dataset' on Source
          <details><summary>Example</summary>
          <p>
@@ -340,7 +350,8 @@ doi: 10.1109/TMI.2015.2433900
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29)
   - Data Type: Tabular 
   -   Size: 102 KB
-  -   Example of data + Special Instructions(if any) 
+  -   Example of data + Special Instructions(if any):
+    
          Download risk_factors_cervical_cancer.csv from Data Folder from Source 
          <details><summary>Example</summary>
          <p>
@@ -408,9 +419,9 @@ doi: 10.1109/TMI.2015.2433900
 - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/leukemia-classification)  
 - Data Type: Images 
 -   Size: 10.42GB   
--   Example of data + Special Instructions(if any) 
+-   Example of data + Special Instructions(if any):
+    
        Download from Source
-       
        <details><summary>Example</summary>
        <p>
  
@@ -450,7 +461,8 @@ doi: 10.1109/TMI.2015.2433900
   -   Size of files
       - 959.8MB for colon_image_sets
       - 929.7MB for lung_image_sets
-  -   Example of data + Special Instructions(if any) 
+  -   Example of data + Special Instructions(if any):
+    
          For colon images download colon_image_sets from Source. For lung images, download lung_image_sets from Source. 
          <details><summary>Example</summary>
          <p>
@@ -488,7 +500,8 @@ doi: 10.1109/TMI.2015.2433900
       - 1.37GB for HAM10000_images_part_1 
       - 1.4GB for HAM10000_images_part_2
       - 563KB for HAM10000_metadata.csv
-  -   Example of data + Special Instructions(if any) 
+  -   Example of data + Special Instructions(if any):
+    
          Download HAM10000_images_part_1.zip, HAM10000_images_part_2 and HAM10000_metadata.csv from Source 
          <details><summary>Example: ISIC_0024306.jpg</summary>
          <p>
@@ -513,7 +526,8 @@ doi: 10.1109/TMI.2015.2433900
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Thoracic+Surgery+Data)
   - Data Type: Text/Tabular
   -   Size: 24 KB
-  -   Example of data + Special Instructions(if any) 
+  -   Example of data + Special Instructions(if any):
+      
          Download  ThoraricSurgery.arff from Data Folder from Source
          <details><summary>Example</summary>
          <p>
