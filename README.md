@@ -363,50 +363,7 @@ doi: 10.1109/TMI.2015.2433900
 
          </p>
          </details>
-            
-         <details><summary>Columns present (from left to right):</summary>
-         <p>
-    
-         * Age
-         * Number of sexual partners
-         * First sexual intercourse (age)
-         * Num of pregnancies
-         * Smokes
-         * Smokes (years)
-         * Smokes (packs/year)
-         * Hormonal Contraceptives
-         * Hormonal Contraceptives (years)
-         * IUD
-         * IUD (years)
-         * STDs
-         * STDs (number)
-         * STDs:condylomatosis
-         * STDs:cervical condylomatosis
-         * STDs:vaginal condylomatosis
-         * STDs:vulvo-perineal condylomatosis
-         * STDs:syphilis
-         * STDs:pelvic inflammatory disease
-         * STDs:genital herpes
-         * STDs:molluscum contagiosum
-         * STDs:AIDS
-         * STDs:HIV
-         * STDs:Hepatitis B
-         * STDs:HPV
-         * STDs: Number of diagnosis
-         * STDs: Time since first diagnosis
-         * STDs: Time since last diagnosis
-         * Dx:Cancer
-         * Dx:CIN
-         * Dx:HPV
-         * Dx
-         * Hinselmann: target variable
-         * Schiller: target variable
-         * Cytology: target variable
-         * Biopsy: target variable
-        
-         </p>
-         </details>
-       
+  
   - Note: NA
   - Citations
     ```     
@@ -592,20 +549,27 @@ doi: 10.1109/TMI.2015.2433900
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/mvhssriraj/brain-tumor-dataset)
   -   Data Type: Images
   -   Size: 733.1MB
-  -   Example of data + Special Instructions(if any) 
-      1. Download relevant files from Source 
-      2. Example: 
+  -   Example of data + Special Instructions(if any):
+   
+         Download relevant files from Source 
+         <details><summary>Example</summary>
+         <p>
          
          meningioma(1): <img src="https://user-images.githubusercontent.com/66881214/179969696-01a64b3f-053b-4b82-b4eb-ae82eececd10.png" width="150" height="150"> 
 
          glioma(2): <img src="https://user-images.githubusercontent.com/66881214/179969724-a8bf71a4-ea1a-4f6d-aebf-fe8e2d906fa6.png" width="150" height="150">
          
          pituitary tumor(3): <img src="https://user-images.githubusercontent.com/66881214/179969753-135aff9c-a033-4061-bd5b-a3a458cf231f.png" width="150" height="150">
+         
+         </p>
+         </details:>
 
   -   Note: NA
   -   Citations
+      ```
       - Cheng, Jun (2017): brain tumor dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.1512427.v5
-
+      ```
+      
 #### MRI and Alzheimers
 
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers)
@@ -613,32 +577,46 @@ doi: 10.1109/TMI.2015.2433900
   -   Size of files
       -  22KB for oasis_coss-sectional.csv
       -  28KB for oasis_longitudinal.csv
-  -   Example of data + Special Instructions(if any) 
-      1. Download relevant files from Source 
-      2. Example: 
+  -   Example of data + Special Instructions(if any):
+      
+         Download relevant files from Source 
+         <details><summary>Example</summary>
+         <p>
          
          oasis_coss-sectional.csv: <img width="843" alt="Screenshot 2022-07-19 at 2 18 24 PM" src="https://user-images.githubusercontent.com/66881214/179679183-ccec7e4a-4ec7-43bc-9394-5ff367c2c572.png">
          
          oasis_longitudinal.csv: <img width="1098" alt="Screenshot 2022-07-19 at 2 17 45 PM" src="https://user-images.githubusercontent.com/66881214/179679071-26a5b79c-c532-4c66-a3ff-3009fd8b803c.png">
+         
+         </p>
+         </details>
 
   -   Note: NA
   -   Citations
+      ```
       - When publishing findings that benefit from OASIS data, please include the following grant numbers in the acknowledgements section and in the associated Pubmed Central submission: P50 AG05681, P01 AG03991, R01 AG021910, P20 MH071616, U24 RR0213
+      ```
 
 #### Stroke Prediction
 
   -   Source: [Click here to proceed to site](https://data.mendeley.com/datasets/x8ygrw87jw/1)
   -   Data Type: Tabular 
   -   Size: 2.6 MB
-  -   Example of data + Special Instructions(if any) 
-      1. Download dataset.rar from Source 
-      2. Example: 
+  -   Example of data + Special Instructions(if any):
+      
+         Download dataset.rar from Source 
+         <details><summary>Example</summary>
+         <p>
          
          <img width="906" alt="Screenshot 2022-07-19 at 4 00 39 PM" src="https://user-images.githubusercontent.com/66881214/179698751-b9b39338-4503-4011-a0e1-823959c0574a.png">
+         
+         </p>
+         </details>
        
-  -   Note: NA
+  -   Note: [Click here for more information on how to access .rar files](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)
   -   Citations
+      ```
       - Liu, Tianyu; Fan, Wenhui; Wu, Cheng (2019), “Data for: A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets”, Mendeley Data, V1, doi: 10.17632/x8ygrw87jw.1
+      ```
            
 ### Eye Related Datasets 
 
@@ -647,42 +625,56 @@ doi: 10.1109/TMI.2015.2433900
 - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rgwpd4m785/2)  
 - Data Type: Images 
 -   Size: 3.59GB    
--   Example of data + Special Instructions(if any) 
-      1. Download file from Source
-      2. Example: 
+-   Example of data + Special Instructions(if any):
+    
+       Download file from Source
+       <details><summary>Example</summary>
+       <p> 
          
-         Normal: <img src="https://user-images.githubusercontent.com/66881214/179783463-a84dbf58-653f-4dbc-8a23-a4f1c5bb5b2c.png" width="150" height="150">
+       Normal: <img src="https://user-images.githubusercontent.com/66881214/179783463-a84dbf58-653f-4dbc-8a23-a4f1c5bb5b2c.png" width="150" height="150">
          
-         Cataract: <img src="https://user-images.githubusercontent.com/66881214/179783530-bc98dfad-f095-401a-b6e4-3b620deef3eb.png" width="150" height="150">
+       Cataract: <img src="https://user-images.githubusercontent.com/66881214/179783530-bc98dfad-f095-401a-b6e4-3b620deef3eb.png" width="150" height="150">
          
-         Glaucoma: <img src="https://user-images.githubusercontent.com/66881214/179783577-fd4346d9-2b18-4ee3-ba70-f0ff857c07ac.png" width="150" height="150">
+       Glaucoma: <img src="https://user-images.githubusercontent.com/66881214/179783577-fd4346d9-2b18-4ee3-ba70-f0ff857c07ac.png" width="150" height="150">
          
-         Retina Disease: <img src="https://user-images.githubusercontent.com/66881214/179783649-e58274ce-1ae9-4993-b434-e675b8dbf79b.png" width="150" height="150">
+       Retina Disease: <img src="https://user-images.githubusercontent.com/66881214/179783649-e58274ce-1ae9-4993-b434-e675b8dbf79b.png" width="150" height="150">
+           
+       </p>
+       </details>
 
   - Note: [Click here for more information on how to access .rar files](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)
   - Citations
+    ```
     - Kaur, Palwinder (2022), “Bajwa Hospital (Multi Eye Disease Dataset)”, Mendeley Data, V2, doi: 10.17632/rgwpd4m785.2
-
+    ```
+    
 #### Retinal OCT Images (optical coherence tomography)
 
 - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)  
 - Data Type: Images 
 -   Size: 7.19GB  
--   Example of data + Special Instructions(if any) 
-      1. Download from Source
-      2. Example: 
+-   Example of data + Special Instructions(if any):
+      
+       Download from Source
+       <details><summary>Example</summary>
+       <p>
          
-         NORMAL: <img src="https://user-images.githubusercontent.com/66881214/179479055-048a3b6a-ee7a-4f0c-ae73-fdf7e07784e2.jpeg" width="150" height="150">
+       NORMAL: <img src="https://user-images.githubusercontent.com/66881214/179479055-048a3b6a-ee7a-4f0c-ae73-fdf7e07784e2.jpeg" width="150" height="150">
          
-         CNV: <img src="https://user-images.githubusercontent.com/66881214/179479097-161cb450-7dd8-4ab0-a214-316b3582c740.jpeg" width="150" height="150">
+       CNV: <img src="https://user-images.githubusercontent.com/66881214/179479097-161cb450-7dd8-4ab0-a214-316b3582c740.jpeg" width="150" height="150">
          
-         DME: <img src="https://user-images.githubusercontent.com/66881214/179479179-f8f138fb-ff86-4166-9e3c-e39b9d8685e2.jpeg" width="150" height="150">
+       DME: <img src="https://user-images.githubusercontent.com/66881214/179479179-f8f138fb-ff86-4166-9e3c-e39b9d8685e2.jpeg" width="150" height="150">
          
-         DRUSEN: <img src="https://user-images.githubusercontent.com/66881214/179479213-ed54e3cc-052e-47d1-b897-006fc29d2581.jpeg" width="150" height="150">
+       DRUSEN: <img src="https://user-images.githubusercontent.com/66881214/179479213-ed54e3cc-052e-47d1-b897-006fc29d2581.jpeg" width="150" height="150">
+       
+       </p>
+       </details>
 
-  - Note: In the same folder, a folder named chest_xray can be found. These images belong to the latest version mentioned in [Chest X-ray Images (Pneumonia)](#Chest-X-ray-Images-Pneumonia) 
+  - Note: In the same folder, a folder named chest_xray can be found. Information regarding this image dataset can be found at the [Chest X-ray Images (Pneumonia)](#Chest-X-ray-Images-Pneumonia) section.
   - Citations
+    ```
     - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
+    ```
 
 ### Gastrointestinal Related Datasets
 
