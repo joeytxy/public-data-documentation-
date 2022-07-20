@@ -1298,11 +1298,12 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
       - Adams WR (2017) High-accuracy detection of early Parkinson's Disease using multiple characteristics of finger movement while typing. PLOS ONE 12(11): e0188226. https://doi.org/10.1371/journal.pone.0188226
 
 #### Patient Physician Medical Interviews 
-  - Source:  [Click here to proceed to site](https://figshare.com/s/d83162fad67407081b32/articles/16550013)
+  - Source:  [Click here to proceed to site](https://figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842)
   - Data Type: Audio + Free Text 
   -   Size: 1.05 GB 
   -   Example of data + Special Instructions(if any) 
-      1. Download Data.zip from source 
+      1. Download from source 
+
       2. Example: CAR0001.mp3 in Audio Recordings will correspond to CAR0001.txt in Clean Transcripts
          
          https://user-images.githubusercontent.com/66881214/179450404-a22b08df-2073-4193-ab42-fbf1483f25ba.mp4
@@ -1565,4 +1566,4 @@ Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & H
     - Gastrointestinal cases (designated “GAS”)       
       
   - Citations
-    - Fareez, F., Parikh, T., Wavell, C. et al. A dataset of simulated patient-physician medical interviews with a focus on respiratory cases. Sci Data 9, 313 (2022). [Link](https://doi.org/10.1038/s41597-022-01423-1)
+    - Smith, Christopher William; Fareez, Faiha; Parikh, Tishya; Wavell, Christopher; Shahab, Saba; Chevalier, Meghan; et al. (2022): Collection of simulated medical exams. figshare. Dataset. 
