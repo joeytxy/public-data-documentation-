@@ -53,7 +53,7 @@ Table of Contents
 
 8. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
-    - [Coswara Dataset](#Coswara-Dataset)
+    - [Covid19 Coswara Dataset](#Covid19-Coswara-Dataset)
     - [CT Medical Images](#CT-Medical-Images)  
     - [Association of body mass index and age with incident diabetes in Chinese adults](Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
     - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
@@ -940,7 +940,7 @@ doi: 10.1109/TMI.2015.2433900
   -   Citations
       - Naruenatthanaset, K., Chalidabhongse, T. H., Palasuwan, D., Anantrasirichai, N., &amp; Palasuwan, A. (2021, November 3). Red blood cell segmentation with overlapping cell separation and classification on Imbalanced Dataset. arXiv.org. Retrieved July 14, 2022, from https://arxiv.org/abs/2012.01321   
 
-#### Coswara Dataset
+#### Covid19 Coswara Dataset
 
   -   Source:  [Click here to proceed to site](https://github.com/iiscleap/Coswara-Data)
  
