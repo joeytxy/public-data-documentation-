@@ -43,6 +43,7 @@ Table of Contents
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
 7. [Lung Related Datasets](#Lung-Related-Datasets)
+    - [A dataset of lung sounds recorded from the chest wall using an electronic stethoscope](#A-dataset-of-lung-sounds-recorded-from-the-chest-wall-using-an-electronic-stethoscope)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
@@ -696,6 +697,31 @@ doi: 10.1109/TMI.2015.2433900
       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
 
 ### Lung Related Datasets
+
+#### A dataset of lung sounds recorded from the chest wall using an electronic stethoscope
+
+  - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jwyy9np4gv/3)
+  - Data Type: Audio 
+  -   Size: 
+  -   Example of data + Special Instructions(if any) 
+      1. Download by Audio Files.zip and Data annotation.xlsx from Source
+         - "Stethoscope Files.zip" contains the original records imported from the stethoscope  
+      2. Example: 
+        
+         BP1_Asthma,I E W,P L L,70,M:  
+         
+         https://user-images.githubusercontent.com/66881214/179915810-22a7b2cf-7c7c-42e7-851c-8441a157b7f8.mp4
+         
+         Filename correspond to values in its corresponding row in Data annotation.xlsx.
+         
+         <img width="448" alt="Screenshot 2022-07-20 at 2 51 39 PM" src="https://user-images.githubusercontent.com/66881214/179916058-0115e768-d731-4e29-b8af-234e9de492c5.png">
+         
+         <img width="440" alt="Screenshot 2022-07-20 at 2 58 32 PM" src="https://user-images.githubusercontent.com/66881214/179917244-f6866ec0-2a9d-4717-a5dd-c4a29c3aec8b.png">
+
+  - Note:  If .wav files are not supported, try using online converter tools to convert to a audio file type that is supported by your device.
+    - For example: [FreeConvert](https://www.freeconvert.com/audio-converter)     
+  - Citations
+    - Fraiwan, Mohammad; Fraiwan, Luay; Khassawneh, Basheer; Ibnian, Ali (2021), “A dataset of lung sounds recorded from the chest wall using an electronic stethoscope”, Mendeley Data, V3, doi: 10.17632/jwyy9np4gv.3
 
 #### NIH Chest X-ray Dataset
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/nih-chest-xrays/data?resource=download)
