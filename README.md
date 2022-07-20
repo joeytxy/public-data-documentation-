@@ -541,7 +541,7 @@ doi: 10.1109/TMI.2015.2433900
 
 - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/robertnowak/bowel-sounds)  
 - Data Type: Audio  
--   Size:  
+-   Size: 283.8MB 
 -   Example of data + Special Instructions(if any) 
       1. Download from Source
       2. Example: 
@@ -552,9 +552,10 @@ doi: 10.1109/TMI.2015.2433900
          
          <img width="326" alt="Screenshot 2022-07-20 at 4 23 48 PM" src="https://user-images.githubusercontent.com/66881214/179934214-797e2584-bfb1-4b62-b276-87bf3ac8e523.png">
 
-  - Note: NA
-  - Citations
-    - 
+ - Note: NA
+ - Citations
+   - Jakub Ficek and Kacper Radzikowski and Jan Nowak and Osamu Yoshie and Jarosław Walkowiak and Robert Nowak, "Analysis of gastrointestinal acoustic activity using deep neural networks", MDPI Sensors, 2021, doi:10.3390/s21227602, http://dx.doi.org/10.3390/s21227602
+ 
 
 #### Kvasir Dataset
 
