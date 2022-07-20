@@ -953,21 +953,20 @@ Table of Contents
          
          <img width="1191" alt="Screenshot 2022-07-13 at 3 55 31 PM" src="https://user-images.githubusercontent.com/66881214/178681269-37873e8b-6749-4658-843a-6ab3a6ff7c8d.png"> In this example, the image is classified to 3 different diseases, namely Cadiomegaly, Edema and Infiltration. There are a total of 15 class labels as follows:
          
-            - Atelectasis
-            - Consolidation
-            - Infiltration
-            - Pneumothorax
-            - Edema
-            - Emphysema
-            - Fibrosis
-            - Effusion
-            - Pneumonia
-            - Pleural_thickening
-            - Cardiomegaly
-            - Nodule Mass
-            - Hernia
-             
-            
+          - Atelectasis
+          - Consolidation
+          - Infiltration
+          - Pneumothorax
+          - Edema
+          - Emphysema
+          - Fibrosis
+          - Effusion
+          - Pneumonia
+          - Pleural_thickening
+          - Cardiomegaly
+          - Nodule Mass
+          - Hernia
+               
         Data in BBox_List_2017.csv is very limited. An image may be classified to one of the diseases but do not have a corresponding record in BBox_List_2017.csv file. Referencing to the same example above shows that there is only one disease region bounding box identified in BBox_List_2017.csv file.
          
         <img width="574" alt="Screenshot 2022-07-13 at 4 19 17 PM" src="https://user-images.githubusercontent.com/66881214/178685815-7503b9c5-0b09-4a4f-9adb-5226fd0867d9.png">
@@ -976,8 +975,13 @@ Table of Contents
         </details>
 
   -   Note: Some image labels may not be accurate. A more accurate version is said to be available [here](https://cloud.google.com/healthcare-api/docs/resources/public-datasets/nih-chest#additional_labels). You would be required to submit the following google form to obtain the updated data.  
-  
+      <details><summary>View form></summary>
+      <p>
+          
       <img width="479" alt="Screenshot 2022-07-13 at 2 24 23 PM" src="https://user-images.githubusercontent.com/66881214/178664900-deb7670c-3451-4049-98b5-bc253878be0a.png">
+          
+      </p>
+      </details>
 
   -   Citations
       ```
