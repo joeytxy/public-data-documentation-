@@ -73,11 +73,16 @@ Table of Contents
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
   -   Data Type: Text/Tabular 
   -   Size: 19 KB
-  -   Example of data + Special Instructions(if any) 
-      1. Download breast-cancer.data stored in Data Folder from Source 
-      2. Example: CSV version
+  -   Example of data + Special Instructions(if any):
+   
+         Download breast-cancer.data stored in Data Folder from Source 
+         <details><summary>Example: CSV version</summary>
+         <p>
       
          <img width="652" alt="Screenshot 2022-07-14 at 4 33 48 PM" src="https://user-images.githubusercontent.com/66881214/178939273-d1810b64-d7c3-46ac-9ddd-bb9c076c89cb.png">
+         
+         </p>
+         </details>
          
          <details><summary>Columns present (from left to right)</summary>
          <p>
@@ -99,6 +104,7 @@ Table of Contents
             
       <details><summary>To download as .csv file</summary>
       <p> 
+          
       Right click on breast-cancer.data as shown :
             
       <img width="698" alt="Screenshot 2022-07-14 at 4 44 53 PM" src="https://user-images.githubusercontent.com/66881214/178941770-0c1bf718-e4c1-4eb3-bc65-7e755211f723.png">
@@ -121,10 +127,14 @@ Table of Contents
   -   Data Type: Text/Tabular 
   -   Size: 20 KB
   -   Example of data + Special Instructions(if any) 
-      1. Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
-      2. Example: CSV version
-            
+         Download breast-cancer-wiscoinsin.data stored in Data Folder from Source 
+         <details><summary>Example: CSV version</summary>
+         <p>
+             
          <img width="718" alt="Screenshot 2022-07-14 at 6 11 27 PM" src="https://user-images.githubusercontent.com/66881214/178959171-12d41257-eadc-4bea-bedd-0f13b67adbbb.png">
+          
+         </p>
+         </details>
          
          <details><summary>Columns present (from left to right):</summary>
          <p>
@@ -179,13 +189,18 @@ Table of Contents
   -   Data Type: Text/Tabular 
   -   Size: 44 KB
   -   Example of data + Special Instructions(if any) 
-      1. Download wpbc.data stored in Data Folder from Source 
-      2. Example (No headers): 
+         Download wpbc.data stored in Data Folder from Source 
+         <details><summary>Example (No headers)</summary>
+         <p>
+             
        
             | 119513 | N | 31 | 18.02 | 27.6  | 117.5 | 1013 | 0.09489 | 0.1036 | 0.1086 | 0.07055 | 0.1865 | 0.06333 | 0.6249 | 1.89   | 3.972 | 71.55 | 0.004433 | 0.01421 | 0.03233 | 0.009854 | 0.01694 | 0.003495 | 21.63 | 37.08 | 139.7 | 1436 | 0.1195 | 0.1926 | 0.314  | 0.117  | 0.2677 | 0.08113 | 5 | 5     |
             | ------ | - | -- | ----- | ----- | ----- | ---- | ------- | ------ | ------ | ------- | ------ | ------- | ------ | ------ | ----- | ----- | -------- | ------- | ------- | -------- | ------- | -------- | ----- | ----- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ------- | - | ----- |
             | 8423   | N | 61 | 17.99 | 10.38 | 122.8 | 1001 | 0.1184  | 0.2776 | 0.3001 | 0.1471  | 0.2419 | 0.07871 | 1.095  | 0.9053 | 8.589 | 153.4 | 0.006399 | 0.04904 | 0.05373 | 0.01587  | 0.03003 | 0.006193 | 25.38 | 17.33 | 184.6 | 2019 | 0.1622 | 0.6656 | 0.7119 | 0.2654 | 0.4601 | 0.1189  | 3 | 2     |
 
+         </p>
+         </details>
+    
          <details><summary>Columns present (from left to right):</summary>
          <p>
              
@@ -225,9 +240,9 @@ Table of Contents
        </details>
        
    -   Citations
-      ```
+       ```
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-      ```
+       ```
 
 #### Breast Cancer Wisconsin (Diagnostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
@@ -286,8 +301,9 @@ Table of Contents
   - Data Type: Images 
   -   Size: 259.4MB
   -   Example of data + Special Instructions(if any) 
-      1. Download by clicking 'Warwick-QU-dataset' on Source
-      2. Example: 
+         Download by clicking 'Warwick-QU-dataset' on Source
+         <details><summary>Example</summary>
+         <p>
          
          train_1.bmp (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179518421-dfb0da1b-3f34-480f-93c0-5d514a96ed7d.jpg" width="150" height="150">
          
@@ -297,32 +313,49 @@ Table of Contents
          
          
          Grade: <img width="582" alt="Screenshot 2022-07-18 at 9 12 13 PM" src="https://user-images.githubusercontent.com/66881214/179518739-e211b4ea-69d4-4665-ac15-01ae2f2d97d1.png">
+             
+         </p>
+         </details>
 
   - Note: 
   
-    Comment regarding the annotated images can be found in the Q&A section in the same source link. A screenshot is attached below: <img width="511" alt="Screenshot 2022-07-18 at 9 16 42 PM" src="https://user-images.githubusercontent.com/66881214/179519661-a5465462-7033-479e-a641-9cae3c5889f8.png">
+    Comment regarding the annotated images can be found in the Q&A section in the same source link. 
+    
+    <details><summary>View screenshot</summary> 
+    <p>
+    
+    <img width="511" alt="Screenshot 2022-07-18 at 9 16 42 PM" src="https://user-images.githubusercontent.com/66881214/179519661-a5465462-7033-479e-a641-9cae3c5889f8.png">
+    
+    </p>
+    </details>
   
   - Citations
+    ```
     - K. Sirinukunwattana, J. P. W. Pluim, H. Chen, X Qi, P. Heng, Y. Guo, L. Wang, B. J. Matuszewski, E. Bruni, U. Sanchez, A. Böhm, O. Ronneberger, B. Ben Cheikh, D. Racoceanu, P. Kainz, M. Pfeiffer, M. Urschler, D. R. J. Snead, N. M. Rajpoot, "Gland Segmentation in Colon Histology Images: The GlaS Challenge Contest" [Link](http://arxiv.org/abs/1603.00275)
     - K. Sirinukunwattana, D.R.J. Snead, N.M. Rajpoot, "A Stochastic Polygons Model for Glandular Structures in Colon Histology Images," in IEEE Transactions on Medical Imaging, 2015
 doi: 10.1109/TMI.2015.2433900 
+    ```
 
 #### Cervical cancer (Risk Factors) Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29)
   - Data Type: Tabular 
   -   Size: 102 KB
   -   Example of data + Special Instructions(if any) 
-      1. Download risk_factors_cervical_cancer.csv from Data Folder from Source 
-      2. Example: 
+         Download risk_factors_cervical_cancer.csv from Data Folder from Source 
+         <details><summary>Example</summary>
+         <p>
            
             | Age | Number of sexual partners | First sexual intercourse | Num of pregnancies | Smokes | Smokes (years) | Smokes (packs/year) | Hormonal Contraceptives | Hormonal Contraceptives (years) | IUD | IUD (years) | STDs | STDs (number) | STDs:condylomatosis | STDs:cervical condylomatosis | STDs:vaginal condylomatosis | STDs:vulvo-perineal condylomatosis | STDs:syphilis | STDs:pelvic inflammatory disease | STDs:genital herpes | STDs:molluscum contagiosum | STDs:AIDS | STDs:HIV | STDs:Hepatitis B | STDs:HPV | STDs: Number of diagnosis | STDs: Time since first diagnosis | STDs: Time since last diagnosis | Dx:Cancer | Dx:CIN | Dx:HPV | Dx | Hinselmann | Schiller | Citology | Biopsy |
             | --- | ------------------------- | ------------------------ | ------------------ | ------ | -------------- | ------------------- | ----------------------- | ------------------------------- | --- | ----------- | ---- | ------------- | ------------------- | ---------------------------- | --------------------------- | ---------------------------------- | ------------- | -------------------------------- | ------------------- | -------------------------- | --------- | -------- | ---------------- | -------- | ------------------------- | -------------------------------- | ------------------------------- | --------- | ------ | ------ | -- | ---------- | -------- | -------- | ------ |
             | 18  | 4                         | 15                       | 1                  | 0      | 0              | 0                   | 0                       | 0                               | 0   | 0           | 0    | 0             | 0                   | 0                            | 0                           | 0                                  | 0             | 0                                | 0                   | 0                          | 0         | 0        | 0                | 0        | 0                         | ?                                | ?                               | 0         | 0      | 0      | 0  | 0          | 0        | 0        | 0      |
             | 15  | 1                         | 14                       | 1                  | 0      | 0              | 0                   | 0                       | 0                               | 0   | 0           | 0    | 0             | 0                   | 0                            | 0                           | 0                                  | 0             | 0                                | 0                   | 0                          | 0         | 0        | 0                | 0        | 0                         | ?                                | ?                               | 0         | 0      | 0      | 0  | 0          | 0        | 0        | 0      |
 
-
+         </p>
+         </details>
             
-         Columns present (from left to right):
+         <details></summary>Columns present (from left to right):</summary>
+         <p>
+    
          * Age
          * Number of sexual partners
          * First sexual intercourse (age)
@@ -359,10 +392,16 @@ doi: 10.1109/TMI.2015.2433900
          * Schiller: target variable
          * Cytology: target variable
          * Biopsy: target variable
+        
+         </p>
+         </details>
+       
   - Note: NA
   - Citations
+    ```     
     - Kelwin Fernandes, Jaime S. Cardoso, and Jessica Fernandes. 'Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.' Iberian Conference on Pattern Recognition and Image Analysis. Springer International Publishing, 2017.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    ```
 
 #### Leukemia Classification 
 
@@ -370,33 +409,39 @@ doi: 10.1109/TMI.2015.2433900
 - Data Type: Images 
 -   Size: 10.42GB   
 -   Example of data + Special Instructions(if any) 
-      1. Download from Source
-      2. Example: 
+       Download from Source
+       
+       <details><summary>Example</summary>
+       <p>
  
-         Acute lymphoblastic leukemia (ALL): <img src="https://user-images.githubusercontent.com/66881214/179482213-1aec30af-9390-4f52-b582-7916ab44ce50.jpg" width="150" height="150">
+         Acute lymphoblastic leukemia (ALL) (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179482213-1aec30af-9390-4f52-b582-7916ab44ce50.jpg" width="150" height="150">
          
-         Normal (Images in hem folder): <img src="https://user-images.githubusercontent.com/66881214/179482557-ae81cbe2-037b-4ae7-a138-d6669c7c2019.jpg" width="150" height="150">
+         Normal (Images in hem folder) (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179482557-ae81cbe2-037b-4ae7-a138-d6669c7c2019.jpg" width="150" height="150">
+           
+         Labels for images in validation_data can be found in the csv file that is stored in the same folder. 
 
-  - Note: Labels for images in validation_data can be found in the csv file that is stored in the same folder. 
+         For example: 
+    
+         1.bmp (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179483000-488156a0-9a80-44b8-8081-175e8a96f229.jpg" width="150" height="150"> 
+    
+         The label for this image can be found in its corresponding row in the csv file. The image file name will be the value of new_names in the csv file as shown below (second column):  
+    
+         <img width="291" alt="Screenshot 2022-07-18 at 5 28 01 PM" src="https://user-images.githubusercontent.com/66881214/179483054-360c06f1-4890-41de-ba67-bcb247de6af8.png">  
+           
+       </p>
+       </details>
 
-    For example: 
-    
-    1.bmp (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179483000-488156a0-9a80-44b8-8081-175e8a96f229.jpg" width="150" height="150"> 
-    
-    The label for this image can be found in its corresponding row in the csv file. The image file name will be the value of new_names in the csv file as shown below (second column):  
-    
-    <img width="291" alt="Screenshot 2022-07-18 at 5 28 01 PM" src="https://user-images.githubusercontent.com/66881214/179483054-360c06f1-4890-41de-ba67-bcb247de6af8.png">
-    
-    The labels for the testing data was not given. [Click here for more information](https://competitions.codalab.org/competitions/20395#learn_the_details-overview)
+  - Note: The labels for the testing data was not given. [Click here for more information](https://competitions.codalab.org/competitions/20395#learn_the_details-overview)
 
   - Citations
+    ```
     - Gupta, A., & Gupta, R. (2019). ALL Challenge dataset of ISBI 2019 [Data set]. The Cancer Imaging Archive. [Link](https://doi.org/10.7937/tcia.2019.dc64i46r)
     - Publication Citation (if required): 
       - Anubha Gupta, Rahul Duggal, Ritu Gupta, Lalit Kumar, Nisarg Thakkar, and Devprakash Satpathy, “GCTI-SN: Geometry-Inspired Chemical and Tissue Invariant Stain Normalization of Microscopic Medical Images,”, under review. Ritu Gupta, Pramit Mallick, Rahul Duggal, Anubha Gupta, and Ojaswa Sharma, "Stain Color Normalization and Segmentation of Plasma Cells in Microscopic Images as a Prelude to Development of Computer Assisted Automated Disease Diagnostic Tool in Multiple Myeloma," 16th International Myeloma Workshop (IMW), India, March 2017.
       - Rahul Duggal, Anubha Gupta, Ritu Gupta, Manya Wadhwa, and Chirag Ahuja, “Overlapping Cell Nuclei Segmentation in Microscopic Images UsingDeep Belief Networks,” Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP), India, December 2016. Rahul Duggal, Anubha Gupta, and Ritu Gupta, “Segmentation of overlapping/touching white blood cell nuclei using artificial neural networks,” CME Series on Hemato-Oncopathology, All India Institute of Medical Sciences (AIIMS), New Delhi, India, July 2016.
       - Rahul Duggal, Anubha Gupta, Ritu Gupta, and Pramit Mallick, "SD-Layer: Stain Deconvolutional Layer for CNNs in Medical Microscopic Imaging," In: Descoteaux M., Maier-Hein L., Franz A., Jannin P., Collins D., Duchesne S. (eds) Medical Image Computing and Computer-Assisted Intervention − MICCAI 2017, MICCAI 2017. Lecture Notes in Computer Science, Part III, LNCS 10435, pp. 435–443. Springer, Cham. DOI: https://doi.org/10.1007/978-3-319-66179-7_50 .
-
-
+    ```
+    
 #### Lung and Colon Cancer Histopathological Images
   - Source:  [Click here to proceed to Kaggle site](https://www.kaggle.com/datasets/andrewmvd/lung-and-colon-cancer-histopathological-images) 
     - The data set can also be downloaded from [here](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)
@@ -406,8 +451,9 @@ doi: 10.1109/TMI.2015.2433900
       - 959.8MB for colon_image_sets
       - 929.7MB for lung_image_sets
   -   Example of data + Special Instructions(if any) 
-      1. For colon images download colon_image_sets from Source. For lung images, download lung_image_sets from Source. 
-      2. Example: 
+         For colon images download colon_image_sets from Source. For lung images, download lung_image_sets from Source. 
+         <details><summary>Example</summary>
+         <p>
 
          Colon adenocarcinoma (from colon_aca folder in colon_image_sets):
          <img src="https://user-images.githubusercontent.com/66881214/179151676-341f0158-bd7b-4c86-9363-bebbe006054c.jpeg" width="150" height="150">
@@ -423,9 +469,15 @@ doi: 10.1109/TMI.2015.2433900
 
          Lung squamous cell carcinoma(from lung_scc folder in lung_image_sets):
          <img src="https://user-images.githubusercontent.com/66881214/179151986-1a1019c1-ff53-413f-9e63-514c583f2c94.jpeg" width="150" height="150">
+             
+         </p>
+         </details>
+         
   - Note: NA
   - Citations
+    ```
     - [Original Article](https://arxiv.org/abs/1912.12142v1): Borkowski AA, Bui MM, Thomas LB, Wilson CP, DeLand LA, Mastorides SM. Lung and Colon Cancer Histopathological Image Dataset (LC25000). arXiv:1912.12142v1 [eess.IV], 2019
+    ```
    
 #### Skin Cancer MNIST: HAM10000
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
@@ -437,33 +489,43 @@ doi: 10.1109/TMI.2015.2433900
       - 1.4GB for HAM10000_images_part_2
       - 563KB for HAM10000_metadata.csv
   -   Example of data + Special Instructions(if any) 
-      1. Download HAM10000_images_part_1.zip, HAM10000_images_part_2 and HAM10000_metadata.csv from Source 
-      2. Example: ISIC_0024306.jpg 
+         Download HAM10000_images_part_1.zip, HAM10000_images_part_2 and HAM10000_metadata.csv from Source 
+         <details><summary>Example: ISIC_0024306.jpg</summary>
+         <p>
       
          <img src="https://user-images.githubusercontent.com/66881214/179134479-fc6a9393-17e5-4af3-93dc-81d8d8341073.jpg" width="150" height="150"> 
          
          Each image has its corresponding row in HAM10000_metadata.csv where its file name is its image_id as shown: 
          
          <img width="582" alt="Screenshot 2022-07-15 at 10 29 29 AM" src="https://user-images.githubusercontent.com/66881214/179134926-35dd84e3-f4b1-4f7d-a3f1-46ac395fb067.png">
+             
+         </p>
+         </details>
+         
   - Note: NA
   - Citations
+    ```
     - Noel Codella, Veronica Rotemberg, Philipp Tschandl, M. Emre Celebi, Stephen Dusza, David Gutman, Brian Helba, Aadi Kalloo, Konstantinos Liopyris, Michael Marchetti, Harald Kittler, Allan Halpern: “Skin Lesion Analysis Toward Melanoma Detection 2018: A Challenge Hosted by the International Skin Imaging Collaboration (ISIC)”, 2018; https://arxiv.org/abs/1902.03368
     - Tschandl, P., Rosendahl, C. & Kittler, H. The HAM10000 dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions. Sci. Data 5, 180161 doi:10.1038/sdata.2018.161 (2018).
+    ```
     
 #### Thoracic Surgery Data Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Thoracic+Surgery+Data)
-  
   - Data Type: Text/Tabular
-  
   -   Size: 24 KB
- 
   -   Example of data + Special Instructions(if any) 
-      1. Download  ThoraricSurgery.arff from Data Folder from Source
-      2. Example: 
+         Download  ThoraricSurgery.arff from Data Folder from Source
+         <details><summary>Example</summary>
+         <p>
          
          <img width="351" alt="Screenshot 2022-07-15 at 2 42 52 PM" src="https://user-images.githubusercontent.com/66881214/179166600-f02bd66d-f08f-44f5-9606-1035ee64cca2.png">
+             
+         </p>
+         </details>
          
-         Columns present (from left to right):   
+         <details><summary>Columns present (from left to right):</summary>
+         <p>
+             
          * DGN 
          * PRE4
          * PRE5
@@ -482,9 +544,15 @@ doi: 10.1109/TMI.2015.2433900
          * AGE
          * Risk1Yr
          
+         </p>
+         </details>
+         
   - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
   
-    To convert to csv file, remove the highlighted text as shown and save:
+    <details><summary>To convert to csv file</summary>
+    <p>
+    
+    Remove the highlighted text as shown and save:
     
     <img width="675" alt="Screenshot 2022-07-15 at 2 45 46 PM" src="https://user-images.githubusercontent.com/66881214/179167036-4318946c-4875-42e3-80e1-60bebcfd487b.png">
     
@@ -494,9 +562,14 @@ doi: 10.1109/TMI.2015.2433900
     
     <img width="1106" alt="Screenshot 2022-07-15 at 2 53 11 PM" src="https://user-images.githubusercontent.com/66881214/179168276-453388e5-0741-481c-abbf-39d207e20bd4.png">
     
+    </p>
+    </details>
+    
   - Citations
+    ```
     - ZiÄ™ba, M., Tomczak, J. M., Lubicz, M., & ÅšwiÄ…tek, J. (2013). Boosted SVM for extracting rules from imbalanced data in application to prediction of the post-operative life expectancy in the lung cancer patients. Applied Soft Computing [Link](https://www.sciencedirect.com/science/article/abs/pii/S0166432811002221?via%3Dihub)
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    ```
        
 ### Brain Related Datasets
 
