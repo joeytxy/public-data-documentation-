@@ -796,21 +796,21 @@ doi: 10.1109/TMI.2015.2433900
 
 
 #### Chest X-ray Images (Pneumonia)
-  -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+  -   Source: [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)
   -   Data Type: Images 
-  -   Size: 2 GiB
+  -   Size: 
   -   Example of data + Special Instructions(if any) 
-      1. Download relevant folders from Source. Images have been split into train, val and test folders. Within each folder, there are two folders NORMAL and PNEUMONIA.
+      1. Download file from Source. Images can be found in the chest_xray folder. They have been split into train, val and test folders. Within each folder, there are two folders NORMAL and PNEUMONIA.
       2. Example: 
       
-         NORMAL: <img src="https://user-images.githubusercontent.com/66881214/178702525-0eb5a853-a771-4821-8518-3bcc0dc8e642.jpeg" width="150" height="150">
+         NORMAL: 
          
-         PNEUMONIA: <img src="https://user-images.githubusercontent.com/66881214/178702776-eeee3f64-c6c1-45ba-90b8-ec8ffa045631.jpeg" width="150" height="150">
+         PNEUMONIA: 
          
-  -   Note: A newer version of the dataset can be found [here.](https://data.mendeley.com/datasets/rscbjbr9sj/3) Please cite accordingly. 
+  -   Note: NA
   -   Citations
-      -  Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
-         -  The paper can be found [here](http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
+      -  Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
+        
          
 #### QaTa COV19 Dataset 
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/aysendegerli/qatacov19-dataset)
