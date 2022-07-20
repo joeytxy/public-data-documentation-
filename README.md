@@ -1275,8 +1275,9 @@ Table of Contents
          | 1  | 43      | 2                          | 16   | 166.4      | 53.5       | 19.3       | 96        | 57        | 4.99         | 5.13                | 0.78                 |               |             | 10       |          | 3.08        | 50.3        | 4.97                       |                                           | 0                                             | 2.15195          | 3                                                              | 3                                                                  | 1                                      |
          | 2  | 34      | 1                          | 2    | 169        | 57         | 20         | 124       | 69        | 3.51         | 4.61                | 1.75                 | 1.09          | 3.13        | 29.1     |          | 6.13        | 83.7        | 5.5                        |                                           | 0                                             | 3.96988          |                                                                |                                                                    | 0                                      |
          | 3  | 32      | 2                          | 2    | 157        | 51         | 20.7       | 98        | 68        | 4.25         | 4.73                | 0.47                 |               |             | 6.9      | 19.5     | 4.45        | 42.8        | 4.9                        |                                           | 0                                             | 3.93977          |                                                                |                                                                    | 0                                      |
-          </p>
-          </details>
+          
+         </p>
+         </details>
                
   -   Note: NA
   
@@ -1407,9 +1408,9 @@ sizes (Columns 8-15)
          <p>
       
          | **age** | **gender** | **polyuria** | **polydipsia** | **sudden\_weight\_loss** | **weakness** | **polyphagia** | **genital\_thrush** | **visual\_blurring** | **itching** | **irritability** | **delayed\_healing** | **partial\_paresis** | **muscle\_stiffness** | **alopecia** | **obesity** | **class** |
-          | ------- | ---------- | ------------ | -------------- | ------------------------ | ------------ | -------------- | ------------------- | -------------------- | ----------- | ---------------- | -------------------- | -------------------- | --------------------- | ------------ | ----------- | --------- |
+         | ------- | ---------- | ------------ | -------------- | ------------------------ | ------------ | -------------- | ------------------- | -------------------- | ----------- | ---------------- | -------------------- | -------------------- | --------------------- | ------------ | ----------- | --------- |
          | 40      | Male       | 0            | 1              | 0                        | 1            | 0              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 1           | 1         |
-          | 58      | Male       | 0            | 0              | 0                        | 1            | 0              | 0                   | 1                    | 0           | 0                | 0                    | 1                    | 0                     | 1            | 0           | 1         |
+         | 58      | Male       | 0            | 0              | 0                        | 1            | 0              | 0                   | 1                    | 0           | 0                | 0                    | 1                    | 0                     | 1            | 0           | 1         |
          | 41      | Male       | 1            | 0              | 0                        | 1            | 1              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 0           | 1         |
          
                
@@ -1534,18 +1535,17 @@ sizes (Columns 8-15)
         
   - Note: There is a csv file that indicates the labels of the images. This may not be needed as the images are already sorted into their respective folders in main folder  
           
-          <details><summary>CSV file</summary>
-          <p>
+    <details><summary>CSV file</summary>
+    <p>
           
-          <img width="132" alt="Screenshot 2022-07-18 at 11 46 15 AM" src="https://user-images.githubusercontent.com/66881214/179442387-5fbe6faa-bade-497d-bdc0-e8e4749543b2.png">
+    <img width="132" alt="Screenshot 2022-07-18 at 11 46 15 AM" src="https://user-images.githubusercontent.com/66881214/179442387-5fbe6faa-bade-497d-bdc0-e8e4749543b2.png">
           
-          </p>
-          </details>
+    </p>
+    </details>
 
   - Citations
     ```
-    - If this dataset helped your research, please cite:
-Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study(https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
+    - If this dataset helped your research, please cite: Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study(https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
     ```
 #### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
