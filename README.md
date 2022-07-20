@@ -832,6 +832,7 @@ Table of Contents
     - 2 KB for Original.arff
     - 2 KB for Augmented.arff         
 -   Example of data + Special Instructions(if any):
+
        Download relevant file from Source
        - In Augmented.arff, authors have augmented the dataset to decrease the impact of imbalanced data.  
        
