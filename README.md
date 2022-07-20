@@ -91,23 +91,30 @@ Table of Contents
          * deg-malig: 1, 2, 3.
          * breast: left, right.
          * breast-quad: left-up, left-low, right-up, right-low, central.
-         * irradiat: yes, no.
+         * irradiat: yes, no.    
          </p>
          </details>
 
   -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
             
-      To download as .csv file, right click on breast-cancer.data as shown :
+      <details><summary>To download as .csv file</summary>
+      <p> 
+      Right click on breast-cancer.data as shown :
             
       <img width="698" alt="Screenshot 2022-07-14 at 4 44 53 PM" src="https://user-images.githubusercontent.com/66881214/178941770-0c1bf718-e4c1-4eb3-bc65-7e755211f723.png">
             
       Proceed to add the .csv extention in file name and save to desired location
             
       <img width="323" alt="Screenshot 2022-07-14 at 4 46 13 PM" src="https://user-images.githubusercontent.com/66881214/178942033-445f2292-c76f-4967-b090-2dc35f269737.png">
+          
+      </p>
+      </details>
 
   -   Citations
+      ```
       - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+      ```
       
 #### Breast Cancer Wisconsin (Original) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
@@ -119,7 +126,8 @@ Table of Contents
             
          <img width="718" alt="Screenshot 2022-07-14 at 6 11 27 PM" src="https://user-images.githubusercontent.com/66881214/178959171-12d41257-eadc-4bea-bedd-0f13b67adbbb.png">
          
-         Columns present (from left to right):
+         <details><summary>Columns present (from left to right):</summary>
+         <p>
          
          * Sample code number: id number
          * Clump Thickness: 1 - 10
@@ -132,18 +140,28 @@ Table of Contents
          * Normal Nucleoli: 1 - 10
          * Mitoses: 1 - 10
          * Class: (2 for benign, 4 for malignant)
+             
+         </p>
+         </details>
   
    -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
    
-       To download as .csv file, right click on breast-cancer-wiscoinsin.data as shown :
+       <details><summary>To download as .csv file</summary>
+       <p>
+           
+       Right click on breast-cancer-wiscoinsin.data as shown :
             
        <img width="700" alt="Screenshot 2022-07-14 at 5 58 13 PM" src="https://user-images.githubusercontent.com/66881214/178956694-8c413b09-d736-49be-9776-50b8a8a5db5d.png">
             
        Proceed to add the .csv extention in file name and save to desired location 
             
        <img width="322" alt="Screenshot 2022-07-14 at 5 58 32 PM" src="https://user-images.githubusercontent.com/66881214/178956742-b203502f-0e8d-4eae-b31b-02dc2da7d2ac.png">
+           
+       </p>
+       </details>
          
   -   Citations
+      ```
       - This breast cancer databases was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. If you publish results when using this database, then please include this information in your acknowledgements. Also, please cite one or more of:
      
         1. O. L. Mangasarian and W. H. Wolberg: "Cancer diagnosis via linear programming", SIAM News, Volume 23, Number 5, September 1990, pp 1 & 18.
@@ -154,6 +172,7 @@ Table of Contents
             
         4. K. P. Bennett & O. L. Mangasarian: "Robust linear programming discrimination of two linearly inseparable sets", Optimization Methods and Software 1, 1992, 23-34 (Gordon & Breach Science Publishers).
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+       ```
 
 #### Breast Cancer Wisconsin (Prognostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Prognostic%29)
@@ -167,8 +186,9 @@ Table of Contents
             | ------ | - | -- | ----- | ----- | ----- | ---- | ------- | ------ | ------ | ------- | ------ | ------- | ------ | ------ | ----- | ----- | -------- | ------- | ------- | -------- | ------- | -------- | ----- | ----- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ------- | - | ----- |
             | 8423   | N | 61 | 17.99 | 10.38 | 122.8 | 1001 | 0.1184  | 0.2776 | 0.3001 | 0.1471  | 0.2419 | 0.07871 | 1.095  | 0.9053 | 8.589 | 153.4 | 0.006399 | 0.04904 | 0.05373 | 0.01587  | 0.03003 | 0.006193 | 25.38 | 17.33 | 184.6 | 2019 | 0.1622 | 0.6656 | 0.7119 | 0.2654 | 0.4601 | 0.1189  | 3 | 2     |
 
-         
-         Columns present (from left to right):
+         <details><summary>Columns present (from left to right):</summary>
+         <p>
+             
          * ID number 
          * Outcome (R = recur, N = nonrecur)
          * Time (recurrence time if field 2 = R, disease-free time if field 2 = N)
@@ -185,19 +205,29 @@ Table of Contents
            - fractal dimension ("coastline approximation" - 1)
             
             In other words, column 4 to column 13 represent the above 10 values for the first cell nucleus and so on. 
+         </p>
+         </details>
             
    -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
    
-       To download as .csv file, right click on wpbc.data as shown :
+       <details><summary>To download as .csv file</summary>
+       <p>
+           
+       Right click on wpbc.data as shown :
             
        <img width="909" alt="Screenshot 2022-07-14 at 9 07 11 PM" src="https://user-images.githubusercontent.com/66881214/178989493-b7de3cca-da5f-4598-83cb-a28838ec52e0.png">
             
        Proceed to add the .csv extention in file name and save to desired location 
             
        <img width="326" alt="Screenshot 2022-07-14 at 9 08 03 PM" src="https://user-images.githubusercontent.com/66881214/178989650-9b61aa22-48be-4c78-ad15-5d488fbbf0a7.png">
+           
+       </p>
+       </details>
        
    -   Citations
+      ```
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+      ```
 
 #### Breast Cancer Wisconsin (Diagnostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
@@ -211,8 +241,8 @@ Table of Contents
             | ------ | - | ----- | ----- | ----- | ---- | ------- | ------- | ------ | ------- | ------ | ------- | ------ | ------ | ----- | ----- | -------- | ------- | ------- | ------- | ------- | -------- | ----- | ----- | ----- | ---- | ------ | ------ | ------ | ------ | ------ | ------- |
             | 842517 | M | 20.57 | 17.77 | 132.9 | 1326 | 0.08474 | 0.07864 | 0.0869 | 0.07017 | 0.1812 | 0.05667 | 0.5435 | 0.7339 | 3.398 | 74.08 | 0.005225 | 0.01308 | 0.0186  | 0.0134  | 0.01389 | 0.003532 | 24.99 | 23.41 | 158.8 | 1956 | 0.1238 | 0.1866 | 0.2416 | 0.186  | 0.275  | 0.08902 |
 
-            
-         Columns present (from left to right):
+         <details><summary>Columns present (from left to right):</summary>
+         <p>
          * ID number 
          * Diagnosis (M = malignant, B = benign)
          * Ten real-valued features are computed for each cell nucleus (Column 3 to Column 32):
@@ -228,20 +258,28 @@ Table of Contents
            - fractal dimension ("coastline approximation" - 1)
             
             In other words, column 3 to column 12 represent the above 10 values for the first cell nucleus and so on. 
+         </p>
+         </details>
             
    -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
    
-       To download as .csv file, right click on wdbc.data as shown :
+       <details><summary>To download as .csv file</summary>
+       <p>
+       Right click on wdbc.data as shown :
             <img width="915" alt="Screenshot 2022-07-14 at 11 08 42 PM" src="https://user-images.githubusercontent.com/66881214/179015321-d168c542-291a-40af-8b6c-1703ce17a751.png">
             
        Proceed to add the .csv extention in file name and save to desired location 
             
        <img width="322" alt="Screenshot 2022-07-14 at 11 09 00 PM" src="https://user-images.githubusercontent.com/66881214/179015383-cdb7a990-cc67-47ec-ac68-3e1390ac657e.png">
-
+        
+       </p>
+       </details>
        
    -   Citations
+       ```
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-
+       ``` 
+       
 #### Colorectal Cancer Dataset
 
   - Source:  [Click here to proceed to site](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/download/)
