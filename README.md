@@ -1149,7 +1149,7 @@ Table of Contents
          <details><summary>You could also download the entire folder by downloading the zip folder as shown below</summary>
          <p>
          
-           <img width="927" alt="Screenshot 2022-07-18 at 10 23 20 PM" src="https://user-images.githubusercontent.com/66881214/179533073-c46fcd53-bf27-4148-b3f7-71744719a75b.png">
+         <img width="927" alt="Screenshot 2022-07-18 at 10 23 20 PM" src="https://user-images.githubusercontent.com/66881214/179533073-c46fcd53-bf27-4148-b3f7-71744719a75b.png">
            
          </p>
          </details>
