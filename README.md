@@ -1578,7 +1578,7 @@ sizes (Columns 8-15)
          </p>
          </details>
          
-  - Note: [Click here for more information](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)  
+  - Note: [Click here for more information on how to open .rar files](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)  
       
   - Citations
     ```
@@ -1612,6 +1612,8 @@ sizes (Columns 8-15)
          
          </p>
          </details>
+     
+  -   Note: NA
          
   -   Citations
       ```
