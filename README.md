@@ -319,7 +319,7 @@ Table of Contents
          
          Each image will have its corresponding annotated image (filename_anno.bmp) and its grade in the Grade.csv file as shown:
          
-         train_1_anno.bmp : <img src="https://user-images.githubusercontent.com/66881214/179518541-ffbe18d2-303f-4220-9378-5dc5be06f0e5.jpg" width="150" height="150">
+         train_1_anno.bmp (converted to jpg [here](https://www.freeconvert.com/bmp-to-jpg)) : <img src="https://user-images.githubusercontent.com/66881214/179518541-ffbe18d2-303f-4220-9378-5dc5be06f0e5.jpg" width="150" height="150">
          
          
          Grade: <img width="582" alt="Screenshot 2022-07-18 at 9 12 13 PM" src="https://user-images.githubusercontent.com/66881214/179518739-e211b4ea-69d4-4665-ac15-01ae2f2d97d1.png">
@@ -1105,7 +1105,7 @@ Table of Contents
          </p>
          </details>
          
-         <details><summary>Recording (101_1b1_Al_sv_Meditron.wav)</summary>
+         <details><summary>Recording (101_1b1_Al_sv_Meditron.wav) (converted to mp4 [here](https://www.freeconvert.com/wav-to-mp4))</summary>
          <p>
          
          https://user-images.githubusercontent.com/66881214/179362930-9cebcdf7-41c4-4115-8d84-348992d008d2.mp4
