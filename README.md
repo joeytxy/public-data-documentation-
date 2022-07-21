@@ -1105,9 +1105,11 @@ Table of Contents
          </p>
          </details>
          
-         <details><summary>Recording (101_1b1_Al_sv_Meditron.wav) (converted to mp4 [here](https://www.freeconvert.com/wav-to-mp4))</summary>
+         <details><summary>Recording (101_1b1_Al_sv_Meditron.wav)</summary>
          <p>
          
+         File was converted to mp4 [here](https://www.freeconvert.com/wav-to-mp4))
+             
          https://user-images.githubusercontent.com/66881214/179362930-9cebcdf7-41c4-4115-8d84-348992d008d2.mp4
          
          File name is divided into 5 elements. Refer to image below for more details: 
@@ -1633,6 +1635,8 @@ sizes (Columns 8-15)
          <p>
          
          CAR0001.mp3 in Audio Recordings will correspond to CAR0001.txt in Clean Transcripts
+             
+         (File was converted to mp4 [here](https://www.freeconvert.com/mp3-to-mp4))
          
          https://user-images.githubusercontent.com/66881214/179450404-a22b08df-2073-4193-ab42-fbf1483f25ba.mp4
          
