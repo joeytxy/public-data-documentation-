@@ -1351,7 +1351,7 @@ Table of Contents
  
   -   Example of data + Special Instructions(if any):
           
-         Download  messidor_features.arff from Data Folder from Source
+         Download messidor_features.arff from Data Folder from Source
          <details><summary>Example</summary>
          <p>
          
