@@ -1532,7 +1532,7 @@ sizes (Columns 8-15)
          </p>
          </details>
              
-         <details><summary>DRUG-DOSE.rel</summar>
+         <details><summary>DRUG-DOSE.rel</summary>
          <p>
              
          DRUG-DOSE.rel provides relations between drugs and dosages.
