@@ -1501,20 +1501,60 @@ sizes (Columns 8-15)
          <details><summary>Example</summary>
          <p>
          
+         <details><summary>ADE-NEG.txt</summary>
+         <p>
+             
          ADE-NEG.txt provides all sentences in the ADE corpus that DO NOT contain any drug-related adverse effects.
          
          ADE-NEG.txt: <img width="1168" alt="Screenshot 2022-07-22 at 10 20 24 PM" src="https://user-images.githubusercontent.com/66881214/180459154-d25309e5-f17f-4dac-9555-02b79126fdea.png">
+         
+         </p>
+         </details>
         
+         <details><summary>DRUG-AE.rel</summary>
+         <p>
+         
          DRUG-AE.rel provides relations between drugs and adverse effects.
         
          DRUG-AE.rel: <img width="1082" alt="Screenshot 2022-07-22 at 10 21 12 PM" src="https://user-images.githubusercontent.com/66881214/180459339-7d30f9ad-5ffe-4045-8e82-742e7641dab8.png">
+             
+         The format of DRUG-AE.rel is as follows with pipe delimiters:
+    
+         * Column-1: PubMed-ID
+         * Column-2: Sentence 
+         * Column-3: Adverse-Effect
+         * Column-4: Begin offset of Adverse-Effect at 'document level'
+         * Column-5: End offset of Adverse-Effect at 'document level'
+         * Column-6: Drug
+         * Column-7: Begin offset of Drug at 'document level'
+         * Column-8: End offset of Drug at 'document level'
          
+         </p>
+         </details>
+             
+         <details><summary>DRUG-DOSE.rel</summar>
+         <p>
+             
          DRUG-DOSE.rel provides relations between drugs and dosages.
          
          DRUG-DOSE.txt <img width="985" alt="Screenshot 2022-07-22 at 10 22 11 PM" src="https://user-images.githubusercontent.com/66881214/180459542-231715bb-731d-4da3-bcb2-6de8b1a9e952.png">
+             
+        The format of DRUG-DOSE.rel is as follows with pipe delimiters:
+
+        * Column-1: PubMed-ID
+        * Column-2: Sentence 
+        * Column-3: Dose
+        * Column-4: Begin offset of Dose at 'document level'
+        * Column-5: End offset of Dose at 'document level'
+        * Column-6: Drug
+        * Column-7: Begin offset of Drug at 'document level'
+        * Column-8: End offset of Drug at 'document level'
 
          </p>
          </details>
+             
+         </p>
+         </details> 
 
   -   Note: NA
   -   Citations
