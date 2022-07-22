@@ -16,55 +16,59 @@ Table of Contents
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
+    - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Colorectal Cancer Dataset](#Colorectal-Cancer-Dataset)
     - [Cervical cancer (Risk Factors) Data Set](#Cervical-cancer-Risk-Factors-Data-Set)
+    - [CT Medical Images](#CT-Medical-Images)
     - [Leukemia Classification](#Leukemia-Classification)
     - [Lung and Colon Cancer Histopathological Images](#Lung-and-Colon-Cancer-Histopathological-Images)
     - [Skin Cancer MNIST: HAM10000](#Skin-Cancer-MNIST-HAM10000)
     - [Thoracic Surgery Data Data Set](#Thoracic-Surgery-Data-Data-Set)
+    
+2. [Diabetes Dataset](#Diabetes-Dataset)
+    - [Association of body mass index and age with incident diabetes in Chinese adults](Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
+    - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
+    - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
+    - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
+    - [Early Classification of Diabetes](#Early-Classification-of-Diabetes)
+    
+3. [Parkinson Disease](#Parkinson-Disease)
+    - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
+    - [Parkinson Tappy Keystroke Data](#Parkinson-Tappy-Keystroke-Data)
 
-2. [Brain Related Datasets](#Brain-Related-Datasets)
+3. [Brain Related Datasets](#Brain-Related-Datasets)
     - [Brain tumor data](#Brain-tumor-data)
     - [MRI and Alzheimers](#MRI-and-Alzheimers)
     - [Stroke Prediction](#Stroke-Prediction)
     
-3. [Eye Related Datasets](#Eye-Related-Datasets)
+4. [Eye Related Datasets](#Eye-Related-Datasets)
    - [Bajwa Hospital (Multi Eye Disease Dataset)](#Bajwa-Hospital-Multi-Eye-Disease-Dataset)
    - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)
 
-4. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
+5. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
    -  [Bowel Sounds](#Bowel-Sounds) 
    -  [Kvasir Dataset](#Kvasir-Dataset)
 
-5. [Heart Related Datasets](#Heart-Related-Datasets)
+6 [Heart Related Datasets](#Heart-Related-Datasets)
     - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
-6. [Kidney Related Datasets](#Kidney-Related-Datasets)
+7. [Kidney Related Datasets](#Kidney-Related-Datasets)
     - [A Brazilian dataset for screening the risk of the Chronic Kidney Disease](#A-Brazilian-dataset-for-screening-the-risk-of-the-Chronic-Kidney-Disease)
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
-7. [Lung Related Datasets](#Lung-Related-Datasets)
+8. [Lung Related Datasets](#Lung-Related-Datasets)
     - [A dataset of lung sounds recorded from the chest wall using an electronic stethoscope](#A-dataset-of-lung-sounds-recorded-from-the-chest-wall-using-an-electronic-stethoscope)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
-8. [Others](#Others) 
+9. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
-    - [Covid19 Coswara Dataset](#Covid19-Coswara-Dataset)
-    - [CT Medical Images](#CT-Medical-Images)  
-    - [Association of body mass index and age with incident diabetes in Chinese adults](Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
-    - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
-    - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
-    - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
-    - [Early Classification of Diabetes](#Early-Classification-of-Diabetes)
+    - [Covid19 Coswara Dataset](#Covid19-Coswara-Dataset)  
     - [Fetal Health Classification](#Fetal-Health-Classification)
-    - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
-    - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
-    - [Parkinson Tappy Keystroke Data](#Parkinson-Tappy-Keystroke-Data)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews) 
     
 ### Cancer Datasets
@@ -304,6 +308,69 @@ Table of Contents
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
        ``` 
        
+#### Lymphography Data Set
+
+  -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Lymphography)
+  -   Data Type: Tabular 
+  -   Size: 6 KB
+  -   Example of data + Special Instructions(if any):
+  
+         Download lymphography.data stored in Data Folder from Source
+         <details><summary>Example: CSV version</summary>
+         <p>
+         
+         <img width="1236" alt="Screenshot 2022-07-18 at 3 13 38 PM" src="https://user-images.githubusercontent.com/66881214/179461104-07f53663-be9a-4641-9bb5-d8f6d5f2eb6f.png">
+         
+         Columns present (from left to right): 
+         * class: normal find, metastases, malign lymph, fibrosis
+         * lymphatics: normal, arched, deformed, displaced
+         * block of affere: no, yes
+         * bl. of lymph. c: no, yes
+         * bl. of lymph. s: no, yes
+         * by pass: no, yes
+         * extravasates: no, yes
+         * regeneration of: no, yes
+         * early uptake in: no, yes
+         * lym.nodes dimin: 0-3
+         * lym.nodes enlar: 1-4
+         * changes in lym.: bean, oval, round
+         * defect in node: no, lacunar, lac. marginal, lac. central
+         * changes in node: no, lacunar, lac. margin, lac. central
+         * changes in stru: no, grainy, drop-like, coarse, diluted, reticular, stripped, faint,
+         * special forms: no, chalices, vesicles
+         * dislocation of: no, yes
+         * exclusion of no: no, yes
+         * no. of nodes in: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, >=70
+         
+         All attribute values in the database have been entered as numeric values corresponding to their index in the list of attribute values for that attribute domain as given above. 
+         
+         For example, a '3' in first column (refer to first row of image above) will correspond to class = malign lymph
+         
+         </p>
+         </details>
+         
+  -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
+            
+      <details><summary>To download as .csv file</summary>
+      <p>
+      
+      Right click on lymphography.data as shown :
+            
+      <img width="828" alt="Screenshot 2022-07-18 at 3 10 34 PM" src="https://user-images.githubusercontent.com/66881214/179460679-5a5e0e31-01d6-4f82-b77d-17e8b9c04872.png">
+
+      Proceed to add the .csv extention in file name and save to desired location
+      
+      <img width="329" alt="Screenshot 2022-07-18 at 3 10 55 PM" src="https://user-images.githubusercontent.com/66881214/179460724-4e670fc5-c8e5-4dc0-aac5-f64ee191e21b.png">
+      
+      </p>
+      </details>
+
+  -   Citations
+      ```
+      - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
+      - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+      ```
+       
 #### Colorectal Cancer Dataset
 
   - Source:  [Click here to proceed to site](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/download/)
@@ -369,6 +436,40 @@ Table of Contents
     - Kelwin Fernandes, Jaime S. Cardoso, and Jessica Fernandes. 'Transfer Learning with Partial Observability Applied to Cervical Cancer Screening.' Iberian Conference on Pattern Recognition and Image Analysis. Springer International Publishing, 2017.
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
     ```
+
+#### CT Medical Images
+
+  -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/siim-medical-images?select=dicom_dir)
+  
+  -   Data Type: Images 
+  
+  -   Size of files
+      - 52.8MB for dicom_dir folder 
+      - 209.7MB for tiff_images folder
+  
+  -   Example of data + Special Instructions(if any):
+       
+         Download relevant folders from Source.
+
+         <details><summary>Example</summary>
+         <p>
+       
+         ID_0000_AGE_0060_CONTRAST_1_CT.dcm (converted to jpg [here](https://convertio.co/dcm-jpg/)): <img src="https://user-images.githubusercontent.com/66881214/179672281-09bf949d-3204-4f6f-a6e5-5e91bfffdee4.jpg" width="150" height="150">
+   
+         ID_0000_AGE_0060_CONTRAST_1_CT.tif (converted to jpg [here](https://www.freeconvert.com/tif-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179672420-3f9ea3e7-de97-4107-9fbd-52b0eb1702f9.jpg" width="150" height="150">
+
+         <img width="1158" alt="Screenshot 2022-07-19 at 1 32 27 PM" src="https://user-images.githubusercontent.com/66881214/179672551-6c76f8c4-1327-4936-90a9-df32283f72bb.png">
+         
+         </p>
+         </details>
+               
+  -   Note: The dataset from Source is only a subset from the cancer imaging archive. For more, [click here](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LUAD)
+  
+  -   Citations
+      ```
+      - Albertina, B., Watson, M., Holback, C., Jarosz, R., Kirk, S., Lee, Y., … Lemmerman, J. (2016). Radiology Data from The Cancer Genome Atlas Lung Adenocarcinoma [TCGA-LUAD] collection. The Cancer Imaging Archive. http://doi.org/10.7937/K9/TCIA.2016.JGNIHEP5
+      - Clark K, Vendt B, Smith K, Freymann J, Kirby J, Koppel P, Moore S, Phillips S, Maffitt D, Pringle M, Tarbox L, Prior F. The Cancer Imaging Archive (TCIA): Maintaining and Operating a Public Information Repository, Journal of Digital Imaging, Volume 26, Number 6, December, 2013, pp 1045-1057. (paper) 
+      ```
 
 #### Leukemia Classification 
 
@@ -540,7 +641,250 @@ Table of Contents
     - ZiÄ™ba, M., Tomczak, J. M., Lubicz, M., & ÅšwiÄ…tek, J. (2013). Boosted SVM for extracting rules from imbalanced data in application to prediction of the post-operative life expectancy in the lung cancer patients. Applied Soft Computing (https://www.sciencedirect.com/science/article/abs/pii/S0166432811002221?via%3Dihub)
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
     ```
+### Diabetes Dataset
+
+#### Association of body mass index and age with incident diabetes in Chinese adults
+
+  -   Source:  [Click here to proceed to site](https://zenodo.org/record/4997196#.YtZvkpNBw-Q)
+  
+  -   Data Type: Tabular  
+  
+  -   Size: 28.3 KB
+  
+  -   Example of data + Special Instructions(if any):
+      
+         Download RC Health Care Data-20180820.xlsx from Source.
+
+         <details><summary>Example</summary>
+         <p>
+            
+         | id | Age (y) | Gender(1, male; 2, female) | site | height(cm) | weight(kg) | BMI(kg/m2) | SBP(mmHg) | DBP(mmHg) | FPG (mmol/L) | Cholesterol(mmol/L) | Triglyceride(mmol/L) | HDL-c(mmol/L) | LDL(mmol/L) | ALT(U/L) | AST(U/L) | BUN(mmol/L) | CCR(umol/L) | FPG of final visit(mmol/L) | Diabetes diagnosed during followup（1,Yes） | censor of diabetes at followup(1, Yes; 0, No) | year of followup | smoking status(1,current smoker;2, ever smoker;3,never smoker) | drinking status(1,current drinker;2, ever drinker;3,never drinker) | family histroy of diabetes(1,Yes;0,No) |
+         | -- | ------- | -------------------------- | ---- | ---------- | ---------- | ---------- | --------- | --------- | ------------ | ------------------- | -------------------- | ------------- | ----------- | -------- | -------- | ----------- | ----------- | -------------------------- | ----------------------------------------- | --------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- |
+         | 1  | 43      | 2                          | 16   | 166.4      | 53.5       | 19.3       | 96        | 57        | 4.99         | 5.13                | 0.78                 |               |             | 10       |          | 3.08        | 50.3        | 4.97                       |                                           | 0                                             | 2.15195          | 3                                                              | 3                                                                  | 1                                      |
+         | 2  | 34      | 1                          | 2    | 169        | 57         | 20         | 124       | 69        | 3.51         | 4.61                | 1.75                 | 1.09          | 3.13        | 29.1     |          | 6.13        | 83.7        | 5.5                        |                                           | 0                                             | 3.96988          |                                                                |                                                                    | 0                                      |
+         | 3  | 32      | 2                          | 2    | 157        | 51         | 20.7       | 98        | 68        | 4.25         | 4.73                | 0.47                 |               |             | 6.9      | 19.5     | 4.45        | 42.8        | 4.9                        |                                           | 0                                             | 3.93977          |                                                                |                                                                    | 0                                      |
+          
+         </p>
+         </details>
+               
+  -   Note: NA
+  
+  -   Citations
+      ```
+      - Chen, Ying, Zhang, Xiao-Ping, Yuan, Jie, Cai, Bo, Wang, Xiao-Li, Wu, Xiao-Li, Zhang, Yue-Hua, Zhang, Xiao-Yi, Yin, Tong, Zhu, Xiao-Hui, Gu, Yun-Juan, Cui, Shi-Wei, Lu, Zhi-Qiang, & Li, Xiao-Ying. (2018). Data from: Association of body mass index and age with incident diabetes in Chinese adults: a population-based cohort study [Data set]. https://doi.org/10.5061/dryad.ft8750v
+      ```
+      
+#### Clinical characteristics, types and complications of diabetics with young age at the onset
+
+  -   Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jf429jpgwt/1)
+  
+  -   Data Type: Tabular  
+  
+  -   Size: 22 KB
+  
+  -   Example of data + Special Instructions(if any):
+  
+         Download 9. Master Chart.xlsx from Source.
+
+         <details><summary>Example</summary>
+         <p>
+         
+         <img width="1130" alt="Screenshot 2022-07-19 at 4 45 06 PM" src="https://user-images.githubusercontent.com/66881214/179707993-1c6512f6-7b93-4605-b968-c44bfb4417b8.png">
+         
+         </p>
+         </details>
+               
+  -   Note: NA
+  
+  -   Citations
+      ```
+      - SAHU, PRANABANANDA; Das, Sidhartha (2019), “Data for: Clinical characteristics, types and complications of diabetics with young age at the onset ( 14 to 25 years).”, Mendeley Data, V1, doi: 10.17632/jf429jpgwt.1
+      ```
+
+#### Diabetes 130-US hospitals for years 1999-2008 Data Set
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
+  
+  - Data Type: Tabular 
+  
+  -   Size of files
+      -  19.2MB for diabetic_data.csv
+      -  3KB for IDs_mapping.csv
+  -   Example of data + Special Instructions(if any):
+  
+         Download dataset_diabetes.zip from Data Folder from Source
+         <details><summary>Example</summary>
+         <p>
+
+         | encounter_id | patient_nbr | race      | gender | age     | weight | admission_type_id | discharge_disposition_id | admission_source_id | time_in_hospital | payer_code | medical_specialty        | num_lab_procedures | num_procedures | num_medications | number_outpatient | number_emergency | number_inpatient | diag_1 | diag_2 | diag_3 | number_diagnoses | max_glu_serum | A1Cresult | metformin | repaglinide | nateglinide | chlorpropamide | glimepiride | acetohexamide | glipizide | glyburide | tolbutamide | pioglitazone | rosiglitazone | acarbose | miglitol | troglitazone | tolazamide | examide | citoglipton | insulin | glyburide-metformin | glipizide-metformin | glimepiride-pioglitazone | metformin-rosiglitazone | metformin-pioglitazone | change | diabetesMed | readmitted |
+         |--------------|-------------|-----------|--------|---------|--------|-------------------|--------------------------|---------------------|------------------|------------|--------------------------|--------------------|----------------|-----------------|-------------------|------------------|------------------|--------|--------|--------|------------------|---------------|-----------|-----------|-------------|-------------|----------------|-------------|---------------|-----------|-----------|-------------|--------------|---------------|----------|----------|--------------|------------|---------|-------------|---------|---------------------|---------------------|--------------------------|-------------------------|------------------------|--------|-------------|------------|
+         | 2278392      | 8222157     | Caucasian | Female | [0-10)  | ?      | 6                 | 25                       | 1                   | 1                | ?          | Pediatrics-Endocrinology | 41                 | 0              | 1               | 0                 | 0                | 0                | 250.83 | ?      | ?      | 1                | None          | None      | No        | No          | No          | No             | No          | No            | No        | No        | No          | No           | No            | No       | No       | No           | No         | No      | No          | No      | No                  | No                  | No                       | No                      | No                     | No     | No          | NO         |
+         | 149190       | 55629189    | Caucasian | Female | [10-20) | ?      | 1                 | 1                        | 7                   | 3                | ?          | ?                        | 59                 | 0              | 18              | 0                 | 0                | 0                | 276    | 250.01 | 255    | 9                | None          | None      | No        | No          | No          | No             | No          | No            | No        | No        | No          | No           | No            | No       | No       | No           | No         | No      | No          | Up      | No                  | No                  | No                       | No                      | No                     | Ch     | Yes         | >30        |
+
+  - Note: NA
+  - Citations
+    ```
+    - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. (https://www.hindawi.com/journals/bmri/2014/781670/)
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    ```
+    
+#### Diabetic Retinopathy Debrecen Data Set Data Set
+
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetic+Retinopathy+Debrecen+Data+Set)
+  
+  - Data Type: Text/Tabular
+  
+  -   Size: 117 KB
+ 
+  -   Example of data + Special Instructions(if any):
+          
+         Download messidor_features.arff from Data Folder from Source
+         <details><summary>Example</summary>
+         <p>
+         
+         <img width="823" alt="Screenshot 2022-07-15 at 4 05 20 PM" src="https://user-images.githubusercontent.com/66881214/179180696-f57026cd-1a4c-423d-921d-2a36c18c1f50.png">
+
+         Columns present (from left to right):   
+         * The binary result of quality assessment. 0 = bad quality 1 = sufficient quality.
+         * The binary result of pre-screening, where 1 indicates severe retinal abnormality and 0 its lack.
+         * The results of MA detection. Each feature value stand for the
+number of MAs found at the confidence levels alpha = 0.5, . . . , 1, respectively. (Columns 2-7)
+         * contain the same information as 2-7) for exudates. However, as exudates are represented by a set of points rather than the number of pixels constructing the lesions, these features are normalized by dividing the number of lesions with the diameter of the ROI to compensate different image
+sizes (Columns 8-15)
+         * The euclidean distance of the center of the macula and the center of the optic disc to provide important information regarding the patient's condition. This feature is also normalized with the diameter of the ROI.
+         * The diameter of the optic disc.
+         * The binary result of the AM/FM-based classification.
+         * Class label. 1 = contains signs of DR (Accumulative label for the Messidor classes 1, 2, 3), 0 = no signs of DR.
+         
+         </p>
+         </details>
+         
+  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
+  
+    <details><summary>To convert to csv file</summary>
+    <p>
+    
+    Remove the highlighted text as shown and save:
+    
+    <img width="1016" alt="Screenshot 2022-07-15 at 4 05 56 PM" src="https://user-images.githubusercontent.com/66881214/179180814-8066caa4-de81-486d-8b19-f1dc9ce05534.png">
+    
+    Rename the new file by changing ".arff" to ".csv" extension. 
+    
+    Updated file:  
+    
+    <img width="1304" alt="Screenshot 2022-07-15 at 4 06 37 PM" src="https://user-images.githubusercontent.com/66881214/179180932-1d57f15a-783c-4da7-8c43-d3fe4afbda58.png">
+    
+    </p>
+    </details>
+    
+  - Citations
+    ```
+    - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
+        - The dataset is based on features extracted from the Messidor image dataset. However, link provided is no longer available: http://messidor.crihan.fr/index-en.php 
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    ```
+
+#### Early Classification of Diabetes
+
+  -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification)
+  -   Data Type: Tabular  
+  -   Size: 21 KB
+  -   Example of data + Special Instructions(if any):
+  
+         Download diabetes_data.csv from Source.
+
+         <details><summary>Example</summary>
+         <p>
+      
+         | **age** | **gender** | **polyuria** | **polydipsia** | **sudden\_weight\_loss** | **weakness** | **polyphagia** | **genital\_thrush** | **visual\_blurring** | **itching** | **irritability** | **delayed\_healing** | **partial\_paresis** | **muscle\_stiffness** | **alopecia** | **obesity** | **class** |
+         | ------- | ---------- | ------------ | -------------- | ------------------------ | ------------ | -------------- | ------------------- | -------------------- | ----------- | ---------------- | -------------------- | -------------------- | --------------------- | ------------ | ----------- | --------- |
+         | 40      | Male       | 0            | 1              | 0                        | 1            | 0              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 1           | 1         |
+         | 58      | Male       | 0            | 0              | 0                        | 1            | 0              | 0                   | 1                    | 0           | 0                | 0                    | 1                    | 0                     | 1            | 0           | 1         |
+         | 41      | Male       | 1            | 0              | 0                        | 1            | 1              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 0           | 1         |
+         
+               
+  -   Note: Viewing file on Microsoft Excel might be an issue as the delimeter used is a semicolon. 
+  
+  -   Citations
+      ```
+      - Islam M.M.F., Ferdousi R., Rahman S., Bushra H.Y. (2020) Likelihood Prediction of Diabetes at Early Stage Using Data Mining Techniques. In: Gupta M., Konar D., Bhattacharyya S., Biswas S. (eds) Computer Vision and Machine Intelligence in Medical Image Analysis. Advances in Intelligent Systems and Computing, vol 992. Springer, Singapore. https://doi.org/10.1007/978-981-13-8798-2_12
+      ```
+      
+#### Parkinson Disease
+
+#### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
+  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
+  
+  - Data Type: Text/Tabular  
+  
+  -   Size of files
+      -  194KB for train_data.txt 
+      -  47KB for test_data.txt
+  -   Example of data + Special Instructions(if any):
        
+         Download Parkinson_Multiple_Sound_Recording.rar from Data Folder from Source 
+         <details><summary>Example</summary>
+         <p>
+ 
+         <img width="1270" alt="Screenshot 2022-07-15 at 3 28 31 PM" src="https://user-images.githubusercontent.com/66881214/179174170-e8b8e140-44ba-48f7-b1d1-198b3a6cd8d0.png">
+         
+         Columns present (from left to right):
+         * Subject id
+         * features(column 2 to 27)
+           - features 1-5: Jitter (local),Jitter (local, absolute),Jitter (rap),Jitter (ppq5),Jitter (ddp)
+           - features 6-11: Shimmer (local),Shimmer (local, dB),Shimmer (apq3),Shimmer (apq5), Shimmer (apq11),Shimmer (dda)
+           - features 12-14: AC,NTH,HTN
+           - features 15-19: Median pitch,Mean pitch,Standard deviation,Minimum pitch,Maximum pitch
+           - features 20-23: Number of pulses,Number of periods,Mean period,Standard deviation of period
+           - features 24-26: Fraction of locally unvoiced frames,Number of voice breaks,Degree of voice breaks
+         * UPDRS
+         * class information (not present in test_data.txt)
+         
+         </p>
+         </details>
+         
+  - Note: [Click here for more information on how to open .rar files](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)  
+      
+  - Citations
+    ```
+    - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
+    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
+    ```
+
+#### Parkinson Tappy Keystroke Data
+
+  -   Source:  [Click here to proceed to site](https://physionet.org/content/tappy/1.0.0/)
+  
+  -   Data Type: Text  
+  
+  -   Size of files
+      - 43KB for Archived users  
+      - 549.7MB for Tappy Data 
+         
+  -   Example of data + Special Instructions(if any):
+  
+         Download files from Source.
+         <details><summary>Example</summary>
+         <p>
+         
+         Each user will have their corresponding text file in Archived users with the following information: 
+         
+         <img width="454" alt="Screenshot 2022-07-20 at 5 10 10 PM" src="https://user-images.githubusercontent.com/66881214/179944256-b890ab5f-1d29-45ed-9c6c-13d9d0057d53.png">
+         
+         In Tappy Data folder, a participant may have more than one file. The filename comprises the 10 character code (matching the user details file) and the YYMM of the data:
+         
+         <img width="541" alt="Screenshot 2022-07-20 at 5 12 33 PM" src="https://user-images.githubusercontent.com/66881214/179944770-d19779aa-a9ba-43b2-89d9-94b9b5c42ec7.png">
+         
+         </p>
+         </details>
+     
+  -   Note: NA
+         
+  -   Citations
+      ```
+      - Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
+      - Adams WR (2017) High-accuracy detection of early Parkinson's Disease using multiple characteristics of finger movement while typing. PLOS ONE 12(11): e0188226. https://doi.org/10.1371/journal.pone.0188226
+      ```
+
 ### Brain Related Datasets
 
 #### Brain tumor data
@@ -1222,207 +1566,6 @@ Table of Contents
       ```
       - Coswara - A Database of Breathing, Cough, and Voice Sounds for COVID-19 Diagnosis (https://arxiv.org/abs/2005.10548)
       ```
-      
-#### CT Medical Images
-
-  -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/siim-medical-images?select=dicom_dir)
-  
-  -   Data Type: Images 
-  
-  -   Size of files
-      - 52.8MB for dicom_dir folder 
-      - 209.7MB for tiff_images folder
-  
-  -   Example of data + Special Instructions(if any):
-       
-         Download relevant folders from Source.
-
-         <details><summary>Example</summary>
-         <p>
-       
-         ID_0000_AGE_0060_CONTRAST_1_CT.dcm (converted to jpg [here](https://convertio.co/dcm-jpg/)): <img src="https://user-images.githubusercontent.com/66881214/179672281-09bf949d-3204-4f6f-a6e5-5e91bfffdee4.jpg" width="150" height="150">
-   
-         ID_0000_AGE_0060_CONTRAST_1_CT.tif (converted to jpg [here](https://www.freeconvert.com/tif-to-jpg)): <img src="https://user-images.githubusercontent.com/66881214/179672420-3f9ea3e7-de97-4107-9fbd-52b0eb1702f9.jpg" width="150" height="150">
-
-         <img width="1158" alt="Screenshot 2022-07-19 at 1 32 27 PM" src="https://user-images.githubusercontent.com/66881214/179672551-6c76f8c4-1327-4936-90a9-df32283f72bb.png">
-         
-         </p>
-         </details>
-               
-  -   Note: The dataset from Source is only a subset from the cancer imaging archive. For more, [click here](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LUAD)
-  
-  -   Citations
-      ```
-      - Albertina, B., Watson, M., Holback, C., Jarosz, R., Kirk, S., Lee, Y., … Lemmerman, J. (2016). Radiology Data from The Cancer Genome Atlas Lung Adenocarcinoma [TCGA-LUAD] collection. The Cancer Imaging Archive. http://doi.org/10.7937/K9/TCIA.2016.JGNIHEP5
-      - Clark K, Vendt B, Smith K, Freymann J, Kirby J, Koppel P, Moore S, Phillips S, Maffitt D, Pringle M, Tarbox L, Prior F. The Cancer Imaging Archive (TCIA): Maintaining and Operating a Public Information Repository, Journal of Digital Imaging, Volume 26, Number 6, December, 2013, pp 1045-1057. (paper) 
-      ```
-
-#### Association of body mass index and age with incident diabetes in Chinese adults
-
-  -   Source:  [Click here to proceed to site](https://zenodo.org/record/4997196#.YtZvkpNBw-Q)
-  
-  -   Data Type: Tabular  
-  
-  -   Size: 28.3 KB
-  
-  -   Example of data + Special Instructions(if any):
-      
-         Download RC Health Care Data-20180820.xlsx from Source.
-
-         <details><summary>Example</summary>
-         <p>
-            
-         | id | Age (y) | Gender(1, male; 2, female) | site | height(cm) | weight(kg) | BMI(kg/m2) | SBP(mmHg) | DBP(mmHg) | FPG (mmol/L) | Cholesterol(mmol/L) | Triglyceride(mmol/L) | HDL-c(mmol/L) | LDL(mmol/L) | ALT(U/L) | AST(U/L) | BUN(mmol/L) | CCR(umol/L) | FPG of final visit(mmol/L) | Diabetes diagnosed during followup（1,Yes） | censor of diabetes at followup(1, Yes; 0, No) | year of followup | smoking status(1,current smoker;2, ever smoker;3,never smoker) | drinking status(1,current drinker;2, ever drinker;3,never drinker) | family histroy of diabetes(1,Yes;0,No) |
-         | -- | ------- | -------------------------- | ---- | ---------- | ---------- | ---------- | --------- | --------- | ------------ | ------------------- | -------------------- | ------------- | ----------- | -------- | -------- | ----------- | ----------- | -------------------------- | ----------------------------------------- | --------------------------------------------- | ---------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------- |
-         | 1  | 43      | 2                          | 16   | 166.4      | 53.5       | 19.3       | 96        | 57        | 4.99         | 5.13                | 0.78                 |               |             | 10       |          | 3.08        | 50.3        | 4.97                       |                                           | 0                                             | 2.15195          | 3                                                              | 3                                                                  | 1                                      |
-         | 2  | 34      | 1                          | 2    | 169        | 57         | 20         | 124       | 69        | 3.51         | 4.61                | 1.75                 | 1.09          | 3.13        | 29.1     |          | 6.13        | 83.7        | 5.5                        |                                           | 0                                             | 3.96988          |                                                                |                                                                    | 0                                      |
-         | 3  | 32      | 2                          | 2    | 157        | 51         | 20.7       | 98        | 68        | 4.25         | 4.73                | 0.47                 |               |             | 6.9      | 19.5     | 4.45        | 42.8        | 4.9                        |                                           | 0                                             | 3.93977          |                                                                |                                                                    | 0                                      |
-          
-         </p>
-         </details>
-               
-  -   Note: NA
-  
-  -   Citations
-      ```
-      - Chen, Ying, Zhang, Xiao-Ping, Yuan, Jie, Cai, Bo, Wang, Xiao-Li, Wu, Xiao-Li, Zhang, Yue-Hua, Zhang, Xiao-Yi, Yin, Tong, Zhu, Xiao-Hui, Gu, Yun-Juan, Cui, Shi-Wei, Lu, Zhi-Qiang, & Li, Xiao-Ying. (2018). Data from: Association of body mass index and age with incident diabetes in Chinese adults: a population-based cohort study [Data set]. https://doi.org/10.5061/dryad.ft8750v
-      ```
-      
-#### Clinical characteristics, types and complications of diabetics with young age at the onset
-
-  -   Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jf429jpgwt/1)
-  
-  -   Data Type: Tabular  
-  
-  -   Size: 22 KB
-  
-  -   Example of data + Special Instructions(if any):
-  
-         Download 9. Master Chart.xlsx from Source.
-
-         <details><summary>Example</summary>
-         <p>
-         
-         <img width="1130" alt="Screenshot 2022-07-19 at 4 45 06 PM" src="https://user-images.githubusercontent.com/66881214/179707993-1c6512f6-7b93-4605-b968-c44bfb4417b8.png">
-         
-         </p>
-         </details>
-               
-  -   Note: NA
-  
-  -   Citations
-      ```
-      - SAHU, PRANABANANDA; Das, Sidhartha (2019), “Data for: Clinical characteristics, types and complications of diabetics with young age at the onset ( 14 to 25 years).”, Mendeley Data, V1, doi: 10.17632/jf429jpgwt.1
-      ```
-
-#### Diabetes 130-US hospitals for years 1999-2008 Data Set
-  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
-  
-  - Data Type: Tabular 
-  
-  -   Size of files
-      -  19.2MB for diabetic_data.csv
-      -  3KB for IDs_mapping.csv
-  -   Example of data + Special Instructions(if any):
-  
-         Download dataset_diabetes.zip from Data Folder from Source
-         <details><summary>Example</summary>
-         <p>
-
-         | encounter_id | patient_nbr | race      | gender | age     | weight | admission_type_id | discharge_disposition_id | admission_source_id | time_in_hospital | payer_code | medical_specialty        | num_lab_procedures | num_procedures | num_medications | number_outpatient | number_emergency | number_inpatient | diag_1 | diag_2 | diag_3 | number_diagnoses | max_glu_serum | A1Cresult | metformin | repaglinide | nateglinide | chlorpropamide | glimepiride | acetohexamide | glipizide | glyburide | tolbutamide | pioglitazone | rosiglitazone | acarbose | miglitol | troglitazone | tolazamide | examide | citoglipton | insulin | glyburide-metformin | glipizide-metformin | glimepiride-pioglitazone | metformin-rosiglitazone | metformin-pioglitazone | change | diabetesMed | readmitted |
-         |--------------|-------------|-----------|--------|---------|--------|-------------------|--------------------------|---------------------|------------------|------------|--------------------------|--------------------|----------------|-----------------|-------------------|------------------|------------------|--------|--------|--------|------------------|---------------|-----------|-----------|-------------|-------------|----------------|-------------|---------------|-----------|-----------|-------------|--------------|---------------|----------|----------|--------------|------------|---------|-------------|---------|---------------------|---------------------|--------------------------|-------------------------|------------------------|--------|-------------|------------|
-         | 2278392      | 8222157     | Caucasian | Female | [0-10)  | ?      | 6                 | 25                       | 1                   | 1                | ?          | Pediatrics-Endocrinology | 41                 | 0              | 1               | 0                 | 0                | 0                | 250.83 | ?      | ?      | 1                | None          | None      | No        | No          | No          | No             | No          | No            | No        | No        | No          | No           | No            | No       | No       | No           | No         | No      | No          | No      | No                  | No                  | No                       | No                      | No                     | No     | No          | NO         |
-         | 149190       | 55629189    | Caucasian | Female | [10-20) | ?      | 1                 | 1                        | 7                   | 3                | ?          | ?                        | 59                 | 0              | 18              | 0                 | 0                | 0                | 276    | 250.01 | 255    | 9                | None          | None      | No        | No          | No          | No             | No          | No            | No        | No        | No          | No           | No            | No       | No       | No           | No         | No      | No          | Up      | No                  | No                  | No                       | No                      | No                     | Ch     | Yes         | >30        |
-
-  - Note: NA
-  - Citations
-    ```
-    - Beata Strack, Jonathan P. DeShazo, Chris Gennings, Juan L. Olmo, Sebastian Ventura, Krzysztof J. Cios, and John N. Clore, “Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records,” BioMed Research International, vol. 2014, Article ID 781670, 11 pages, 2014. (https://www.hindawi.com/journals/bmri/2014/781670/)
-    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-    ```
-    
-#### Diabetic Retinopathy Debrecen Data Set Data Set
-
-  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetic+Retinopathy+Debrecen+Data+Set)
-  
-  - Data Type: Text/Tabular
-  
-  -   Size: 117 KB
- 
-  -   Example of data + Special Instructions(if any):
-          
-         Download messidor_features.arff from Data Folder from Source
-         <details><summary>Example</summary>
-         <p>
-         
-         <img width="823" alt="Screenshot 2022-07-15 at 4 05 20 PM" src="https://user-images.githubusercontent.com/66881214/179180696-f57026cd-1a4c-423d-921d-2a36c18c1f50.png">
-
-         Columns present (from left to right):   
-         * The binary result of quality assessment. 0 = bad quality 1 = sufficient quality.
-         * The binary result of pre-screening, where 1 indicates severe retinal abnormality and 0 its lack.
-         * The results of MA detection. Each feature value stand for the
-number of MAs found at the confidence levels alpha = 0.5, . . . , 1, respectively. (Columns 2-7)
-         * contain the same information as 2-7) for exudates. However, as exudates are represented by a set of points rather than the number of pixels constructing the lesions, these features are normalized by dividing the number of lesions with the diameter of the ROI to compensate different image
-sizes (Columns 8-15)
-         * The euclidean distance of the center of the macula and the center of the optic disc to provide important information regarding the patient's condition. This feature is also normalized with the diameter of the ROI.
-         * The diameter of the optic disc.
-         * The binary result of the AM/FM-based classification.
-         * Class label. 1 = contains signs of DR (Accumulative label for the Messidor classes 1, 2, 3), 0 = no signs of DR.
-         
-         </p>
-         </details>
-         
-  - Note: Dataset from Source is of .arff file.If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad) 
-  
-    <details><summary>To convert to csv file</summary>
-    <p>
-    
-    Remove the highlighted text as shown and save:
-    
-    <img width="1016" alt="Screenshot 2022-07-15 at 4 05 56 PM" src="https://user-images.githubusercontent.com/66881214/179180814-8066caa4-de81-486d-8b19-f1dc9ce05534.png">
-    
-    Rename the new file by changing ".arff" to ".csv" extension. 
-    
-    Updated file:  
-    
-    <img width="1304" alt="Screenshot 2022-07-15 at 4 06 37 PM" src="https://user-images.githubusercontent.com/66881214/179180932-1d57f15a-783c-4da7-8c43-d3fe4afbda58.png">
-    
-    </p>
-    </details>
-    
-  - Citations
-    ```
-    - Balint Antal, Andras Hajdu: An ensemble-based system for automatic screening of diabetic retinopathy, Knowledge-Based Systems 60 (April 2014), 20-27.
-        - The dataset is based on features extracted from the Messidor image dataset. However, link provided is no longer available: http://messidor.crihan.fr/index-en.php 
-    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-    ```
-
-#### Early Classification of Diabetes
-
-  -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification)
-  -   Data Type: Tabular  
-  -   Size: 21 KB
-  -   Example of data + Special Instructions(if any):
-  
-         Download diabetes_data.csv from Source.
-
-         <details><summary>Example</summary>
-         <p>
-      
-         | **age** | **gender** | **polyuria** | **polydipsia** | **sudden\_weight\_loss** | **weakness** | **polyphagia** | **genital\_thrush** | **visual\_blurring** | **itching** | **irritability** | **delayed\_healing** | **partial\_paresis** | **muscle\_stiffness** | **alopecia** | **obesity** | **class** |
-         | ------- | ---------- | ------------ | -------------- | ------------------------ | ------------ | -------------- | ------------------- | -------------------- | ----------- | ---------------- | -------------------- | -------------------- | --------------------- | ------------ | ----------- | --------- |
-         | 40      | Male       | 0            | 1              | 0                        | 1            | 0              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 1           | 1         |
-         | 58      | Male       | 0            | 0              | 0                        | 1            | 0              | 0                   | 1                    | 0           | 0                | 0                    | 1                    | 0                     | 1            | 0           | 1         |
-         | 41      | Male       | 1            | 0              | 0                        | 1            | 1              | 0                   | 0                    | 1           | 0                | 1                    | 0                    | 1                     | 1            | 0           | 1         |
-         
-               
-  -   Note: Viewing file on Microsoft Excel might be an issue as the delimeter used is a semicolon. 
-  
-  -   Citations
-      ```
-      - Islam M.M.F., Ferdousi R., Rahman S., Bushra H.Y. (2020) Likelihood Prediction of Diabetes at Early Stage Using Data Mining Techniques. In: Gupta M., Konar D., Bhattacharyya S., Biswas S. (eds) Computer Vision and Machine Intelligence in Medical Image Analysis. Advances in Intelligent Systems and Computing, vol 992. Springer, Singapore. https://doi.org/10.1007/978-981-13-8798-2_12
-      ```
-      
 #### Fetal Health Classification 
 
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
@@ -1445,71 +1588,6 @@ sizes (Columns 8-15)
     ```
     - Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318(https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
     ```
-
-
-#### Lymphography Data Set
-
-  -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Lymphography)
-  -   Data Type: Tabular 
-  -   Size: 6 KB
-  -   Example of data + Special Instructions(if any):
-  
-         Download lymphography.data stored in Data Folder from Source
-         <details><summary>Example: CSV version</summary>
-         <p>
-         
-         <img width="1236" alt="Screenshot 2022-07-18 at 3 13 38 PM" src="https://user-images.githubusercontent.com/66881214/179461104-07f53663-be9a-4641-9bb5-d8f6d5f2eb6f.png">
-         
-         Columns present (from left to right): 
-         * class: normal find, metastases, malign lymph, fibrosis
-         * lymphatics: normal, arched, deformed, displaced
-         * block of affere: no, yes
-         * bl. of lymph. c: no, yes
-         * bl. of lymph. s: no, yes
-         * by pass: no, yes
-         * extravasates: no, yes
-         * regeneration of: no, yes
-         * early uptake in: no, yes
-         * lym.nodes dimin: 0-3
-         * lym.nodes enlar: 1-4
-         * changes in lym.: bean, oval, round
-         * defect in node: no, lacunar, lac. marginal, lac. central
-         * changes in node: no, lacunar, lac. margin, lac. central
-         * changes in stru: no, grainy, drop-like, coarse, diluted, reticular, stripped, faint,
-         * special forms: no, chalices, vesicles
-         * dislocation of: no, yes
-         * exclusion of no: no, yes
-         * no. of nodes in: 0-9, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, >=70
-         
-         All attribute values in the database have been entered as numeric values corresponding to their index in the list of attribute values for that attribute domain as given above. 
-         
-         For example, a '3' in first column (refer to first row of image above) will correspond to class = malign lymph
-         
-         </p>
-         </details>
-         
-  -   Note: Dataset from Source is of .data file. If you are unable to view the file after downloading directly, right click on the file and open with any text editor application(eg Notepad). 
-            
-      <details><summary>To download as .csv file</summary>
-      <p>
-      
-      Right click on lymphography.data as shown :
-            
-      <img width="828" alt="Screenshot 2022-07-18 at 3 10 34 PM" src="https://user-images.githubusercontent.com/66881214/179460679-5a5e0e31-01d6-4f82-b77d-17e8b9c04872.png">
-
-      Proceed to add the .csv extention in file name and save to desired location
-      
-      <img width="329" alt="Screenshot 2022-07-18 at 3 10 55 PM" src="https://user-images.githubusercontent.com/66881214/179460724-4e670fc5-c8e5-4dc0-aac5-f64ee191e21b.png">
-      
-      </p>
-      </details>
-
-  -   Citations
-      ```
-      - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
-      - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-      ```
-
 
 #### Monkeypox Skin Lesion Dataset 
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
@@ -1549,79 +1627,6 @@ sizes (Columns 8-15)
     ```
     - If this dataset helped your research, please cite: Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study(https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
     ```
-#### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
-  - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
-  
-  - Data Type: Text/Tabular  
-  
-  -   Size of files
-      -  194KB for train_data.txt 
-      -  47KB for test_data.txt
-  -   Example of data + Special Instructions(if any):
-       
-         Download Parkinson_Multiple_Sound_Recording.rar from Data Folder from Source 
-         <details><summary>Example</summary>
-         <p>
- 
-         <img width="1270" alt="Screenshot 2022-07-15 at 3 28 31 PM" src="https://user-images.githubusercontent.com/66881214/179174170-e8b8e140-44ba-48f7-b1d1-198b3a6cd8d0.png">
-         
-         Columns present (from left to right):
-         * Subject id
-         * features(column 2 to 27)
-           - features 1-5: Jitter (local),Jitter (local, absolute),Jitter (rap),Jitter (ppq5),Jitter (ddp)
-           - features 6-11: Shimmer (local),Shimmer (local, dB),Shimmer (apq3),Shimmer (apq5), Shimmer (apq11),Shimmer (dda)
-           - features 12-14: AC,NTH,HTN
-           - features 15-19: Median pitch,Mean pitch,Standard deviation,Minimum pitch,Maximum pitch
-           - features 20-23: Number of pulses,Number of periods,Mean period,Standard deviation of period
-           - features 24-26: Fraction of locally unvoiced frames,Number of voice breaks,Degree of voice breaks
-         * UPDRS
-         * class information (not present in test_data.txt)
-         
-         </p>
-         </details>
-         
-  - Note: [Click here for more information on how to open .rar files](https://www.hellotech.com/guide/for/how-to-open-rar-files-mac-windows-10)  
-      
-  - Citations
-    ```
-    - Erdogdu Sakar, B., Isenkul, M., Sakar, C.O., Sertbas, A., Gurgen, F., Delil, S., Apaydin, H., Kursun, O., 'Collection and Analysis of a Parkinson Speech Dataset with Multiple Types of Sound Recordings', IEEE Journal of Biomedical and Health Informatics, vol. 17(4), pp. 828-834, 2013.
-    - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
-    ```
-
-#### Parkinson Tappy Keystroke Data
-
-  -   Source:  [Click here to proceed to site](https://physionet.org/content/tappy/1.0.0/)
-  
-  -   Data Type: Text  
-  
-  -   Size of files
-      - 43KB for Archived users  
-      - 549.7MB for Tappy Data 
-         
-  -   Example of data + Special Instructions(if any):
-  
-         Download files from Source.
-         <details><summary>Example</summary>
-         <p>
-         
-         Each user will have their corresponding text file in Archived users with the following information: 
-         
-         <img width="454" alt="Screenshot 2022-07-20 at 5 10 10 PM" src="https://user-images.githubusercontent.com/66881214/179944256-b890ab5f-1d29-45ed-9c6c-13d9d0057d53.png">
-         
-         In Tappy Data folder, a participant may have more than one file. The filename comprises the 10 character code (matching the user details file) and the YYMM of the data:
-         
-         <img width="541" alt="Screenshot 2022-07-20 at 5 12 33 PM" src="https://user-images.githubusercontent.com/66881214/179944770-d19779aa-a9ba-43b2-89d9-94b9b5c42ec7.png">
-         
-         </p>
-         </details>
-     
-  -   Note: NA
-         
-  -   Citations
-      ```
-      - Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
-      - Adams WR (2017) High-accuracy detection of early Parkinson's Disease using multiple characteristics of finger movement while typing. PLOS ONE 12(11): e0188226. https://doi.org/10.1371/journal.pone.0188226
-      ```
 
 #### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842)
