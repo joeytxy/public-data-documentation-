@@ -65,6 +65,7 @@ Table of Contents
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
     
 9. [Medical Transcripts](#Medical-Transcript)
+    - [ADE Corpus V2](#ADE-Corpus-V2)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews)
     - [PubMed 200k RCT dataset](#PubMed-200k-RCT-dataset)
 
@@ -1484,6 +1485,47 @@ sizes (Columns 8-15)
 
 ### Medical Transcripts
 
+#### ADE Corpus V2
+
+  -   Source: [Click here to proceed to site](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/Certification_Trainings/Healthcare/data/ADE_Corpus_V2)
+      - Entire zip file is also available [here](https://sites.google.com/site/adecorpus/home/document)  
+  -   Data Type: Free Text
+  -   Possible uses: Build a model to extract information regarding Adverse Drug Effects from medical text
+  -   Size of files:
+      - 2.3MB for ADE-NEG.txt
+      - 1.4MB for DRUG-AE.rel
+      - 60KB for DRUG-DOSE.rel
+  -   Example of data + Special Instructions(if any):
+      
+         Download relevant files from Source 
+         <details><summary>Example</summary>
+         <p>
+         
+         ADE-NEG.txt provides all sentences in the ADE corpus that DO NOT contain any drug-related adverse effects.
+         
+         ADE-NEG.txt: <img width="1168" alt="Screenshot 2022-07-22 at 10 20 24 PM" src="https://user-images.githubusercontent.com/66881214/180459154-d25309e5-f17f-4dac-9555-02b79126fdea.png">
+        
+         DRUG-AE.rel provides relations between drugs and adverse effects.
+        
+         DRUG-AE.rel: <img width="1082" alt="Screenshot 2022-07-22 at 10 21 12 PM" src="https://user-images.githubusercontent.com/66881214/180459339-7d30f9ad-5ffe-4045-8e82-742e7641dab8.png">
+         
+         DRUG-DOSE.rel provides relations between drugs and dosages.
+         
+         DRUG-DOSE.txt <img width="985" alt="Screenshot 2022-07-22 at 10 22 11 PM" src="https://user-images.githubusercontent.com/66881214/180459542-231715bb-731d-4da3-bcb2-6de8b1a9e952.png">
+
+         </p>
+         </details>
+
+  -   Note: NA
+  -   Citations
+      ```
+      - If you use this corpus for any publication purposes, you are requested to cite the source article:
+
+       Gurulingappa et al., Benchmark Corpus to Support Information Extraction for Adverse Drug Effects, JBI, 2012.
+       http://www.sciencedirect.com/science/article/pii/S1532046412000615
+
+      ```
+      
 #### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842)
   - Data Type: Audio + Free Text 
