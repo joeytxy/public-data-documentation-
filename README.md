@@ -63,13 +63,17 @@ Table of Contents
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
+    
+9. [Medical Transcripts](#Medical-Transcript)
+    - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews)
+    - [PubMed 200k RCT dataset](#PubMed-200k-RCT-dataset)
 
 10. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
     - [Covid19 Coswara Dataset](#Covid19-Coswara-Dataset)  
     - [Fetal Health Classification](#Fetal-Health-Classification)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
-    - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews) 
+
     
 ### Cancer Datasets
 
@@ -1478,155 +1482,7 @@ sizes (Columns 8-15)
       - The paper can be found at https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf
     ```
 
-### Other Diseases 
-
-#### Chula RBC-12-Dataset
-  -   Source:  [Click here to proceed to site](https://github.com/Chula-PIC-Lab/Chula-RBC-12-Dataset)
-  
-  -   Data Type: Images + Text/Tabular
-  
-  -   Size: Depends. One image is about 79KB. 
-      - 73.5MB for Dataset folder 
-      - 216KB for Labels folder
-  
-  -   Example of data + Special Instructions(if any):
-  
-         Download images in Dataset folder and corresponding text files in Label folder from Source.
-         <details><summary>You could also download the entire folder by downloading the zip folder as shown below</summary>
-         <p>
-         
-         <img width="927" alt="Screenshot 2022-07-18 at 10 23 20 PM" src="https://user-images.githubusercontent.com/66881214/179533073-c46fcd53-bf27-4148-b3f7-71744719a75b.png">
-           
-         </p>
-         </details>
-
-         <details><summary>Example: 1.jpg in Dataset folder will correspond to 1.txt in Label folder</summary>
-         <p>
-      
-         <img src="https://user-images.githubusercontent.com/66881214/178712949-f819cf02-e1cc-4cb8-994c-d83d28823179.jpg" width="150" height="150"> <img width="115" alt="Screenshot 2022-07-13 at 6 38 07 PM" src="https://user-images.githubusercontent.com/66881214/178714773-24a74e22-dcd2-47a8-acec-f37606ebf1b4.png"> 
-         
-         Each row contains 3 values which corresponds to the x coordinate, y coordinate and the type of red blood cell found at the coordinate. There are 13 types as follows:
-         
-         Number  | Type of Red Blood Cell
-         ------------- | -------------
-         0  | Normal cell
-         1  | Macrocyte
-         2 | Microcyte 
-         3 | Spherocyte
-         4 | Target cell
-         5 | Stomatocyte
-         6 | Ovalocyte
-         7 | Teardrop
-         8 | Burr cell
-         9 | Schistocyte
-         10 | uncategorised
-         11 | Hypochromia
-         12 | Elliptocyte
-         
-         </p>
-         </details>
-         
-  -   Note: There are other images that correspond to other red blood diseases that can be found in the RBC Diseases folder from Source. 
-  
-  -   Citations
-      ```
-      - Naruenatthanaset, K., Chalidabhongse, T. H., Palasuwan, D., Anantrasirichai, N., &amp; Palasuwan, A. (2021, November 3). Red blood cell segmentation with overlapping cell separation and classification on Imbalanced Dataset. arXiv.org. Retrieved July 14, 2022, from https://arxiv.org/abs/2012.01321   
-      ```
-
-#### Covid19 Coswara Dataset
-
-  -   Source:  [Click here to proceed to site](https://github.com/iiscleap/Coswara-Data)
- 
-  -   Data Type: Audio + Tabular
-  
-  -   Size:  -
-  
-  -   Example of data + Special Instructions(if any):
-         
-         Download relevant files from Source
-         
-         <details><summary>Example</summary>
-         <p>
-          
-         Audio sample to be included soon.
-            
-         Summary of metadata found in combined_data.csv in source:
-           
-         | id                           | a  | cold | record\_date | covid\_status  | ctScan | dT  | ep | fV | fever | g    | l\_c  | l\_l            | l\_s      | others\_resp | rU | smoker | testType | test\_date | test\_status | um | vacc | cough | ftg | mp   | st | diabetes | ht | bd | cld | diarrhoea | ctDate | ctScore | asthma | loss\_of\_smell | others\_preexist | ihd | pneumonia |
-         | ---------------------------- | -- | ---- | ------------ | -------------- | ------ | --- | -- | -- | ----- | ---- | ----- | --------------- | --------- | ------------ | -- | ------ | -------- | ---------- | ------------ | -- | ---- | ----- | --- | ---- | -- | -------- | -- | -- | --- | --------- | ------ | ------- | ------ | --------------- | ---------------- | --- | --------- |
-         | eK8ikIYnLQPWGetLBHzkJVCGfpq2 | 27 | TRUE | 18/1/22      | positive\_mild | n      | web | y  | 2  | TRUE  | male | India | Shimoga         | Karnataka | TRUE         | n  | n      | rtpcr    | 17/1/22    | p            | y  | y    |       |     |      |    |          |    |    |     |           |        |         |        |                 |                  |     |           |
-         | AeP4E7hKFtOmcWye2MghbvDfGlo2 | 41 |      | 29/1/22      | positive\_mild | n      | web | y  | 2  | TRUE  | male | India | Bangalore rural | Karnataka |              | n  | n      | rtpcr    | 27/1/22    | p            | y  | y    | TRUE  |     | TRUE |    |          |    |    |     |           |        |         |        |                 |                  |     |           |
-
-         </p>
-         </details>
-         
-  -   Note: Audio files are in a zip file (example 20220224.tar.gz.aa). A extract_data.py is provided in source to extract the audio files which are of .wav format.
-  
-  -   Citations
-      ```
-      - Coswara - A Database of Breathing, Cough, and Voice Sounds for COVID-19 Diagnosis (https://arxiv.org/abs/2005.10548)
-      ```
-#### Fetal Health Classification 
-
-  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
-  - Data Type: Tabular 
-  -   Size: 229KB
-  -   Example of data + Special Instructions(if any):
-            
-         Download from Source
-         <details><summary>Example</summary>
-         <p>
-                
-         | baseline value | accelerations | fetal\_movement | uterine\_contractions | light\_decelerations | severe\_decelerations | prolongued\_decelerations | abnormal\_short\_term\_variability | mean\_value\_of\_short\_term\_variability | percentage\_of\_time\_with\_abnormal\_long\_term\_variability | mean\_value\_of\_long\_term\_variability | histogram\_width | histogram\_min | histogram\_max | histogram\_number\_of\_peaks | histogram\_number\_of\_zeroes | histogram\_mode | histogram\_mean | histogram\_median | histogram\_variance | histogram\_tendency | fetal\_health |
-         | -------------- | ------------- | --------------- | --------------------- | -------------------- | --------------------- | ------------------------- | ---------------------------------- | ----------------------------------------- | ------------------------------------------------------------- | ---------------------------------------- | ---------------- | -------------- | -------------- | ---------------------------- | ----------------------------- | --------------- | --------------- | ----------------- | ------------------- | ------------------- | ------------- |
-         | 120            | 0             | 0               | 0                     | 0                    | 0                     | 0                         | 73                                 | 0.5                                       | 43                                                            | 2.4                                      | 64               | 62             | 126            | 2                            | 0                             | 120             | 137             | 121               | 73                  | 1                   | 2             |
-         | 132            | 0.006         | 0               | 0.006                 | 0.003                | 0                     | 0                         | 17                                 | 2.1                                       | 0                                                             | 10.4                                     | 130              | 68             | 198            | 6                            | 1                             | 141             | 136             | 140               | 12                  | 0                   | 1             |
-         | 133            | 0.003         | 0               | 0.008                 | 0.003                | 0                     | 0                         | 16                                 | 2.1                                       | 0                                                             | 13.4                                     | 130              | 68             | 198            | 5                            | 1                             | 141             | 135             | 138               | 13                  | 0                   | 1             |
-        
-  - Note: NA
-  - Citations
-    ```
-    - Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318(https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
-    ```
-
-#### Monkeypox Skin Lesion Dataset 
-  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
-  
-  - Data Type: Image + Tabular   
-  
-  -   Size of files
-      -  1.5MB for Original Images folder
-      -  5KB for Monkeypox_Dataset_metadata.csv
-      -  25.9MB for Augmented_Images.zip
-      -  20.9MB for Fold1
-  -   Example of data + Special Instructions(if any):
-  
-         Download relevant files from Source 
-         - Users may choose to use the folds/augmented images directly (Refer to source for more information)
-         <details><summary>Example</summary>
-         <p>
-         
-         Monkeypox: <img src="https://user-images.githubusercontent.com/66881214/179441844-22a9b005-841c-41f4-8d59-e3cde0d03843.jpg" width="150" height="150">
-         
-         Others:  <img src="https://user-images.githubusercontent.com/66881214/179441888-5c49b47e-00da-4a05-a4c7-43f583ad1110.jpg" width="150" height="150">
-        
-        </p>
-        </details>
-        
-  - Note: There is a csv file that indicates the labels of the images. This may not be needed as the images are already sorted into their respective folders in main folder  
-          
-    <details><summary>CSV file</summary>
-    <p>
-          
-    <img width="132" alt="Screenshot 2022-07-18 at 11 46 15 AM" src="https://user-images.githubusercontent.com/66881214/179442387-5fbe6faa-bade-497d-bdc0-e8e4749543b2.png">
-          
-    </p>
-    </details>
-
-  - Citations
-    ```
-    - If this dataset helped your research, please cite: Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study(https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
-    ```
+### Medical Transcripts
 
 #### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842)
@@ -1908,4 +1764,181 @@ sizes (Columns 8-15)
   - Citations
     ```
     - Smith, Christopher William; Fareez, Faiha; Parikh, Tishya; Wavell, Christopher; Shahab, Saba; Chevalier, Meghan; et al. (2022): Collection of simulated medical exams. figshare. Dataset. 
+    ```
+
+#### PubMed 200k RCT dataset
+
+  -   Source: [Click here to proceed to site](https://github.com/Franck-Dernoncourt/pubmed-rct)
+  -   Data Type: Free Text
+  -   Possible uses: Develop an algorithm that can summarise a long medical abstract accurately
+  -   Size of folders (each folder has a train.txt, test.txt and dev.txt):
+      - 39.2MB for PubMed_20k_RCT 
+      - 38.6MB for PubMed_20k_RCT_numbers_replaced_with_at_sign 
+      - 367.1MB for PubMed_200k_RCT 
+      - 361MB for PubMed_200k_RCT_numbers_replaced_with_at_sign 
+  -   Example of data + Special Instructions(if any):
+      
+         Download relevant files from Source 
+         <details><summary>Example</summary>
+         <p>
+
+         <img width="1174" alt="Screenshot 2022-07-22 at 9 14 59 PM" src="https://user-images.githubusercontent.com/66881214/180446748-20361dba-3bcb-4163-9288-ff60f18d1fed.png">
+
+         </p>
+         </details>
+
+  -   Note: NA
+  -   Citations
+      ```
+      - Franck Dernoncourt, Ji Young Lee. PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts. International Joint Conference on Natural Language Processing (IJCNLP). 2017. https://arxiv.org/abs/1710.06071
+      ```
+
+### Other Diseases 
+
+#### Chula RBC-12-Dataset
+  -   Source:  [Click here to proceed to site](https://github.com/Chula-PIC-Lab/Chula-RBC-12-Dataset)
+  
+  -   Data Type: Images + Text/Tabular
+  
+  -   Size: Depends. One image is about 79KB. 
+      - 73.5MB for Dataset folder 
+      - 216KB for Labels folder
+  
+  -   Example of data + Special Instructions(if any):
+  
+         Download images in Dataset folder and corresponding text files in Label folder from Source.
+         <details><summary>You could also download the entire folder by downloading the zip folder as shown below</summary>
+         <p>
+         
+         <img width="927" alt="Screenshot 2022-07-18 at 10 23 20 PM" src="https://user-images.githubusercontent.com/66881214/179533073-c46fcd53-bf27-4148-b3f7-71744719a75b.png">
+           
+         </p>
+         </details>
+
+         <details><summary>Example: 1.jpg in Dataset folder will correspond to 1.txt in Label folder</summary>
+         <p>
+      
+         <img src="https://user-images.githubusercontent.com/66881214/178712949-f819cf02-e1cc-4cb8-994c-d83d28823179.jpg" width="150" height="150"> <img width="115" alt="Screenshot 2022-07-13 at 6 38 07 PM" src="https://user-images.githubusercontent.com/66881214/178714773-24a74e22-dcd2-47a8-acec-f37606ebf1b4.png"> 
+         
+         Each row contains 3 values which corresponds to the x coordinate, y coordinate and the type of red blood cell found at the coordinate. There are 13 types as follows:
+         
+         Number  | Type of Red Blood Cell
+         ------------- | -------------
+         0  | Normal cell
+         1  | Macrocyte
+         2 | Microcyte 
+         3 | Spherocyte
+         4 | Target cell
+         5 | Stomatocyte
+         6 | Ovalocyte
+         7 | Teardrop
+         8 | Burr cell
+         9 | Schistocyte
+         10 | uncategorised
+         11 | Hypochromia
+         12 | Elliptocyte
+         
+         </p>
+         </details>
+         
+  -   Note: There are other images that correspond to other red blood diseases that can be found in the RBC Diseases folder from Source. 
+  
+  -   Citations
+      ```
+      - Naruenatthanaset, K., Chalidabhongse, T. H., Palasuwan, D., Anantrasirichai, N., &amp; Palasuwan, A. (2021, November 3). Red blood cell segmentation with overlapping cell separation and classification on Imbalanced Dataset. arXiv.org. Retrieved July 14, 2022, from https://arxiv.org/abs/2012.01321   
+      ```
+
+#### Covid19 Coswara Dataset
+
+  -   Source:  [Click here to proceed to site](https://github.com/iiscleap/Coswara-Data)
+ 
+  -   Data Type: Audio + Tabular
+  
+  -   Size:  -
+  
+  -   Example of data + Special Instructions(if any):
+         
+         Download relevant files from Source
+         
+         <details><summary>Example</summary>
+         <p>
+          
+         Audio sample to be included soon.
+            
+         Summary of metadata found in combined_data.csv in source:
+           
+         | id                           | a  | cold | record\_date | covid\_status  | ctScan | dT  | ep | fV | fever | g    | l\_c  | l\_l            | l\_s      | others\_resp | rU | smoker | testType | test\_date | test\_status | um | vacc | cough | ftg | mp   | st | diabetes | ht | bd | cld | diarrhoea | ctDate | ctScore | asthma | loss\_of\_smell | others\_preexist | ihd | pneumonia |
+         | ---------------------------- | -- | ---- | ------------ | -------------- | ------ | --- | -- | -- | ----- | ---- | ----- | --------------- | --------- | ------------ | -- | ------ | -------- | ---------- | ------------ | -- | ---- | ----- | --- | ---- | -- | -------- | -- | -- | --- | --------- | ------ | ------- | ------ | --------------- | ---------------- | --- | --------- |
+         | eK8ikIYnLQPWGetLBHzkJVCGfpq2 | 27 | TRUE | 18/1/22      | positive\_mild | n      | web | y  | 2  | TRUE  | male | India | Shimoga         | Karnataka | TRUE         | n  | n      | rtpcr    | 17/1/22    | p            | y  | y    |       |     |      |    |          |    |    |     |           |        |         |        |                 |                  |     |           |
+         | AeP4E7hKFtOmcWye2MghbvDfGlo2 | 41 |      | 29/1/22      | positive\_mild | n      | web | y  | 2  | TRUE  | male | India | Bangalore rural | Karnataka |              | n  | n      | rtpcr    | 27/1/22    | p            | y  | y    | TRUE  |     | TRUE |    |          |    |    |     |           |        |         |        |                 |                  |     |           |
+
+         </p>
+         </details>
+         
+  -   Note: Audio files are in a zip file (example 20220224.tar.gz.aa). A extract_data.py is provided in source to extract the audio files which are of .wav format.
+  
+  -   Citations
+      ```
+      - Coswara - A Database of Breathing, Cough, and Voice Sounds for COVID-19 Diagnosis (https://arxiv.org/abs/2005.10548)
+      ```
+#### Fetal Health Classification 
+
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
+  - Data Type: Tabular 
+  -   Size: 229KB
+  -   Example of data + Special Instructions(if any):
+            
+         Download from Source
+         <details><summary>Example</summary>
+         <p>
+                
+         | baseline value | accelerations | fetal\_movement | uterine\_contractions | light\_decelerations | severe\_decelerations | prolongued\_decelerations | abnormal\_short\_term\_variability | mean\_value\_of\_short\_term\_variability | percentage\_of\_time\_with\_abnormal\_long\_term\_variability | mean\_value\_of\_long\_term\_variability | histogram\_width | histogram\_min | histogram\_max | histogram\_number\_of\_peaks | histogram\_number\_of\_zeroes | histogram\_mode | histogram\_mean | histogram\_median | histogram\_variance | histogram\_tendency | fetal\_health |
+         | -------------- | ------------- | --------------- | --------------------- | -------------------- | --------------------- | ------------------------- | ---------------------------------- | ----------------------------------------- | ------------------------------------------------------------- | ---------------------------------------- | ---------------- | -------------- | -------------- | ---------------------------- | ----------------------------- | --------------- | --------------- | ----------------- | ------------------- | ------------------- | ------------- |
+         | 120            | 0             | 0               | 0                     | 0                    | 0                     | 0                         | 73                                 | 0.5                                       | 43                                                            | 2.4                                      | 64               | 62             | 126            | 2                            | 0                             | 120             | 137             | 121               | 73                  | 1                   | 2             |
+         | 132            | 0.006         | 0               | 0.006                 | 0.003                | 0                     | 0                         | 17                                 | 2.1                                       | 0                                                             | 10.4                                     | 130              | 68             | 198            | 6                            | 1                             | 141             | 136             | 140               | 12                  | 0                   | 1             |
+         | 133            | 0.003         | 0               | 0.008                 | 0.003                | 0                     | 0                         | 16                                 | 2.1                                       | 0                                                             | 13.4                                     | 130              | 68             | 198            | 5                            | 1                             | 141             | 135             | 138               | 13                  | 0                   | 1             |
+        
+  - Note: NA
+  - Citations
+    ```
+    - Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318(https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
+    ```
+
+#### Monkeypox Skin Lesion Dataset 
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
+  
+  - Data Type: Image + Tabular   
+  
+  -   Size of files
+      -  1.5MB for Original Images folder
+      -  5KB for Monkeypox_Dataset_metadata.csv
+      -  25.9MB for Augmented_Images.zip
+      -  20.9MB for Fold1
+  -   Example of data + Special Instructions(if any):
+  
+         Download relevant files from Source 
+         - Users may choose to use the folds/augmented images directly (Refer to source for more information)
+         <details><summary>Example</summary>
+         <p>
+         
+         Monkeypox: <img src="https://user-images.githubusercontent.com/66881214/179441844-22a9b005-841c-41f4-8d59-e3cde0d03843.jpg" width="150" height="150">
+         
+         Others:  <img src="https://user-images.githubusercontent.com/66881214/179441888-5c49b47e-00da-4a05-a4c7-43f583ad1110.jpg" width="150" height="150">
+        
+        </p>
+        </details>
+        
+  - Note: There is a csv file that indicates the labels of the images. This may not be needed as the images are already sorted into their respective folders in main folder  
+          
+    <details><summary>CSV file</summary>
+    <p>
+          
+    <img width="132" alt="Screenshot 2022-07-18 at 11 46 15 AM" src="https://user-images.githubusercontent.com/66881214/179442387-5fbe6faa-bade-497d-bdc0-e8e4749543b2.png">
+          
+    </p>
+    </details>
+
+  - Citations
+    ```
+    - If this dataset helped your research, please cite: Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study(https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
     ```
