@@ -36,35 +36,35 @@ Table of Contents
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
     - [Parkinson Tappy Keystroke Data](#Parkinson-Tappy-Keystroke-Data)
 
-3. [Brain Related Datasets](#Brain-Related-Datasets)
+4. [Brain Related Datasets](#Brain-Related-Datasets)
     - [Brain tumor data](#Brain-tumor-data)
     - [MRI and Alzheimers](#MRI-and-Alzheimers)
     - [Stroke Prediction](#Stroke-Prediction)
     
-4. [Eye Related Datasets](#Eye-Related-Datasets)
+5. [Eye Related Datasets](#Eye-Related-Datasets)
    - [Bajwa Hospital (Multi Eye Disease Dataset)](#Bajwa-Hospital-Multi-Eye-Disease-Dataset)
    - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)
 
-5. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
+6. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
    -  [Bowel Sounds](#Bowel-Sounds) 
    -  [Kvasir Dataset](#Kvasir-Dataset)
 
-6 [Heart Related Datasets](#Heart-Related-Datasets)
+7. [Heart Related Datasets](#Heart-Related-Datasets)
     - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
-7. [Kidney Related Datasets](#Kidney-Related-Datasets)
+8. [Kidney Related Datasets](#Kidney-Related-Datasets)
     - [A Brazilian dataset for screening the risk of the Chronic Kidney Disease](#A-Brazilian-dataset-for-screening-the-risk-of-the-Chronic-Kidney-Disease)
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
-8. [Lung Related Datasets](#Lung-Related-Datasets)
+9. [Lung Related Datasets](#Lung-Related-Datasets)
     - [A dataset of lung sounds recorded from the chest wall using an electronic stethoscope](#A-dataset-of-lung-sounds-recorded-from-the-chest-wall-using-an-electronic-stethoscope)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
 
-9. [Others](#Others) 
+10. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
     - [Covid19 Coswara Dataset](#Covid19-Coswara-Dataset)  
     - [Fetal Health Classification](#Fetal-Health-Classification)
