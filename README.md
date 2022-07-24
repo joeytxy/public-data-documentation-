@@ -1601,7 +1601,6 @@ sizes (Columns 8-15)
   -   Data Type: Free Text
   -   Possible uses: 
   -   Size of folders:
-      - 
   -   Example of data + Special Instructions(if any):
       
          Download relevant files from Source 
