@@ -26,7 +26,7 @@ Table of Contents
     - [Thoracic Surgery Data Data Set](#Thoracic-Surgery-Data-Data-Set)
     
 2. [Diabetes Dataset](#Diabetes-Dataset)
-    - [Association of body mass index and age with incident diabetes in Chinese adults](Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
+    - [Association of body mass index and age with incident diabetes in Chinese adults](#Association-of-body-mass-index-and-age-with-incident-diabetes-in-Chinese-adults)
     - [Clinical characteristics, types and complications of diabetics with young age at the onset](#Clinical-characteristics-types-and-complications-of-diabetics-with-young-age-at-the-onset)
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
