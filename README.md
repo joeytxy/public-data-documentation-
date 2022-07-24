@@ -65,12 +65,13 @@ Table of Contents
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
     
-9. [Medical Transcripts](#Medical-Transcript)
+10. [Medical Transcripts](#Medical-Transcript)
     - [ADE Corpus V2](#ADE-Corpus-V2)
+    - [MedQuAD](#MedQuAD)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews)
     - [PubMed 200k RCT dataset](#PubMed-200k-RCT-dataset)
 
-10. [Others](#Others) 
+11. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
     - [Fetal Health Classification](#Fetal-Health-Classification)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
@@ -1530,8 +1531,7 @@ sizes (Columns 8-15)
   -   Example of data + Special Instructions(if any):
       
          Download relevant files from Source 
-         <details><summary>Example</summary>
-         <p>
+         Example:
          
          <details><summary>ADE-NEG.txt</summary>
          <p>
@@ -1584,9 +1584,6 @@ sizes (Columns 8-15)
 
          </p>
          </details>
-             
-         </p>
-         </details> 
 
   -   Note: NA
   -   Citations
@@ -1597,7 +1594,30 @@ sizes (Columns 8-15)
        http://www.sciencedirect.com/science/article/pii/S1532046412000615
 
       ```
+#### MedQuAD
+(In progress)
+  -   Source: [Click here to proceed to site](https://github.com/abachaa/MedQuAD)
+  -   Data Type: Free Text
+  -   Possible uses: 
+  -   Size of folders:
+      - 
+  -   Example of data + Special Instructions(if any):
       
+         Download relevant files from Source 
+         Example:
+         
+         <details><summary>CancerGov_QA</summary>
+         <p>
+        
+
+         </p>
+         </details>
+
+  -   Note: NA
+  -   Citations
+      ```
+      - Asma Ben Abacha, & Dina Demner-Fushman (2019). A Question-Entailment Approach to Question Answering. BMC Bioinform., 20(1), 511:1–511:23. (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3119-4)
+      ```
 #### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842)
   - Data Type: Audio + Free Text 
