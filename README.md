@@ -1531,6 +1531,7 @@ sizes (Columns 8-15)
   -   Example of data + Special Instructions(if any):
       
          Download relevant files from Source 
+             
          Example:
          
          <details><summary>ADE-NEG.txt</summary>
@@ -1604,6 +1605,7 @@ sizes (Columns 8-15)
   -   Example of data + Special Instructions(if any):
       
          Download relevant files from Source 
+             
          Example:
          
          <details><summary>CancerGov_QA</summary>
