@@ -1599,7 +1599,7 @@ sizes (Columns 8-15)
 
   -   Source: [Click here to proceed to site](https://github.com/abachaa/MedQuAD)
   -   Data Type: Free Text
-  -   Possible uses: 
+  -   Possible uses: Develop a tool that could answer medical questions automatically by mapping new questions to formally answered questions that are "similar"
   -   Size of folders:
       - 3MB for CancerGov
       - 9.6MB for GARD
