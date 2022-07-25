@@ -1596,23 +1596,39 @@ sizes (Columns 8-15)
 
       ```
 #### MedQuAD
-(In progress)
+
   -   Source: [Click here to proceed to site](https://github.com/abachaa/MedQuAD)
   -   Data Type: Free Text
   -   Possible uses: 
   -   Size of folders:
+      - 3MB for CancerGov
+      - 9.6MB for GARD
+      - 6.3MB for GHR
+      - 1.5MB for MPlus_Health_Topics
+      - 2.3MB for NIDDK
+      - 1MB for NINDS
+      - 1.3MB for SeniorHealth 
+      - 1.9MB for NHLBI
+      - 455KB for CDC
+      - 5.4MB for MPlus_ADAM
+      - 2.8MB MPlusDrugs 
+      - 175KB for MPlusHerbsSupplements 
   -   Example of data + Special Instructions(if any):
       
-         Download relevant files from Source 
+         Download relevant files from Source. There are 12 categories available:
+
              
          Example:
          
          <details><summary>CancerGov_QA</summary>
          <p>
         
-
+         <img width="900" alt="Screenshot 2022-07-25 at 1 55 16 PM" src="https://user-images.githubusercontent.com/66881214/180707746-1be8d6aa-278d-4935-9584-dc2ae054ee9b.png">
+         
          </p>
          </details>
+             
+         
 
   -   Note: NA
   -   Citations
