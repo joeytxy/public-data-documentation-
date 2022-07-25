@@ -1642,8 +1642,8 @@ sizes (Columns 8-15)
          <details><summary>US_qbank.jsonl from Questions US folder</summary>
          <p>
              
-         <img width="712" alt="Screenshot 2022-07-25 at 3 32 58 PM" src="https://user-images.githubusercontent.com/66881214/180722670-488e65ad-6843-496b-8d76-6816a32e9177.png">
-             
+         <img width="677" alt="Screenshot 2022-07-25 at 3 43 35 PM" src="https://user-images.githubusercontent.com/66881214/180724634-4970b106-3dc0-4258-b9e5-fa9855bf0974.png"> 
+
          </p>
          </details>             
          
@@ -1652,12 +1652,12 @@ sizes (Columns 8-15)
          
          There is a list of text files regarding various medical topics in this folder:
              
-         <img width="338" alt="Screenshot 2022-07-25 at 3 36 30 PM" src="https://user-images.githubusercontent.com/66881214/180723307-4e0ba951-0b6d-4852-9705-4652e1bf5269.png">
+         <img width="243" alt="Screenshot 2022-07-25 at 3 42 13 PM" src="https://user-images.githubusercontent.com/66881214/180724342-df630bd3-12cd-49a0-8c9c-ff50e2657792.png">
              
          Example of abstract from Anatomy_Gray.txt:
 
-         <img width="849" alt="Screenshot 2022-07-25 at 3 33 49 PM" src="https://user-images.githubusercontent.com/66881214/180722830-d112c4ce-f307-4c18-aabc-abe8208075ff.png">
-             
+         <img width="676" alt="Screenshot 2022-07-25 at 3 42 37 PM" src="https://user-images.githubusercontent.com/66881214/180724426-0124db05-94f9-4386-ad40-0aeceb37f5bd.png">
+
          </p>
          </details>          
 
