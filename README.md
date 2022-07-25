@@ -68,6 +68,7 @@ Table of Contents
 10. [Medical Transcripts](#Medical-Transcript)
     - [ADE Corpus V2](#ADE-Corpus-V2)
     - [MedMentions](#MedMentions)
+    - [MedQA](#MedQA)
     - [MedQuAD](#MedQuAD)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews)
     - [PubMed 200k RCT dataset](#PubMed-200k-RCT-dataset)
@@ -1625,7 +1626,47 @@ sizes (Columns 8-15)
   -   Citations
       ```
       - Sunil Mohan and Donghui Li. 2019. MedMentions: A Large Biomedical Corpus Annotated with UMLS Concepts. In Proceedings of the 2019 Conference on Automated Knowledge Base Construction (AKBC 2019). Amherst, Massachusetts, USA. May 2019 (https://arxiv.org/abs/1902.09476)
-      ```             
+      ```        
+#### MedQA
+            
+  -   Source: [Click here to proceed to site](https://github.com/jind11/MedQA)
+  -   Data Type: Free Text
+  -   Possible uses: Building models for open domain question answering(OpenQA) tasks in the medical field(This is a free-form multiple-choice OpenQA dataset for solving medical problems)    
+  -   Size: 391.4MB
+  -   Example of data + Special Instructions(if any):
+      
+         Download data from Google Drive folder from Source. 
+             
+         Example:
+         
+         <details><summary>US_qbank.jsonl from Questions US folder</summary>
+         <p>
+             
+         <img width="712" alt="Screenshot 2022-07-25 at 3 32 58 PM" src="https://user-images.githubusercontent.com/66881214/180722670-488e65ad-6843-496b-8d76-6816a32e9177.png">
+             
+         </p>
+         </details>             
+         
+         <details><summary>Textbook</summary>
+         <p>
+         
+         There is a list of text files regarding various medical topics in this folder:
+             
+         <img width="338" alt="Screenshot 2022-07-25 at 3 36 30 PM" src="https://user-images.githubusercontent.com/66881214/180723307-4e0ba951-0b6d-4852-9705-4652e1bf5269.png">
+             
+         Example of abstract from Anatomy_Gray.txt:
+
+         <img width="849" alt="Screenshot 2022-07-25 at 3 33 49 PM" src="https://user-images.githubusercontent.com/66881214/180722830-d112c4ce-f307-4c18-aabc-abe8208075ff.png">
+             
+         </p>
+         </details>          
+
+  -   Note: NA
+  -   Citations
+      ```
+      - Jin, D., Pan, E., Oufattole, N., Weng, W.H., Fang, H., & Szolovits, P. (2020). What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams. arXiv preprint arXiv:2009.13081.
+      ```
+             
 #### MedQuAD
 
   -   Source: [Click here to proceed to site](https://github.com/abachaa/MedQuAD)
