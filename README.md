@@ -67,6 +67,7 @@ Table of Contents
     
 10. [Medical Transcripts](#Medical-Transcript)
     - [ADE Corpus V2](#ADE-Corpus-V2)
+    - [CDR BioCreative V Chemical Disease Relation corpus](#CDR-BioCreative-V-Chemical-Disease-Relation-corpus)
     - [MedMentions](#MedMentions)
     - [MedQA](#MedQA)
     - [MedQuAD](#MedQuAD)
@@ -1598,6 +1599,29 @@ sizes (Columns 8-15)
        http://www.sciencedirect.com/science/article/pii/S1532046412000615
 
       ```
+#### CDR BioCreative V Chemical Disease Relation corpus
+           
+  -   Source: [Click here to proceed to site](http://gcancer.org/clstmdata/)
+  -   Data Type: Free Text
+  -   Possible uses: Disease named entity recognition and chemical-induced disease relation extraction
+  -   Size: 11.2MB
+  -   Example of data + Special Instructions(if any):
+      
+         Download folder from CDR section from Source. 
+             
+         <details><summary>Example</summary>
+         <p>
+        
+         <img width="867" alt="Screenshot 2022-07-25 at 5 15 23 PM" src="https://user-images.githubusercontent.com/66881214/180742377-cec3a59a-ab43-4433-b317-c8b4dc8d50b1.png">
+         
+         </p>
+         </details>
+
+  -   Note: Medical Subject Headings(MeSH) is used in this dataset 
+  -   Citations
+      ```
+      - Li, J., Sun, Y., Johnson, R. J., Sciaky, D., Wei, C. H., Leaman, R., Davis, A. P., Mattingly, C. J., Wiegers, T. C., & Lu, Z. (2016). BioCreative V CDR task corpus: a resource for chemical disease relation extraction. Database : the journal of biological databases and curation, 2016, baw068. https://doi.org/10.1093/database/baw068
+      ```
              
 #### MedMentions
 
@@ -1739,7 +1763,7 @@ sizes (Columns 8-15)
          </p>
          </details> 
              
-  -   Note: NA
+  -   Note: Medical Subject Headings (MeSH) and Online Mendelian Inheritance in Man (OMIM) are used in this dataset
   -   Citations
       ```
       - Rezarta Islamaj Doğan, Robert Leaman, & Zhiyong Lu (2014). NCBI disease corpus: A resource for disease name recognition and concept normalization. Journal of Biomedical Informatics, 47, 1-10.
