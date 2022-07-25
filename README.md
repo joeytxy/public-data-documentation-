@@ -67,6 +67,7 @@ Table of Contents
     
 10. [Medical Transcripts](#Medical-Transcript)
     - [ADE Corpus V2](#ADE-Corpus-V2)
+    - [MedMentions](#MedMentions)
     - [MedQuAD](#MedQuAD)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews)
     - [PubMed 200k RCT dataset](#PubMed-200k-RCT-dataset)
@@ -1595,6 +1596,36 @@ sizes (Columns 8-15)
        http://www.sciencedirect.com/science/article/pii/S1532046412000615
 
       ```
+             
+#### MedMentions
+
+  -   Source: [Click here to proceed to site](https://github.com/chanzuckerberg/MedMentions/tree/master/full/data)
+  -   Data Type: Free Text
+  -   Possible uses: NLP research on Biomedical text/Build a tool to recognise biomedical concepts in long medical texts
+  -   Size: 22.5MB
+  -   Example of data + Special Instructions(if any):
+      
+         Download corpus_pubtator.txt.gz from Source. 
+             
+         <details><summary>Example</summary>
+         <p>
+         
+         <img width="1151" alt="Screenshot 2022-07-25 at 2 53 03 PM" src="https://user-images.githubusercontent.com/66881214/180715966-ee2b765f-ec6d-4548-a3ff-3403b3cf9962.png">
+         
+         Format: 
+             
+         PMID | t | Title text
+         PMID | a | Abstract text
+         PMID TAB StartIndex TAB EndIndex TAB MentionTextSegment TAB SemanticTypeID TAB EntityID
+         
+         </p>
+         </details>
+
+  -   Note: The IDs are linked to UMLS concept
+  -   Citations
+      ```
+      - Sunil Mohan and Donghui Li. 2019. MedMentions: A Large Biomedical Corpus Annotated with UMLS Concepts. In Proceedings of the 2019 Conference on Automated Knowledge Base Construction (AKBC 2019). Amherst, Massachusetts, USA. May 2019 (https://arxiv.org/abs/1902.09476)
+      ```             
 #### MedQuAD
 
   -   Source: [Click here to proceed to site](https://github.com/abachaa/MedQuAD)
@@ -1615,9 +1646,8 @@ sizes (Columns 8-15)
       - 175KB for MPlusHerbsSupplements 
   -   Example of data + Special Instructions(if any):
       
-         Download relevant files from Source. There are 12 categories available:
+         Download relevant files from Source. There are 12 categories available.
 
-             
          Example:
          
          <details><summary>CancerGov_QA</summary>
@@ -1627,8 +1657,6 @@ sizes (Columns 8-15)
          
          </p>
          </details>
-             
-         
 
   -   Note: NA
   -   Citations
