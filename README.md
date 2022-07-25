@@ -70,6 +70,7 @@ Table of Contents
     - [MedMentions](#MedMentions)
     - [MedQA](#MedQA)
     - [MedQuAD](#MedQuAD)
+    - [NCBI Disease Corpus](#NCBI-Disease-Corpus)
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews)
     - [PubMed 200k RCT dataset](#PubMed-200k-RCT-dataset)
 
@@ -1616,7 +1617,9 @@ sizes (Columns 8-15)
          Format: 
              
          PMID | t | Title text
+             
          PMID | a | Abstract text
+             
          PMID TAB StartIndex TAB EndIndex TAB MentionTextSegment TAB SemanticTypeID TAB EntityID
          
          </p>
@@ -1704,6 +1707,44 @@ sizes (Columns 8-15)
       ```
       - Asma Ben Abacha, & Dina Demner-Fushman (2019). A Question-Entailment Approach to Question Answering. BMC Bioinform., 20(1), 511:1–511:23. (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3119-4)
       ```
+#### NCBI Disease Corpus
+
+  -   Source: [Click here to proceed to site](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/)
+  -   Data Type: Free Text
+  -   Possible uses: Disease name recognition and normalization for biomedical research    
+  -   Size of files:
+      - 1.3MB for NCBI Disease Corpus(Mention Level)
+      - 1MB for NCBI Disease Corpus(Complete - Train set)
+      - 178KB for NCBI Disease Corpus(Complete - Development set)
+      - 189KB for NCBI Disease Corpus(Complete - Test set)
+  -   Example of data + Special Instructions(if any):
+      
+         Download relevant files from Source 
+                  
+         Example:
+             
+         <details><summary>NCBI Disease Corpus (Mention Level) </summary>
+         <p>
+        
+         Training: <img width="679" alt="Screenshot 2022-07-25 at 4 55 14 PM" src="https://user-images.githubusercontent.com/66881214/180738302-43d37853-3597-41e9-a36a-0c1dc8c75e2a.png">
+
+         </p>
+         </details>   
+             
+         <details><summary>NCBI Disease Corpus(Complete - Train set)</summary>
+         <p>
+        
+         <img width="951" alt="Screenshot 2022-07-25 at 4 56 27 PM" src="https://user-images.githubusercontent.com/66881214/180738573-7ed702e9-9c3d-4781-824a-3633adaa52d3.png">
+
+         </p>
+         </details> 
+             
+  -   Note: NA
+  -   Citations
+      ```
+      - Rezarta Islamaj Doğan, Robert Leaman, & Zhiyong Lu (2014). NCBI disease corpus: A resource for disease name recognition and concept normalization. Journal of Biomedical Informatics, 47, 1-10.
+      ```             
+             
 #### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842)
   - Data Type: Audio + Free Text 
