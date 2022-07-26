@@ -1683,7 +1683,8 @@ sizes (Columns 8-15)
       
         - [2010 i2b2/VA Challenge on Concepts, Assertions, and Relations in Clinical Text](https://academic.oup.com/jamia/article/18/5/552/830538?login=true)
          - Sample text excerpt, its concepts, assertions, and relations: <img width="544" alt="Screenshot 2022-07-26 at 2 14 24 PM" src="https://user-images.githubusercontent.com/66881214/180936281-6a7219d7-cfb6-4a1b-beac-d9204f9720fb.png">
-          
+      </p>
+      </details>          
       <details><summary>2011 - Coreference</summary>   
       <p>    
       
@@ -1731,8 +1732,8 @@ sizes (Columns 8-15)
       </p>
       </details>
              
-      <details><summary>Steps to request data</summary>
-      <p>
+     <details><summary>Steps to request data</summary>
+     <p>
           
       Step 1: Sign up and verify your email 
              
