@@ -9,7 +9,7 @@ Type of datasets include
 3. Free Text 
 4. Audio 
 
-Table of Contents 
+## Table of Contents
 
 1. [Cancer Datasets](#Cancer-Datasets)
     - [Breast Cancer Data set](#Breast-Cancer-Data-set)
@@ -80,7 +80,8 @@ Table of Contents
     - [Fetal Health Classification](#Fetal-Health-Classification)
     - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
 
-    
+---  
+
 ### Cancer Datasets
 
 #### Breast Cancer Data set
