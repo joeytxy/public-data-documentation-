@@ -1639,7 +1639,7 @@ sizes (Columns 8-15)
       
   -   Source: [Click here to proceed to site](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/)
   -   Data Type: Free Text
-  -   Possible uses: 
+  -   Possible uses: NLP research on clinical text
   -   Size: Unknown 
   -   Example of data + Special Instructions(if any):
       
