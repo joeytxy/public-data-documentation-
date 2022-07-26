@@ -70,6 +70,7 @@ Type of datasets include
     - [ADE Corpus V2](#ADE-Corpus-V2)
     - [CDR BioCreative V Chemical Disease Relation corpus](#CDR-BioCreative-V-Chemical-Disease-Relation-corpus)
     - [i2b2 dataset(no preview)](#i2b2-dataset-no-preview)
+    - [MedMCQA](#MedMCQA)
     - [MedMentions](#MedMentions)
     - [MedQA](#MedQA)
     - [MedQuAD](#MedQuAD)
@@ -1780,7 +1781,31 @@ sizes (Columns 8-15)
       ```
       - Informatics for Integrating Biology to the Bedside, Partners Healthcare Systems.
         URL: www.i2b2.org [date (month, yr) accessed].
-      ```               
+      ```             
+
+#### MedMCQA
+  -   Source: [Click here to proceed to site](https://drive.google.com/uc?export=download&id=15VkJdq5eyWIkfb_aoD3oS8i4tScbHYky)
+  -   Data Type: Free Text
+  -   Possible uses: AI for answering medical questions
+  -   Size: 151.6MB
+  -   Example of data + Special Instructions(if any):
+      
+         Download folder from Source. 
+             
+         <details><summary>Example</summary>
+         <p>
+         
+         <img width="1091" alt="Screenshot 2022-07-27 at 12 38 03 AM" src="https://user-images.githubusercontent.com/66881214/181062158-3878ff9c-e049-444b-abbd-ff675c3cc205.png">
+         
+         </p>
+         </details>
+
+  -   Note: NA
+  -   Citations
+      ```
+      - Pal, A., Umapathi, L., & Sankarasubbu, M. (2022). MedMCQA: A Large-scale Multi-Subject Multi-Choice Dataset for Medical domain Question Answering. In Proceedings of the Conference on Health, Inference, and Learning (pp. 248–260). PMLR.
+      ``` 
+
 #### MedMentions
 
   -   Source: [Click here to proceed to site](https://github.com/chanzuckerberg/MedMentions/tree/master/full/data)
