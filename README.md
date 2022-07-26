@@ -1646,17 +1646,27 @@ sizes (Columns 8-15)
       <details><summary>Links to key citations</summary>   
       <p>    
       
-      - 2006 - Deidentification & Smoking
+      <details><summary>2006 - Deidentification & Smoking</summary>   
+      <p>    
+      
         - [Evaluating the state-of-the-art in automatic de-identification](https://academic.oup.com/jamia/article/14/5/550/720189?login=true)
           - Sample Discharge Summary Excerpt: <img width="389" alt="Screenshot 2022-07-26 at 1 48 05 PM" src="https://user-images.githubusercontent.com/66881214/180932608-42fe4eaf-0c49-4ee0-b16d-db63409277b7.png">
         - [Identifying patient smoking status from medical discharge records](https://academic.oup.com/jamia/article/15/1/14/779738?login=true)
           - Annotator Training Samples: <img width="1066" alt="Screenshot 2022-07-26 at 1 51 06 PM" src="https://user-images.githubusercontent.com/66881214/180933012-6f965946-10ee-45b5-97dc-4efa0d3b731b.png">
-
-      - 2008 - Obesity
+          
+      </p>
+      </details>
+          
+      <details><summary>2008 - Obesity</summary>   
+      <p>    
+      
         - Recognizing Obesity and Co-morbidities in Sparse Data (https://academic.oup.com/jamia/article/16/4/561/766997?login=true)
           - Obesity Challenge data consisted of 1237 discharge summaries from the Partners HealthCare Research Patient Data Repository. These data were chosen from the discharge summaries of patients who were overweight or diabetic and had been hospitalized for obesity or diabetes sometime since 12/1/04.
-          
-      - 2009 - Medication
+      </p>
+      </details>          
+      <details><summary>2009 - Medication</summary>   
+      <p>    
+      
         - [Extracting Medication Information from Clinical Text](https://academic.oup.com/jamia/article/17/5/514/2909108?login=true)
           - Sample discharge summary narrative and the output for the italicized portion: <img width="530" alt="Screenshot 2022-07-26 at 2 08 23 PM" src="https://user-images.githubusercontent.com/66881214/180935400-f688947d-538f-42b6-bcb7-031cb2471465.png">
           
@@ -1665,38 +1675,58 @@ sizes (Columns 8-15)
             nm stands for not mentioned
 
         - [Community Annotation Experiment for Ground Truth Generation for the i2b2 Medication Challenge](https://academic.oup.com/jamia/article/17/5/519/831043?login=true)
+      </p>
+      </details>
           
-     - 2010 - Relations
-       - [2010 i2b2/VA Challenge on Concepts, Assertions, and Relations in Clinical Text](https://academic.oup.com/jamia/article/18/5/552/830538?login=true)
+      <details><summary>2010 - Relations</summary>   
+      <p>    
+      
+        - [2010 i2b2/VA Challenge on Concepts, Assertions, and Relations in Clinical Text](https://academic.oup.com/jamia/article/18/5/552/830538?login=true)
          - Sample text excerpt, its concepts, assertions, and relations: <img width="544" alt="Screenshot 2022-07-26 at 2 14 24 PM" src="https://user-images.githubusercontent.com/66881214/180936281-6a7219d7-cfb6-4a1b-beac-d9204f9720fb.png">
           
-     - 2011 - Coreference
-       - [Evaluating the state of the art in coreference resolution for electronic medical records](https://academic.oup.com/jamia/article/19/5/786/716138?login=true)
+      <details><summary>2011 - Coreference</summary>   
+      <p>    
+      
+        - [Evaluating the state of the art in coreference resolution for electronic medical records](https://academic.oup.com/jamia/article/19/5/786/716138?login=true)
          - i2b2/VA corpus: de-identified discharge summaries from Beth Israel Deaconess Medical Center, Partners Healthcare, and University of Pittsburgh Medical Center (UPMC)
          - Ontology Development and Information Extraction corpus: de-identified clinical reports and pathology reports from Mayo Clinic, and de-identified discharge records, radiology reports, surgical pathology reports, and other reports from UPMC
-
-     - 2012 - Temporal Relations
-       - [Evaluating temporal relations in clinical text: 2012 i2b2 Challenge](https://academic.oup.com/jamia/article/20/5/806/726374?login=true)
-         - 310 discharge summaries consisting of 178 000 tokens
-       - [Annotating temporal information in clinical narratives](https://www.sciencedirect.com/science/article/pii/S1532046413001032?via%3Dihub)
+      </p>
+      </details>
+      <details><summary>2012 - Temporal Relations</summary>   
+      <p>    
+      
+        - [Evaluating temporal relations in clinical text: 2012 i2b2 Challenge](https://academic.oup.com/jamia/article/20/5/806/726374?login=true)
+          - 310 discharge summaries consisting of 178 000 tokens
+        - [Annotating temporal information in clinical narratives](https://www.sciencedirect.com/science/article/pii/S1532046413001032?via%3Dihub)
          - Sample clinical record snippet: <img width="472" alt="Screenshot 2022-07-26 at 2 25 37 PM" src="https://user-images.githubusercontent.com/66881214/180938077-6a111052-6244-4416-8222-4c2da808eced.png">
-
-     - 2014 - Deidentification & Heart Disease
-       - [Creation of a new longitudinal corpus of clinical narratives](https://www.sciencedirect.com/science/article/pii/S1532046415002129?via%3Dihub)
-         - Letters between medical professionals: “Dear [Dr]: I had the pleasure of seeing [patient] today for a follow up visit. I last saw him in November of last year. As you know, [patient] is a 72 year old man…” (Background information on the patient + details on the patient’s current health and latest check-up)
-         - Discharge summaries and notes written by the doctor after a patient visit: “The patient is a 40-year-old woman with history of coronary disease and has had intermittent chest pain over the past 4 days…” 
-       - [Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1](https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub)
-         - Consists of 1,304 medical records for 296 diabetic patients
-       - [Annotating longitudinal clinical narratives for de-identification: The 2014 i2b2/UTHealth corpus](https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub)
-         - Sample of clinical text before and after surrogate generation using simplified XML representation: <img width="481" alt="Screenshot 2022-07-26 at 2 40 42 PM" src="https://user-images.githubusercontent.com/66881214/180940359-b2c31de4-541c-4d6b-8812-d33b293d169d.png">
-
-     - 2018 (Track 1) - Clinical Trial Cohort Selection
-       - [Cohort selection for clinical trials: n2c2 2018 shared task track 1](https://academic.oup.com/jamia/article-abstract/26/11/1163/5575392?redirectedFrom=fulltext&login=true)
-         - Note: I did not have access to this article
-
-     - 2018 (Track 2) - Adverse Drug Events and Medication Extraction
-       - [2018 n2c2 shared task on adverse drug events and medication extraction in electronic health records](https://academic.oup.com/jamia/article-abstract/27/1/3/5581277?redirectedFrom=fulltext&login=true)
-         - Note: I did not have access to this article
+      </p>
+      </details>
+      <details><summary>2014 - Deidentification & Heart Disease</summary>   
+      <p>    
+      
+        - [Creation of a new longitudinal corpus of clinical narratives](https://www.sciencedirect.com/science/article/pii/S1532046415002129?via%3Dihub)
+          - Letters between medical professionals: “Dear [Dr]: I had the pleasure of seeing [patient] today for a follow up visit. I last saw him in November of last year. As you know, [patient] is a 72 year old man…” (Background information on the patient + details on the patient’s current health and latest check-up)
+          - Discharge summaries and notes written by the doctor after a patient visit: “The patient is a 40-year-old woman with history of coronary disease and has had intermittent chest pain over the past 4 days…” 
+        - [Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1](https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub)
+          - Consists of 1,304 medical records for 296 diabetic patients
+        - [Annotating longitudinal clinical narratives for de-identification: The 2014 i2b2/UTHealth corpus](https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub)
+          - Sample of clinical text before and after surrogate generation using simplified XML representation: <img width="481" alt="Screenshot 2022-07-26 at 2 40 42 PM" src="https://user-images.githubusercontent.com/66881214/180940359-b2c31de4-541c-4d6b-8812-d33b293d169d.png">
+      </p>
+      </details>
+      <details><summary>2018 (Track 1) - Clinical Trial Cohort Selection</summary>   
+      <p>    
+      
+        - [Cohort selection for clinical trials: n2c2 2018 shared task track 1](https://academic.oup.com/jamia/article-abstract/26/11/1163/5575392?redirectedFrom=fulltext&login=true)
+          - Note: I did not have access to this article
+      </p>
+      </details>
+      <details><summary>2018 (Track 2) - Adverse Drug Events and Medication Extraction</summary>   
+      <p>    
+      
+        - [2018 n2c2 shared task on adverse drug events and medication extraction in electronic health records](https://academic.oup.com/jamia/article-abstract/27/1/3/5581277?redirectedFrom=fulltext&login=true)
+          - Note: I did not have access to this article
+      </p>
+      </details>
           
       </p>
       </details>
