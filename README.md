@@ -1635,7 +1635,7 @@ sizes (Columns 8-15)
       ```
       - Li, J., Sun, Y., Johnson, R. J., Sciaky, D., Wei, C. H., Leaman, R., Davis, A. P., Mattingly, C. J., Wiegers, T. C., & Lu, Z. (2016). BioCreative V CDR task corpus: a resource for chemical disease relation extraction. Database : the journal of biological databases and curation, 2016, baw068. https://doi.org/10.1093/database/baw068
       ```
-#### i2b2 dataset(no preview)
+#### i2b2 dataset (no preview)
       
   -   Source: [Click here to proceed to site](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/)
   -   Data Type: Free Text
