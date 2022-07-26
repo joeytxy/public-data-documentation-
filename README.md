@@ -652,7 +652,9 @@ Type of datasets include
     - ZiÄ™ba, M., Tomczak, J. M., Lubicz, M., & ÅšwiÄ…tek, J. (2013). Boosted SVM for extracting rules from imbalanced data in application to prediction of the post-operative life expectancy in the lung cancer patients. Applied Soft Computing (https://www.sciencedirect.com/science/article/abs/pii/S0166432811002221?via%3Dihub)
     - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
     ```
-### Diabetes Dataset
+---
+
+## Diabetes Dataset
 
 #### Association of body mass index and age with incident diabetes in Chinese adults
 
@@ -819,8 +821,9 @@ sizes (Columns 8-15)
       ```
       - Islam M.M.F., Ferdousi R., Rahman S., Bushra H.Y. (2020) Likelihood Prediction of Diabetes at Early Stage Using Data Mining Techniques. In: Gupta M., Konar D., Bhattacharyya S., Biswas S. (eds) Computer Vision and Machine Intelligence in Medical Image Analysis. Advances in Intelligent Systems and Computing, vol 992. Springer, Singapore. https://doi.org/10.1007/978-981-13-8798-2_12
       ```
-      
-#### Parkinson Disease
+---
+
+## Parkinson Disease
 
 #### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
@@ -895,8 +898,9 @@ sizes (Columns 8-15)
       - Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
       - Adams WR (2017) High-accuracy detection of early Parkinson's Disease using multiple characteristics of finger movement while typing. PLOS ONE 12(11): e0188226. https://doi.org/10.1371/journal.pone.0188226
       ```
-
-### Brain Related Datasets
+---
+             
+## Brain Related Datasets
 
 #### Brain tumor data
 
@@ -971,8 +975,9 @@ sizes (Columns 8-15)
       ```
       - Liu, Tianyu; Fan, Wenhui; Wu, Cheng (2019), “Data for: A hybrid machine learning approach to cerebral stroke prediction based on imbalanced medical-datasets”, Mendeley Data, V1, doi: 10.17632/x8ygrw87jw.1
       ```
-           
-### Eye Related Datasets 
+---
+
+## Eye Related Datasets 
 
 #### Bajwa Hospital (Multi Eye Disease Dataset)
 
@@ -1029,8 +1034,9 @@ sizes (Columns 8-15)
     ```
     - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images”, Mendeley Data, V3, doi: 10.17632/rscbjbr9sj.3
     ```
+---
 
-### Gastrointestinal Related Datasets
+## Gastrointestinal Related Datasets
 
 #### Bowel Sounds 
 
@@ -1097,8 +1103,9 @@ sizes (Columns 8-15)
       ```
       - Pogorelov, K., Randel, K., Griwodz, C., Eskeland, S., Lange, T., Johansen, D., Spampinato, C., Dang-Nguyen, D.T., Lux, M., Schmidt, P., Riegler, M., & Halvorsen, P. (2017). KVASIR: A Multi-Class Image Dataset for Computer Aided Gastrointestinal Disease Detection. In Proceedings of the 8th ACM on Multimedia Systems Conference (pp. 164–169). ACM.
       ```
+---
 
-### Heart Related Datasets
+## Heart Related Datasets
 
 #### An Extensive Dataset for the Heart Disease Classification System
 
@@ -1177,7 +1184,9 @@ sizes (Columns 8-15)
     - Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5
     ```
 
-### Kidney Related Datasets 
+---
+
+## Kidney Related Datasets 
 
 #### A Brazilian dataset for screening the risk of the Chronic Kidney Disease
 
@@ -1252,8 +1261,9 @@ sizes (Columns 8-15)
       - M. A. Islam, S. Akter, M. S. Hossen, S. A. Keya, S. A. Tisha and S. Hossain, 'Risk Factor Prediction of Chronic Kidney Disease based on Machine Learning Algorithms,' 2020 3rd International Conference on Intelligent Sustainable Systems (ICISS), Thoothukudi, India, 2020, pp. 952-957, doi: 10.1109/ICISS49785.2020.9315878.(https://ieeexplore.ieee.org/document/9315878)
       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
       ```
+---
 
-### Lung Related Datasets
+## Lung Related Datasets
 
 #### A dataset of lung sounds recorded from the chest wall using an electronic stethoscope
 
@@ -1520,8 +1530,9 @@ sizes (Columns 8-15)
     - Rocha BM, Filos D, Mendes L, Vogiatzis I, Perantoni E, Kaimakamis E, Natsiavas P, Oliveira A, Jácome C, Marques A, Paiva RP (2018) In Precision Medicine Powered by pHealth and Connected Health (pp. 51-55). Springer, Singapore 
       - The paper can be found at https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf
     ```
+---
 
-### Medical Transcripts
+## Medical Transcripts
 
 #### ADE Corpus V2
 
@@ -2078,8 +2089,9 @@ sizes (Columns 8-15)
       ```
       - Franck Dernoncourt, Ji Young Lee. PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts. International Joint Conference on Natural Language Processing (IJCNLP). 2017. https://arxiv.org/abs/1710.06071
       ```
+---
 
-### Other Diseases 
+## Other Diseases 
 
 #### Chula RBC-12-Dataset
   -   Source:  [Click here to proceed to site](https://github.com/Chula-PIC-Lab/Chula-RBC-12-Dataset)
