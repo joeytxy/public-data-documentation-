@@ -1732,8 +1732,8 @@ sizes (Columns 8-15)
       </p>
       </details>
              
-     <details><summary>Steps to request data</summary>
-     <p>
+      <details><summary>Steps to request data</summary>
+      <p>
           
       Step 1: Sign up and verify your email 
              
@@ -1744,7 +1744,7 @@ sizes (Columns 8-15)
       
       Step 4: Complete NLP Data Use Agreement(DUA) 
       - There are two types of data use agreement type. Both Academic user DUA and Corporate user DUA forms can be found [here](https://n2c2.dbmi.hms.harvard.edu/data-use-agreement)
-          
+   
       Step 5: Click request access. It will take about 5 business days to process.
           
       </p>
@@ -1754,7 +1754,7 @@ sizes (Columns 8-15)
   -   Citations
       ```
       - Informatics for Integrating Biology to the Bedside, Partners Healthcare Systems.
-URL: www.i2b2.org [date (month, yr) accessed].
+        URL: www.i2b2.org [date (month, yr) accessed].
       ```               
 #### MedMentions
 
