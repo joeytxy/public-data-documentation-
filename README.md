@@ -66,6 +66,7 @@ Type of datasets include
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
     
 10. [Medical Transcripts](#Medical-Transcript)
+    - [Adapting Phrase-based Machine Translation to Normalise Medical Terms in Social Media Messages](#Adapting-Phrase-based-Machine-Translation-to-Normalise-Medical-Terms-in-Social-Media-Messages)
     - [ADE Corpus V2](#ADE-Corpus-V2)
     - [CDR BioCreative V Chemical Disease Relation corpus](#CDR-BioCreative-V-Chemical-Disease-Relation-corpus)
     - [i2b2 dataset(no preview)](#i2b2-dataset-no-preview)
@@ -1535,6 +1536,30 @@ sizes (Columns 8-15)
 
 ## Medical Transcripts
 
+#### Adapting Phrase-based Machine Translation to Normalise Medical Terms in Social Media Messages
+
+  -   Source: [Click here to proceed to site](https://zenodo.org/record/27354#.YuALs-xBw-Q)
+  -   Data Type: Free Text
+  -   Possible uses: Develop a tool to translate laymen's terms to a particular medical concept (Text normalization)
+  -   Size: 11MB
+  -   Example of data + Special Instructions(if any):
+      
+         Download EMNLP_gold_standard.txt from Source. 
+             
+         <details><summary>Example</summary>
+         <p>
+         
+         <img width="660" alt="Screenshot 2022-07-26 at 11 58 05 PM" src="https://user-images.githubusercontent.com/66881214/181053678-4971a234-136b-49ae-b78a-5534591fca0c.png">
+
+         </p>
+         </details>
+
+  -   Note: NA
+  -   Citations
+      ```
+      - Limsopatham, N., & Collier, N. (2015). Adapting Phrase-based Machine Translation to Normalise Medical Terms in Social Media Messages [Data set]. Conference on Empirical Methods in Natural Language Processing (EMNLP 2015), Lisboa, Portugal. Zenodo. https://doi.org/10.5281/zenodo.27354
+      ```        
+      
 #### ADE Corpus V2
 
   -   Source: [Click here to proceed to site](https://github.com/JohnSnowLabs/spark-nlp-workshop/tree/master/tutorials/Certification_Trainings/Healthcare/data/ADE_Corpus_V2)
