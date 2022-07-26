@@ -1660,7 +1660,7 @@ sizes (Columns 8-15)
       <details><summary>2008 - Obesity</summary>   
       <p>    
       
-        - Recognizing Obesity and Co-morbidities in Sparse Data (https://academic.oup.com/jamia/article/16/4/561/766997?login=true)
+        - [Recognizing Obesity and Co-morbidities in Sparse Data](https://academic.oup.com/jamia/article/16/4/561/766997?login=true)
           - Obesity Challenge data consisted of 1237 discharge summaries from the Partners HealthCare Research Patient Data Repository. These data were chosen from the discharge summaries of patients who were overweight or diabetic and had been hospitalized for obesity or diabetes sometime since 12/1/04.
       </p>
       </details>          
@@ -1682,15 +1682,15 @@ sizes (Columns 8-15)
       <p>    
       
         - [2010 i2b2/VA Challenge on Concepts, Assertions, and Relations in Clinical Text](https://academic.oup.com/jamia/article/18/5/552/830538?login=true)
-         - Sample text excerpt, its concepts, assertions, and relations: <img width="544" alt="Screenshot 2022-07-26 at 2 14 24 PM" src="https://user-images.githubusercontent.com/66881214/180936281-6a7219d7-cfb6-4a1b-beac-d9204f9720fb.png">
+           - Sample text excerpt, its concepts, assertions, and relations: <img width="544" alt="Screenshot 2022-07-26 at 2 14 24 PM" src="https://user-images.githubusercontent.com/66881214/180936281-6a7219d7-cfb6-4a1b-beac-d9204f9720fb.png">
       </p>
       </details>          
       <details><summary>2011 - Coreference</summary>   
       <p>    
       
         - [Evaluating the state of the art in coreference resolution for electronic medical records](https://academic.oup.com/jamia/article/19/5/786/716138?login=true)
-         - i2b2/VA corpus: de-identified discharge summaries from Beth Israel Deaconess Medical Center, Partners Healthcare, and University of Pittsburgh Medical Center (UPMC)
-         - Ontology Development and Information Extraction corpus: de-identified clinical reports and pathology reports from Mayo Clinic, and de-identified discharge records, radiology reports, surgical pathology reports, and other reports from UPMC
+          - i2b2/VA corpus: de-identified discharge summaries from Beth Israel Deaconess Medical Center, Partners Healthcare, and University of Pittsburgh Medical Center (UPMC)
+          - Ontology Development and Information Extraction corpus: de-identified clinical reports and pathology reports from Mayo Clinic, and de-identified discharge records, radiology reports, surgical pathology reports, and other reports from UPMC
       </p>
       </details>
       <details><summary>2012 - Temporal Relations</summary>   
@@ -1699,7 +1699,7 @@ sizes (Columns 8-15)
         - [Evaluating temporal relations in clinical text: 2012 i2b2 Challenge](https://academic.oup.com/jamia/article/20/5/806/726374?login=true)
           - 310 discharge summaries consisting of 178 000 tokens
         - [Annotating temporal information in clinical narratives](https://www.sciencedirect.com/science/article/pii/S1532046413001032?via%3Dihub)
-         - Sample clinical record snippet: <img width="472" alt="Screenshot 2022-07-26 at 2 25 37 PM" src="https://user-images.githubusercontent.com/66881214/180938077-6a111052-6244-4416-8222-4c2da808eced.png">
+          - Sample clinical record snippet: <img width="472" alt="Screenshot 2022-07-26 at 2 25 37 PM" src="https://user-images.githubusercontent.com/66881214/180938077-6a111052-6244-4416-8222-4c2da808eced.png">
       </p>
       </details>
       <details><summary>2014 - Deidentification & Heart Disease</summary>   
