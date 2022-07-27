@@ -16,6 +16,7 @@ Type of datasets include
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
+    - [Breast Cancer Dataset(SEER)](#Breast-Cancer-Dataset-SEER)
     - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Colorectal Cancer Dataset](#Colorectal-Cancer-Dataset)
     - [Cervical cancer (Risk Factors) Data Set](#Cervical-cancer-Risk-Factors-Data-Set)
@@ -95,6 +96,7 @@ Type of datasets include
 #### Breast Cancer Data set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
   -   Data Type: Text/Tabular 
+  -   Possible uses: Building a predictive machine learning model for breast cancer
   -   Size: 19 KB
   -   Example of data + Special Instructions(if any):
    
@@ -148,6 +150,7 @@ Type of datasets include
 #### Breast Cancer Wisconsin (Original) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29)
   -   Data Type: Text/Tabular 
+  -   Possible uses: Building a predictive machine learning model for breast cancer
   -   Size: 20 KB
   -   Example of data + Special Instructions(if any):
      
@@ -211,6 +214,7 @@ Type of datasets include
 #### Breast Cancer Wisconsin (Prognostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Prognostic%29)
   -   Data Type: Text/Tabular 
+  -   Possible uses: Building a predictive machine learning model for breast cancer
   -   Size: 44 KB
   -   Example of data + Special Instructions(if any):
       
@@ -272,6 +276,7 @@ Type of datasets include
 #### Breast Cancer Wisconsin (Diagnostic) Data Set
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
   -   Data Type: Text/Tabular 
+  -   Possible uses: Building a predictive machine learning model for breast cancer
   -   Size: 124 KB
   -   Example of data + Special Instructions(if any):
     
@@ -326,7 +331,28 @@ Type of datasets include
        ```
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
        ``` 
+#### Breast Cancer Dataset(SEER)
+  -   Source:  [Click here to proceed to site](https://ieee-dataport.org/open-access/seer-breast-cancer-data)
+  -   Data Type: Tabular 
+  -   Possible uses: Building a predictive machine learning model for breast cancer
+  -   Size: 520KB
+  -   Example of data + Special Instructions(if any):
        
+         Download SEER Breast Cancer Dataset .csv from Source.
+
+         <details><summary>Example</summary>
+         <p>
+         
+         <img width="1371" alt="Screenshot 2022-07-27 at 4 46 46 PM" src="https://user-images.githubusercontent.com/66881214/181203944-a7271d26-88a9-4b7d-a683-5eecf55feb94.png">
+             
+         </p>
+         </details>
+               
+  -   Note: NA
+  -   Citations
+      ```
+      - JING TENG. (2019). SEER Breast Cancer Data. IEEE Dataport. https://dx.doi.org/10.21227/a9qy-ph35
+      ```
 #### Lymphography Data Set
 
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Lymphography)
