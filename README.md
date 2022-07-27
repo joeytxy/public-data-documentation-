@@ -31,34 +31,38 @@ Type of datasets include
     - [Diabetes 130-US hospitals for years 1999-2008 Data Set](#Diabetes-130-US-hospitals-for-years-1999-2008-Data-Set) 
     - [Diabetic Retinopathy Debrecen Data Set Data Set](#Diabetic-Retinopathy-Debrecen-Data-Set-Data-Set)
     - [Early Classification of Diabetes](#Early-Classification-of-Diabetes)
+
+3. [Monkeypox](#Monkeypox)
+   - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
+   - [Clinical features of 21 human monkeypox cases seen at NDUTH 2017](#Clinical-features-of-21-human-monkeypox-cases-seen-at-NDUTH-2017)
     
-3. [Parkinson Disease](#Parkinson-Disease)
+4. [Parkinson Disease](#Parkinson-Disease)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
     - [Parkinson Tappy Keystroke Data](#Parkinson-Tappy-Keystroke-Data)
     - [Safety and Preliminary Efficacy of Intranasal Insulin for Cognitive Impairment in Parkinson Disease and Multiple System Atrophy](#Safety-and-Preliminary-Efficacy-of-Intranasal-Insulin-for-Cognitive-Impairment-in-Parkinson-Disease-and-Multiple-System-Atrophy)
 
-4. [Brain Related Datasets](#Brain-Related-Datasets)
+5. [Brain Related Datasets](#Brain-Related-Datasets)
     - [Brain tumor data](#Brain-tumor-data)
     - [MRI and Alzheimers](#MRI-and-Alzheimers)
     - [Stroke Prediction](#Stroke-Prediction)
     
-5. [Eye Related Datasets](#Eye-Related-Datasets)
+6. [Eye Related Datasets](#Eye-Related-Datasets)
    - [Bajwa Hospital (Multi Eye Disease Dataset)](#Bajwa-Hospital-Multi-Eye-Disease-Dataset)
    - [Retinal OCT Images(optical coherence tomography)](#Retinal-OCT-Images-optical-coherence-tomography)
 
-6. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
+7. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
    -  [Bowel Sounds](#Bowel-Sounds) 
    -  [Kvasir Dataset](#Kvasir-Dataset)
 
-7. [Heart Related Datasets](#Heart-Related-Datasets)
+8. [Heart Related Datasets](#Heart-Related-Datasets)
     - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
     - [Heart Failure Prediction](#Heart-Failure-Prediction)
 
-8. [Kidney Related Datasets](#Kidney-Related-Datasets)
+9. [Kidney Related Datasets](#Kidney-Related-Datasets)
     - [A Brazilian dataset for screening the risk of the Chronic Kidney Disease](#A-Brazilian-dataset-for-screening-the-risk-of-the-Chronic-Kidney-Disease)
     - [Risk Factor prediction of Chronic Kidney Disease Data Set](#Risk-Factor-prediction-of-Chronic-Kidney-Disease-Data-Set)
 
-9. [Lung Related Datasets](#Lung-Related-Datasets)
+10. [Lung Related Datasets](#Lung-Related-Datasets)
     - [A dataset of lung sounds recorded from the chest wall using an electronic stethoscope](#A-dataset-of-lung-sounds-recorded-from-the-chest-wall-using-an-electronic-stethoscope)
     - [NIH Chest X-ray Dataset](#NIH-Chest-X-ray-Dataset) 
     - [Chest X-ray Images Pneumonia](#Chest-X-ray-Images-Pneumonia)
@@ -66,7 +70,7 @@ Type of datasets include
     - [QaTa COV19 Dataset](#QaTa-COV19-Dataset)
     - [Respiratory Sound Database](#Respiratory-Sound-Database)
     
-10. [Medical Transcripts](#Medical-Transcript)
+11. [Medical Transcripts](#Medical-Transcript)
     - [Adapting Phrase-based Machine Translation to Normalise Medical Terms in Social Media Messages](#Adapting-Phrase-based-Machine-Translation-to-Normalise-Medical-Terms-in-Social-Media-Messages)
     - [ADE Corpus V2](#ADE-Corpus-V2)
     - [CDR BioCreative V Chemical Disease Relation corpus](#CDR-BioCreative-V-Chemical-Disease-Relation-corpus)
@@ -80,11 +84,9 @@ Type of datasets include
     - [Patient Physician Medical Interviews](#Patient-Physician-Medical-Interviews)
     - [PubMed 200k RCT dataset](#PubMed-200k-RCT-dataset)
 
-11. [Others](#Others) 
+12. [Others](#Others) 
     - [Chula RBC-12-Dataset](#Chula-RBC-12-Dataset)
     - [Fetal Health Classification](#Fetal-Health-Classification)
-    - [Monkeypox Skin Lesion Dataset](#Monkeypox-Skin-Lesion-Dataset)
-
 ---  
 
 ## Cancer Datasets
@@ -827,7 +829,72 @@ sizes (Columns 8-15)
       - Islam M.M.F., Ferdousi R., Rahman S., Bushra H.Y. (2020) Likelihood Prediction of Diabetes at Early Stage Using Data Mining Techniques. In: Gupta M., Konar D., Bhattacharyya S., Biswas S. (eds) Computer Vision and Machine Intelligence in Medical Image Analysis. Advances in Intelligent Systems and Computing, vol 992. Springer, Singapore. https://doi.org/10.1007/978-981-13-8798-2_12
       ```
 ---
+## Monkeypox
 
+#### Monkeypox Skin Lesion Dataset 
+  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
+  
+  - Data Type: Image + Tabular   
+  
+  -   Size of files
+      -  1.5MB for Original Images folder
+      -  5KB for Monkeypox_Dataset_metadata.csv
+      -  25.9MB for Augmented_Images.zip
+      -  20.9MB for Fold1
+  -   Example of data + Special Instructions(if any):
+  
+         Download relevant files from Source 
+         - Users may choose to use the folds/augmented images directly (Refer to source for more information)
+         <details><summary>Example</summary>
+         <p>
+         
+         Monkeypox: <img src="https://user-images.githubusercontent.com/66881214/179441844-22a9b005-841c-41f4-8d59-e3cde0d03843.jpg" width="150" height="150">
+         
+         Others:  <img src="https://user-images.githubusercontent.com/66881214/179441888-5c49b47e-00da-4a05-a4c7-43f583ad1110.jpg" width="150" height="150">
+        
+        </p>
+        </details>
+        
+  - Note: There is a csv file that indicates the labels of the images. This may not be needed as the images are already sorted into their respective folders in main folder  
+          
+    <details><summary>CSV file</summary>
+    <p>
+          
+    <img width="132" alt="Screenshot 2022-07-18 at 11 46 15 AM" src="https://user-images.githubusercontent.com/66881214/179442387-5fbe6faa-bade-497d-bdc0-e8e4749543b2.png">
+          
+    </p>
+    </details>
+
+  - Citations
+    ```
+    - If this dataset helped your research, please cite: Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study(https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
+    ```                   
+#### Clinical features of 21 human monkeypox cases seen at NDUTH 2017
+
+  - Source:  [Click here to proceed to site](https://figshare.com/articles/dataset/The_2017_human_monkeypox_outbreak_in_Nigeria_Report_of_outbreak_experience_and_response_in_the_Niger_Delta_University_Teaching_Hospital_Bayelsa_State_Nigeria/8007536)
+  -   Data Type: Tabular   
+  -   Possible uses: Study clinical characteristics of confirmed cases of monkeypox
+  -   Size: 11KB
+  -   Example of data + Special Instructions(if any):
+  
+         Download relevant files from Source 
+         <details><summary>Example</summary>
+         <p>
+         
+         <img width="1208" alt="Screenshot 2022-07-27 at 2 02 10 PM" src="https://user-images.githubusercontent.com/66881214/181172707-ed3bc06c-b46e-47a2-96df-c7e281b43c8f.png">
+
+        </p>
+        </details>
+        
+  - Note: Small dataset with only 21 records (All positive: 18 laboratory-confirmed and three probable cases). Two of the 21 cases had laboratory evidence of concomitant chicken pox (by PCR/serology)
+          
+  - Citations
+    ```
+    - Ogoina, Dimie; Izibewule, James Hendris; Ogunleye, Adesola; Ederiane, Ebi; Anebonam, Uchenna; Neni, Aworabhi; et al. (2019): Clinical features of 21 human monkeypox cases seen at NDUTH.. PLOS ONE. Dataset. https://doi.org/10.1371/journal.pone.0214229.s001 
+    ```
+             
+             
+---              
 ## Parkinson Disease
 
 #### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
@@ -2417,43 +2484,4 @@ sizes (Columns 8-15)
   - Citations
     ```
     - Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318(https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9)
-    ```
-
-#### Monkeypox Skin Lesion Dataset 
-  - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
-  
-  - Data Type: Image + Tabular   
-  
-  -   Size of files
-      -  1.5MB for Original Images folder
-      -  5KB for Monkeypox_Dataset_metadata.csv
-      -  25.9MB for Augmented_Images.zip
-      -  20.9MB for Fold1
-  -   Example of data + Special Instructions(if any):
-  
-         Download relevant files from Source 
-         - Users may choose to use the folds/augmented images directly (Refer to source for more information)
-         <details><summary>Example</summary>
-         <p>
-         
-         Monkeypox: <img src="https://user-images.githubusercontent.com/66881214/179441844-22a9b005-841c-41f4-8d59-e3cde0d03843.jpg" width="150" height="150">
-         
-         Others:  <img src="https://user-images.githubusercontent.com/66881214/179441888-5c49b47e-00da-4a05-a4c7-43f583ad1110.jpg" width="150" height="150">
-        
-        </p>
-        </details>
-        
-  - Note: There is a csv file that indicates the labels of the images. This may not be needed as the images are already sorted into their respective folders in main folder  
-          
-    <details><summary>CSV file</summary>
-    <p>
-          
-    <img width="132" alt="Screenshot 2022-07-18 at 11 46 15 AM" src="https://user-images.githubusercontent.com/66881214/179442387-5fbe6faa-bade-497d-bdc0-e8e4749543b2.png">
-          
-    </p>
-    </details>
-
-  - Citations
-    ```
-    - If this dataset helped your research, please cite: Ali, S. N., Ahmed, M. T., Paul, J., Jahan, T., Sani, S. M. Sakeef, Noor, N., & Hasan, T. (2022). Monkeypox Skin Lesion Detection Using Deep Learning Models: A Preliminary Feasibility Study(https://arxiv.org/abs/2207.03342). arXiv preprint arXiv:2207.03342.
     ```
