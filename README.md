@@ -357,6 +357,7 @@ Type of datasets include
 
   -   Source: [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Lymphography)
   -   Data Type: Tabular 
+  -   Possible uses: Building a predictive machine learning model for malignant tumor 
   -   Size: 6 KB
   -   Example of data + Special Instructions(if any):
   
@@ -412,14 +413,15 @@ Type of datasets include
 
   -   Citations
       ```
-      - This breast cancer domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
+      - This lymphography domain was obtained from the University Medical Centre, Institute of Oncology, Ljubljana, Yugoslavia. Thanks go to M. Zwitter and M. Soklic for providing the data. Please include this citation if you plan to use this database.
       - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
       ```
        
 #### Colorectal Cancer Dataset
 
-  - Source:  [Click here to proceed to site](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/download/)
-  - Data Type: Images 
+  -   Source:  [Click here to proceed to site](https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/download/)
+  -   Data Type: Images 
+  -   Possible uses: Gland segmentation problem with images of Haematoxylin and Eosin (H&E) stained slides
   -   Size: 259.4MB
   -   Example of data + Special Instructions(if any): 
     
@@ -460,6 +462,7 @@ Type of datasets include
 #### Cervical cancer (Risk Factors) Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Cervical+cancer+%28Risk+Factors%29)
   - Data Type: Tabular 
+  - Possible uses: Building a predictive machine learning model for cervical cancer
   -   Size: 102 KB
   -   Example of data + Special Instructions(if any):
     
@@ -485,13 +488,11 @@ Type of datasets include
 #### CT Medical Images
 
   -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/kmader/siim-medical-images?select=dicom_dir)
-  
   -   Data Type: Images 
-  
+  -   Possible uses: Examining the trends in CT image data associated with using contrast and patient age/Build tools for automatically classifying these images when they have been misclassified
   -   Size of files
       - 52.8MB for dicom_dir folder 
       - 209.7MB for tiff_images folder
-  
   -   Example of data + Special Instructions(if any):
        
          Download relevant folders from Source.
@@ -520,6 +521,7 @@ Type of datasets include
 
 - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/leukemia-classification)  
 - Data Type: Images 
+- Possible uses: Creating a model to classify normal from abnormal cell images
 -   Size: 10.42GB   
 -   Example of data + Special Instructions(if any):
     
@@ -560,6 +562,7 @@ Type of datasets include
     - The data set can also be downloaded from [here](https://academictorrents.com/details/7a638ed187a6180fd6e464b3666a6ea0499af4af)
     - Relevant [github](https://github.com/tampapath/lung_colon_image_set/)
   - Data Type: Images 
+  - Possible uses: Creating a model to identify lung/colon cancer images from normal lung/colon images
   -   Size of files
       - 959.8MB for colon_image_sets
       - 929.7MB for lung_image_sets
@@ -598,10 +601,11 @@ Type of datasets include
     - The original challenge can be found [here](https://challenge2018.isic-archive.com) and the dataset can also be downloaded [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) after accepting their terms and conditions. 
   
   - Data Type: Images + Tabular
-  -   Size of files
-      - 1.37GB for HAM10000_images_part_1 
-      - 1.4GB for HAM10000_images_part_2
-      - 563KB for HAM10000_metadata.csv
+  - Possible uses: Create a model to predict diagnosis for pigmented lesions
+  - Size of files
+    - 1.37GB for HAM10000_images_part_1 
+    - 1.4GB for HAM10000_images_part_2
+    - 563KB for HAM10000_metadata.csv
   -   Example of data + Special Instructions(if any):
     
          Download HAM10000_images_part_1.zip, HAM10000_images_part_2 and HAM10000_metadata.csv from Source 
@@ -627,6 +631,7 @@ Type of datasets include
 #### Thoracic Surgery Data Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Thoracic+Surgery+Data)
   - Data Type: Text/Tabular
+  - Possible uses: Classification problem related to the post-operative life expectancy in the lung cancer patients
   -   Size: 24 KB
   -   Example of data + Special Instructions(if any):
       
@@ -693,11 +698,9 @@ Type of datasets include
 #### Association of body mass index and age with incident diabetes in Chinese adults
 
   -   Source:  [Click here to proceed to site](https://zenodo.org/record/4997196#.YtZvkpNBw-Q)
-  
   -   Data Type: Tabular  
-  
+  -   Possible uses: Building a model to study association of BMI and Age with Diabetes 
   -   Size: 28.3 KB
-  
   -   Example of data + Special Instructions(if any):
       
          Download RC Health Care Data-20180820.xlsx from Source.
@@ -724,9 +727,8 @@ Type of datasets include
 #### Clinical characteristics, types and complications of diabetics with young age at the onset
 
   -   Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jf429jpgwt/1)
-  
-  -   Data Type: Tabular  
-  
+  -   Data Type: Tabular 
+  -   Possible uses: To determine the distribution, clinical features and complications of the different types of diabetes in young age
   -   Size: 22 KB
   
   -   Example of data + Special Instructions(if any):
@@ -750,9 +752,8 @@ Type of datasets include
 
 #### Diabetes 130-US hospitals for years 1999-2008 Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+years+1999-2008)
-  
   - Data Type: Tabular 
-  
+  - Possible uses: Identifying significant features in predicting readmission rates of diabetic patients
   -   Size of files
       -  19.2MB for diabetic_data.csv
       -  3KB for IDs_mapping.csv
@@ -777,11 +778,9 @@ Type of datasets include
 #### Diabetic Retinopathy Debrecen Data Set Data Set
 
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Diabetic+Retinopathy+Debrecen+Data+Set)
-  
   - Data Type: Text/Tabular
-  
+  - Possible uses: Build a model to predict whether an image contains signs of diabetic retinopathy or not
   -   Size: 117 KB
- 
   -   Example of data + Special Instructions(if any):
           
          Download messidor_features.arff from Data Folder from Source
@@ -834,6 +833,7 @@ sizes (Columns 8-15)
 
   -   Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/early-diabetes-classification)
   -   Data Type: Tabular  
+  -   Possible uses: Create a classification model to predict diabetes/ Explore the most common features associated with diabetic risk
   -   Size: 21 KB
   -   Example of data + Special Instructions(if any):
   
@@ -860,9 +860,8 @@ sizes (Columns 8-15)
 
 #### Monkeypox Skin Lesion Dataset 
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/nafin59/monkeypox-skin-lesion-dataset)
-  
   - Data Type: Image + Tabular   
-  
+  - Possible uses: Build a model to classify monkeypox images from non monkeypox images 
   -   Size of files
       -  1.5MB for Original Images folder
       -  5KB for Monkeypox_Dataset_metadata.csv
@@ -926,9 +925,8 @@ sizes (Columns 8-15)
 
 #### Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set
   - Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings)
-  
   - Data Type: Text/Tabular  
-  
+  - Possible uses: Build a model to identify parkinson disease from audio details
   -   Size of files
       -  194KB for train_data.txt 
       -  47KB for test_data.txt
@@ -966,9 +964,8 @@ sizes (Columns 8-15)
 #### Parkinson Tappy Keystroke Data
 
   -   Source:  [Click here to proceed to site](https://physionet.org/content/tappy/1.0.0/)
-  
   -   Data Type: Text  
-  
+  -   Possible uses: Build a model for the detection of early Parkinson's Disease using multiple characteristics of finger movement while typing
   -   Size of files
       - 43KB for Archived users  
       - 549.7MB for Tappy Data 
@@ -1051,6 +1048,7 @@ sizes (Columns 8-15)
 
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/mvhssriraj/brain-tumor-dataset)
   -   Data Type: Images
+  -   Possible uses: Build a model to to identify the types of brain tumor 
   -   Size: 733.1MB
   -   Example of data + Special Instructions(if any):
    
@@ -1077,6 +1075,7 @@ sizes (Columns 8-15)
 
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/jboysen/mri-and-alzheimers)
   -   Data Type: Tabular (According to discussion, images was said to be found [here](https://www.oasis-brains.org/#data), where a request for access has to be made to OASIS)
+  -   Possible uses: Build a model to predict Alzheimer based on MRI data
   -   Size of files
       -  22KB for oasis_coss-sectional.csv
       -  28KB for oasis_longitudinal.csv
@@ -1103,6 +1102,7 @@ sizes (Columns 8-15)
 
   -   Source: [Click here to proceed to site](https://data.mendeley.com/datasets/x8ygrw87jw/1)
   -   Data Type: Tabular 
+  -   Possible uses: Build a model to predict stroke from given features
   -   Size: 2.6 MB
   -   Example of data + Special Instructions(if any):
       
@@ -1128,6 +1128,7 @@ sizes (Columns 8-15)
 
 - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rgwpd4m785/2)  
 - Data Type: Images 
+- Possible uses: Build a model that can provide a highly accurate diagnosis from an eye image
 -   Size: 3.59GB    
 -   Example of data + Special Instructions(if any):
     
@@ -1156,6 +1157,7 @@ sizes (Columns 8-15)
 
 - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)  
 - Data Type: Images 
+- Possible uses: Building a model to identify normal OCT images from those with diseases
 -   Size: 7.19GB  
 -   Example of data + Special Instructions(if any):
       
@@ -1186,7 +1188,8 @@ sizes (Columns 8-15)
 #### Bowel Sounds 
 
 - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/robertnowak/bowel-sounds)  
-- Data Type: Audio  
+- Data Type: Audio
+- Possible uses: Build an algorithm such as deep neural network to detect bowel sounds
 -   Size: 283.8MB 
 -   Example of data + Special Instructions(if any):
 
@@ -1214,6 +1217,7 @@ sizes (Columns 8-15)
 
   -   Source: [Click here to proceed to site](https://datasets.simula.no/kvasir/)
   -   Data Type: Images
+  -   Possible uses: Build a model to classify gastrointenstinal disease
   -   Size of files:
       -  2.52GB for kvasir-dataset-v2
       -  40.2MB for kvasir-dataset-v2-features   
@@ -1256,6 +1260,7 @@ sizes (Columns 8-15)
 
 - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/65gxgy2nmg/2)  
 - Data Type: Text/Tabular 
+- Possible uses: Build a model to predict heart disease/Identify important characteristics/factors that contribute to a heart attack 
 -   Size: 51 KB   
 -   Example of data + Special Instructions(if any):
  
@@ -1311,6 +1316,7 @@ sizes (Columns 8-15)
 
 - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)  
 - Data Type: Tabular 
+- Possible uses: Create a model for predicting mortality caused by Heart Failure
 -   Size: 12KB   
 -   Example of data + Special Instructions(if any):
  
@@ -1337,6 +1343,7 @@ sizes (Columns 8-15)
 
 - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/2gkg7vvcrm/3)  
 - Data Type: Text/Tabular  
+- Possible uses: Build a model to predict level of risk of Chronic Kidney Disease
 -   Size of files:
     - 2 KB for Original.arff
     - 2 KB for Augmented.arff         
@@ -1381,6 +1388,7 @@ sizes (Columns 8-15)
 
   -   Source:  [Click here to proceed to site](https://archive.ics.uci.edu/ml/datasets/Risk+Factor+prediction+of+Chronic+Kidney+Disease)
   -   Data Type: Tabular
+  -   Possible uses: Create a model for predicting Chronic Kidney Disease
   -   Size: 34KB
   -   Example of data + Special Instructions(if any):
       
@@ -1414,6 +1422,7 @@ sizes (Columns 8-15)
 
   - Source:  [Click here to proceed to site](https://data.mendeley.com/datasets/jwyy9np4gv/3)
   - Data Type: Audio 
+  - Possible uses: Create a model to predict disease from lung sounds 
   -   Size of files:
       - 46.8MB for Audio Files
       - 13KB for Data annotation.xlsx   
@@ -1447,6 +1456,7 @@ sizes (Columns 8-15)
 #### NIH Chest X-ray Dataset
   -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/nih-chest-xrays/data?resource=download)
   -   Data Type: Images + Tabular
+  -   Possible uses: Create a model to predict diseases from chest x-rays
   -   Size of files
       -  2 to 4 GB per image zip folder depending on number of images in the folder 
       -  7.9 MB for Data_Entry_2017.csv
@@ -1503,6 +1513,7 @@ sizes (Columns 8-15)
 #### Chest X-ray Images (Pneumonia)
   -   Source: [Click here to proceed to site](https://data.mendeley.com/datasets/rscbjbr9sj/3)
   -   Data Type: Images 
+  -   Possible uses: Create a model to identify classify Pneumonia from chest x-ray images
   -   Size: 1.27GB
   -   Example of data + Special Instructions(if any):
   
@@ -1525,11 +1536,9 @@ sizes (Columns 8-15)
 #### Covid19 Coswara Dataset
 
   -   Source:  [Click here to proceed to site](https://github.com/iiscleap/Coswara-Data)
- 
   -   Data Type: Audio + Tabular
-  
+  -   Possible uses: Build an algorithm to distinguish cough between non-covid19 patients and covid19 patients 
   -   Size:  -
-  
   -   Example of data + Special Instructions(if any):
          
          Download relevant files from Source
@@ -1558,6 +1567,7 @@ sizes (Columns 8-15)
 #### QaTa COV19 Dataset 
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/aysendegerli/qatacov19-dataset)
   - Data Type: Images
+  - Possible uses: Build a model to classify covid19 patients using chest x-ray images
   -   Size of files 
       - 215.8MB for QaTa-COV19-v2 folder
       - 4.45GB for Control_Group 
@@ -1602,9 +1612,8 @@ sizes (Columns 8-15)
     
 #### Respiratory Sound Database 
   - Source:  [Click here to proceed to site](https://bhichallenge.med.auth.gr/)
-  
   - Data Type: Audio + Text/Tabular  
-  
+  - Possible uses: Build an algorithm to give an accurate diagnosis based on respiratory sounds
   -   Size of files
       -  1KB for diagnosis file
       -  3KB for demographic data file
@@ -2128,6 +2137,7 @@ sizes (Columns 8-15)
 #### Patient Physician Medical Interviews 
   - Source:  [Click here to proceed to site](https://figshare.com/collections/A_dataset_of_simulated_patient-physician_medical_interviews_with_a_focus_on_respiratory_cases/5545842)
   - Data Type: Audio + Free Text 
+  - Possible uses: Speech recognition detection for speech-to-text errors/ Training NLP models to extract symptoms, detect diseases/ For educational purposes such as training an avatar to converse with healthcare professional students as a standardized patient during clinical examinations
   -   Size: 1.05 GB 
   -   Example of data + Special Instructions(if any):
   
@@ -2439,9 +2449,8 @@ sizes (Columns 8-15)
 
 #### Chula RBC-12-Dataset
   -   Source:  [Click here to proceed to site](https://github.com/Chula-PIC-Lab/Chula-RBC-12-Dataset)
-  
   -   Data Type: Images + Text/Tabular
-  
+  -   Possible uses: Build a model to classify type of red blood cell disease from red blood cell images
   -   Size: Depends. One image is about 79KB. 
       - 73.5MB for Dataset folder 
       - 216KB for Labels folder
@@ -2494,6 +2503,7 @@ sizes (Columns 8-15)
 
   - Source:  [Click here to proceed to site](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
   - Data Type: Tabular 
+  - Possible uses: Build a model to classify fetal health in order to prevent child and maternal mortality 
   -   Size: 229KB
   -   Example of data + Special Instructions(if any):
             
@@ -2518,6 +2528,7 @@ sizes (Columns 8-15)
 
   - Source:  [Click here to proceed to site](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html)
   - Data Type: Tabular 
+  - Possible uses: Build a model to predict disease from symptoms
   -   Size: 84KB
   -   Example of data + Special Instructions(if any):
          
