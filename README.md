@@ -53,7 +53,7 @@ Type of datasets include
 
 7. [Gastrointestinal Related Datasets](#Gastrointestinal-Related-Datasets)
    -  [Bowel Sounds](#Bowel-Sounds) 
-   -  [Kvasir Dataset](#Kvasir-Dataset)
+   -  [Kvasir Dataset a](#Kvasir-Dataset)
 
 8. [Heart Related Datasets](#Heart-Related-Datasets)
     - [An Extensive Dataset for the Heart Disease Classification System](#An-Extensive-Dataset-for-the-Heart-Disease-Classification-System)
