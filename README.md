@@ -2492,18 +2492,22 @@ sizes (Columns 8-15)
 
   - Source:  [Click here to proceed to site](https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html)
   - Data Type: Tabular 
-  -   Size: 229KB
+  -   Size: 84KB
   -   Example of data + Special Instructions(if any):
-            
-         Download from Source
+         
+         You can download the data [here](https://github.com/joeytxy/public-data-documentation-/blob/main/disease_symptom.csv)
+             
          <details><summary>Example</summary>
          <p>
-          
+             
+         <img width="1055" alt="Screenshot 2022-07-27 at 2 55 51 PM" src="https://user-images.githubusercontent.com/66881214/181181658-9bfcfc4b-5b26-4cc9-b0d6-57ec7a18fdbc.png">
+
          </p>
          </details>
+             
   - Note: NA
   - Citations
     ```
-    - 
+    - Wang X, Chused A, Elhadad N, Friedman C, Markatou M. Automated knowledge acquisition from clinical narrative reports. AMIA Annu Symp Proc. 2008 Nov 6;2008:783-7. PMID: 18999156; PMCID: PMC2656103.
     ```            
              
