@@ -907,13 +907,11 @@ sizes (Columns 8-15)
 #### Safety and Preliminary Efficacy of Intranasal Insulin for Cognitive Impairment in Parkinson Disease and Multiple System Atrophy
 
   -   Source:  [Click here to proceed to site](https://physionet.org/content/inipdmsa/1.0/)
-  
   -   Data Type: Tabular   
-  
+  -   Possible uses: Study the effects of intranasal insulin (INI) on cognition and motor performance in Parkinson Disease
   -   Size of files
       - 3KB for PD-Table1.csv
       - 818 bytes for PD-Table2.csv
-         
   -   Example of data + Special Instructions(if any):
   
          Download files from Source.
@@ -932,7 +930,7 @@ sizes (Columns 8-15)
          PD-Table2.csv:
              
          | Study\_No | Group    | Pharmacy | Disease | Disease\_Dur | Age | Gender | Ethnicity | updrs1\_base | updrs1\_tre1 | updrs2\_base | updrs2\_tre1 | updrs3\_base | updrs3\_tre1 | brady\_base | brady\_tre1 |
-| --------- | -------- | -------- | ------- | ------------ | --- | ------ | --------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ----------- | ----------- |
+         | --------- | -------- | -------- | ------- | ------------ | --- | ------ | --------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ----------- | ----------- |
          | 1         | excluded |          |         |              |     |        |           | \-99         |              |              |              |              |              |             |             |
          | 2         | 0        | 1-PD     | PD      | 3            | 79  | 1      | w         | 15           | 9            | 14           | 11           | 32           | 24           | 13.5        | 11          |
          | 3         | 1        | 2-PD     | PD      | 9            | 64  | 1      | w         | 9            | 9            | 15           | 15           | 23           | 23           | 5           | 5           |
