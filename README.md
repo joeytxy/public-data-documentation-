@@ -35,6 +35,7 @@ Type of datasets include
 3. [Parkinson Disease](#Parkinson-Disease)
     - [Parkinson Speech Dataset with Multiple Types of Sound Recordings Data Set](#Parkinson-Speech-Dataset-with-Multiple-Types-of-Sound-Recordings-Data-Set)
     - [Parkinson Tappy Keystroke Data](#Parkinson-Tappy-Keystroke-Data)
+    - [Safety and Preliminary Efficacy of Intranasal Insulin for Cognitive Impairment in Parkinson Disease and Multiple System Atrophy](#Safety-and-Preliminary-Efficacy-of-Intranasal-Insulin-for-Cognitive-Impairment-in-Parkinson-Disease-and-Multiple-System-Atrophy)
 
 4. [Brain Related Datasets](#Brain-Related-Datasets)
     - [Brain tumor data](#Brain-tumor-data)
@@ -902,6 +903,54 @@ sizes (Columns 8-15)
       - Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
       - Adams WR (2017) High-accuracy detection of early Parkinson's Disease using multiple characteristics of finger movement while typing. PLOS ONE 12(11): e0188226. https://doi.org/10.1371/journal.pone.0188226
       ```
+             
+#### Safety and Preliminary Efficacy of Intranasal Insulin for Cognitive Impairment in Parkinson Disease and Multiple System Atrophy
+
+  -   Source:  [Click here to proceed to site](https://physionet.org/content/inipdmsa/1.0/)
+  
+  -   Data Type: Tabular   
+  
+  -   Size of files
+      - 3KB for PD-Table1.csv
+      - 818 bytes for PD-Table2.csv
+         
+  -   Example of data + Special Instructions(if any):
+  
+         Download files from Source.
+         <details><summary>Example</summary>
+         <p>
+         
+         PD-Table1.csv:
+             
+         | Study No | Pharmacy | excluded                | IversusP | Pre-Post | Age | Gender | Etnicity | Smoking | Height (in) | Weight | BMI   | Disease | Disease Duration | SBP | DBP | HR | Walk-Duration | Walk-NoSteps | AverStride (in) | MOCA | Glucose | SBP | DBP | HR | BMI 2 | Walk-Duration 2 | Walk-NoSteps 2 | AverStrid (in) 2 | Gait Speed 2 | HnH | PGI-I | BDI | MOCA 2 | F#words | A#words | S#words | FAS  | Pre-Post | Glucose 2 | MOCA 3 | Walk-Duration 3 | Walk-NoSteps 3 | AverStrid (in) 3 | Gait Speed 3 | HnH 2 | PGI-I 2 | BDI 2 | F#words 2 | A#words 2 | S#words 2 | FAS 2 |
+         | -------- | -------- | ----------------------- | -------- | -------- | --- | ------ | -------- | ------- | ----------- | ------ | ----- | ------- | ---------------- | --- | --- | -- | ------------- | ------------ | --------------- | ---- | ------- | --- | --- | -- | ----- | --------------- | -------------- | ---------------- | ------------ | --- | ----- | --- | ------ | ------- | ------- | ------- | ---- | -------- | --------- | ------ | --------------- | -------------- | ---------------- | ------------ | ----- | ------- | ----- | --------- | --------- | --------- | ----- |
+         | 1        | n/a      | excluded/screen failure |          |          |     |        |          |         |             |        |       |         |                  |     |     |    |               |              |                 |      |         |     |     |    |       |                 |                |                  |              |     |       |     |        |         |         |         | Post |          |           |        |                 |                |                  |              |       |         |       |           |           |           |
+         | 2        | 1-PD     |                         | 0        | Pre      | 79  | 1      | w        | 0       | 69          | 176    | 26.02 | PD      | 3                | 154 | 88  | 66 | 5.81          | 9            | 16              | 26   | 84      | 148 | 82  | 62 | 26.02 | 4.76            | 7              | 21               | 1.05042017   | 2.5 | 3     | 17  | 27     | 16      | 7       | 8       | 31   | Post     | 73        | 24     | 5.45            | 9              | 16               | 0.91743119   | 2.5   | 3       | 13    | 6         | 4         | 10        | 20    |
+         | 3        | 2-PD     |                         | 1        | Pre      | 64  | 1      | w        | 0       | 76.5        | 184    | 22.1  | PD      | 9                | 129 | 83  | 70 | 3.72          | 7            | 21              | 30   | 89      | 129 | 83  | 70 | 22.1  | 3.9             | 7              | 21               | 1.28205128   | 2.5 | 3     | 3   | 30     | 15      | 16      | 15      | 46   | Post     | 83        | 29     | 4.08            | 7              | 21               | 1.2254902    | 2.5   | 3       | 3     | 15        | 17        | 16        | 48    |
+         | 4        | 3-PD     |                         | 0        | Pre      | 53  | 2      | w        | 0       | 67          | 155    | 24.3  | PD      | 5                | 113 | 69  | 70 | 3.84          | 8            | 18              | 28   | 98      | 113 | 69  | 70 | 24.3  | 4.4             | 8              | 18               | 1.13636364   | 2.5 | 3     | 15  | 29     | 11      | 11      | 12      | 34   | Post     | 98        | 30     | 4.55            | 8              | 18               | 1.0989011    | 2.5   | 3       | 13    | 11        | 8         | 9         | 28    |
+         
+         PD-Table2.csv:
+             
+         | Study\_No | Group    | Pharmacy | Disease | Disease\_Dur | Age | Gender | Ethnicity | updrs1\_base | updrs1\_tre1 | updrs2\_base | updrs2\_tre1 | updrs3\_base | updrs3\_tre1 | brady\_base | brady\_tre1 |
+| --------- | -------- | -------- | ------- | ------------ | --- | ------ | --------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ----------- | ----------- |
+         | 1         | excluded |          |         |              |     |        |           | \-99         |              |              |              |              |              |             |             |
+         | 2         | 0        | 1-PD     | PD      | 3            | 79  | 1      | w         | 15           | 9            | 14           | 11           | 32           | 24           | 13.5        | 11          |
+         | 3         | 1        | 2-PD     | PD      | 9            | 64  | 1      | w         | 9            | 9            | 15           | 15           | 23           | 23           | 5           | 5           |
+         | 4         | 0        | 3-PD     | PD      | 5            | 53  | 2      | w         | 15           | 15           | 13           | 13           | 26           | 23           | 7           | 7           |
+        
+         </p>
+         </details>
+     
+  -   Note: Small dataset with only 16 rows
+         
+  -   Citations
+      ```
+      - Novak, V., & Novak, P. (2019). Safety and Preliminary Efficacy of Intranasal Insulin for Cognitive Impairment in Parkinson Disease and Multiple System Atrophy (version 1.0). PhysioNet. https://doi.org/10.13026/bn1x-my19.
+         
+      - Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
+      ```             
+             
+           
 ---
              
 ## Brain Related Datasets
