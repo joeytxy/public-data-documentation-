@@ -70,6 +70,7 @@ Type of datasets include
     - [ADE Corpus V2](#ADE-Corpus-V2)
     - [CDR BioCreative V Chemical Disease Relation corpus](#CDR-BioCreative-V-Chemical-Disease-Relation-corpus)
     - [i2b2 dataset(no preview)](#i2b2-dataset-no-preview)
+    - [MeDAL Dataset](#MeDAL-Dataset)
     - [MedMCQA](#MedMCQA)
     - [MedMentions](#MedMentions)
     - [MedQA](#MedQA)
@@ -1782,7 +1783,38 @@ sizes (Columns 8-15)
       - Informatics for Integrating Biology to the Bedside, Partners Healthcare Systems.
         URL: www.i2b2.org [date (month, yr) accessed].
       ```             
+#### MeDAL Dataset 
 
+  -   Source: [Click here to proceed to site](https://www.kaggle.com/datasets/xhlulu/medal-emnlp)
+  -   Data Type: Free Text
+  -   Possible uses: Medical Dataset for Abbreviation Disambiguation for Natural Language Understanding (MeDAL) is a large medical text dataset curated for abbreviation disambiguation, designed for natural language understanding pre-training in the medical domain. It was published at the ClinicalNLP workshop at EMNLP.
+  -   Size: 21.06GB
+      - 15.16GB for full_data.csv
+      - 5.9GB for pretrain_subset
+        - 3.54GB for train.csv 
+        - 1.18GB for valid.csv
+        - 1.18GB for test.csv
+  -   Example of data + Special Instructions(if any):
+      
+         Download relevant folder from Source. 
+             
+         <details><summary>Example</summary>
+         <p>
+         
+         | ABSTRACT\_ID | TEXT | LOCATION | LABEL                             |  
+         | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | --------------------------------- |
+         | 5017844      | different electrocardiographic changes have been described during thrombolytic therapy for AIM to indicate successful reperfusion the occluded coronary artery also can be reopened by percutaneous TCA ptca this study was performed to compare electrocardiographic changes during primary or rescue ptca and thrombolytic therapy the electrocardiographic changes were studied directly at the moment of reperfusion during ptca| 25       | transluminal coronary angioplasty |
+         | 8923525      | there are limited data regarding cdx expression in rectal carcinoma the ckck immunoprofile of CRC has been described in studies which have mostly lumped Tc and rectal PT together in this study we investigated the diagnostic utility of immunohistochemical stains for ck ck and cdx in a series of rectal adenocarcinoma fiftyfive specimens of rectal adenocarcinomas were retrieved and immunostained for ck dakom ck novocastra ncllck and cdx novocastra nclcdx thirty cases of pancreatic adenocarcinoma and CC were also studied as a comparison group ck was expressed in and ck in cases of rectal adenocarcinoma the ckck immunophenotype was identified in ckck in and ckck in rectal adenocarcinoma cdx showed moderatestrong positivity in all cases and was not related to RT differentiation benign rectal mucosa was available in cases and showed the following results ckck in ckck in and ckck in cases in pancreatic adenocarcinomas and cholangiocarcinomas were ckck and were ckck cdx was positive in only of these cases all were pancreatic adenocarcinomas in conclusion ck can be expressed in rectal adenocarcinoma and should not be used as the sole basis for excluding a rectal primary cdx is a CS marker for rectal origin of adenocarcinoma it can be helpful in cases with metastatic rectal carcinoma especially those with ckck or ckck immunophenotype in this study cdx expression was not influenced by the grade differentiation of rectal adenocarcinoma | 14       | colorectal adenocarcinoma         |
+         
+         </p>
+         </details>
+
+  -   Note: The files might take some time to open due to its large size
+  -   Citations
+      ```
+      - Wen, Z., Lu, X., & Reddy, S. (2020). MeDAL: Medical Abbreviation Disambiguation Dataset for Natural Language Understanding Pretraining. In Proceedings of the 3rd Clinical Natural Language Processing Workshop (pp. 130–135). Association for Computational Linguistics.
+      ``` 
+      
 #### MedMCQA
   -   Source: [Click here to proceed to site](https://drive.google.com/uc?export=download&id=15VkJdq5eyWIkfb_aoD3oS8i4tScbHYky)
   -   Data Type: Free Text
