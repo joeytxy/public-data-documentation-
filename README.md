@@ -1706,7 +1706,7 @@ sizes (Columns 8-15)
          </p>
          </details>
 
-  -   Note: NA
+  -   Note: Some twitter phrases in dataset may contain inappropriate language
   -   Citations
       ```
       - Limsopatham, N., & Collier, N. (2015). Adapting Phrase-based Machine Translation to Normalise Medical Terms in Social Media Messages [Data set]. Conference on Empirical Methods in Natural Language Processing (EMNLP 2015), Lisboa, Portugal. Zenodo. https://doi.org/10.5281/zenodo.27354
