@@ -1681,8 +1681,7 @@ sizes (Columns 8-15)
     - For example: [FreeConvert](https://www.freeconvert.com/audio-converter)     
   - Citations
     ```
-    - Rocha BM, Filos D, Mendes L, Vogiatzis I, Perantoni E, Kaimakamis E, Natsiavas P, Oliveira A, Jácome C, Marques A, Paiva RP (2018) In Precision Medicine Powered by pHealth and Connected Health (pp. 51-55). Springer, Singapore 
-      - The paper can be found at https://eden.dei.uc.pt/~ruipedro/publications/Conferences/ICBHI2017a.pdf
+    - Rocha BM et al. (2019) "An open access database for the evaluation of respiratory sound classification algorithms" Physiological Measurement 40 035001
     ```
 ---
 
