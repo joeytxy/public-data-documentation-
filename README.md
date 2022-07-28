@@ -16,7 +16,7 @@ Type of datasets include
     - [Breast Cancer Wisconsin (Original) Data Set](#Breast-Cancer-Wisconsin-Original-Data-Set)
     - [Breast Cancer Wisconsin (Prognostic) Data Set](#Breast-Cancer-Wisconsin-Prognostic-Data-Set)
     - [Breast Cancer Wisconsin (Diagnostic) Data Set](#Breast-Cancer-Wisconsin-Diagnostic-Data-Set)
-    - [Breast Cancer Dataset(SEER)](#Breast-Cancer-Dataset-SEER)
+    - [Breast Cancer Dataset (SEER)](#Breast-Cancer-Dataset-SEER)
     - [Lymphography Data Set](#Lymphography-Data-Set)
     - [Colorectal Cancer Dataset](#Colorectal-Cancer-Dataset)
     - [Cervical cancer (Risk Factors) Data Set](#Cervical-cancer-Risk-Factors-Data-Set)
