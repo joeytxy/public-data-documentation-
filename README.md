@@ -331,7 +331,7 @@ Type of datasets include
        ```
        - Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science
        ``` 
-#### Breast Cancer Dataset(SEER)
+#### Breast Cancer Dataset (SEER)
   -   Source:  [Click here to proceed to site](https://ieee-dataport.org/open-access/seer-breast-cancer-data)
   -   Data Type: Tabular 
   -   Possible uses: Building a predictive machine learning model for breast cancer
