@@ -75,7 +75,7 @@ Type of datasets include
     - [Adapting Phrase-based Machine Translation to Normalise Medical Terms in Social Media Messages](#Adapting-Phrase-based-Machine-Translation-to-Normalise-Medical-Terms-in-Social-Media-Messages)
     - [ADE Corpus V2 - Abstracts regarding various drugs](#ADE-Corpus-V2)
     - [CDR BioCreative V Chemical Disease Relation corpus - Title + Abstract + List of chemicals](#CDR-BioCreative-V-Chemical-Disease-Relation-corpus)
-    - [i2b2 dataset(Limited preview) - Discharge summaries](#i2b2-dataset-no-preview)
+    - [i2b2 dataset (Limited preview) - Discharge summaries](#i2b2-dataset-Limited-preview)
     - [MeDAL Dataset -  Medical text with corresponding medical label](#MeDAL-Dataset)
     - [MedMCQA - Medical MCQ with Answer + Subject and Topic names](#MedMCQA)
     - [MedMentions - Title + Abstract + List of medical terms](#MedMentions)
