@@ -1944,7 +1944,20 @@ sizes (Columns 8-15)
       - Complete: ![image](https://user-images.githubusercontent.com/66881214/183010238-6904bcc7-af65-4b00-a1d0-06286c674991.png)
           
         This folder contains complete annotations for the entire text. It contains document level annotations. Each document level annotation is supplemented with tags that show the the evidence found by our annotators for a particular document level tag. These annotator tags include position information and are included with the hope that they will ease system development and error analysis.
+      
+      </p>
+      </details>
           
+      <details><summary>Preview for 2018 dataset</summary>
+      <p>
+      
+      Sample extract: ![image](https://user-images.githubusercontent.com/66881214/183014016-92704d69-f1b0-45a0-acdd-4aca02d73385.png)
+        
+      Other information available: Physical exam details, pertinent results, brief hospital course, review of systems such as neurologic, cardiovascular etc, medication given, discharge details
+      
+      </p>
+      </details>
+      
   -   Note: NA
   -   Citations
       ```
