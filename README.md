@@ -1885,12 +1885,6 @@ sizes (Columns 8-15)
           - Letters between medical professionals: “Dear [Dr]: I had the pleasure of seeing [patient] today for a follow up visit. I last saw him in November of last year. As you know, [patient] is a 72 year old man…” (Background information on the patient + details on the patient’s current health and latest check-up)
           - Discharge summaries and notes written by the doctor after a patient visit: “The patient is a 40-year-old woman with history of coronary disease and has had intermittent chest pain over the past 4 days…” 
         - [Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1](https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub)
-          - Sample extract from clinical narrative: ![image](https://user-images.githubusercontent.com/66881214/182996754-ce870e12-ac49-49bc-b9f2-89fee0ec4e8a.png)
-            
-            Its corresponding tag can be found at the bottom of the document: ![image](https://user-images.githubusercontent.com/66881214/182996829-5ff127a9-d135-4add-bec4-1bb413593141.png)
-            
-            Other details such as medication can also be found in the clinical narrative 
-
         - [Annotating longitudinal clinical narratives for de-identification: The 2014 i2b2/UTHealth corpus](https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub)
           - Sample of clinical text before and after surrogate generation using simplified XML representation: <img width="481" alt="Screenshot 2022-07-26 at 2 40 42 PM" src="https://user-images.githubusercontent.com/66881214/180940359-b2c31de4-541c-4d6b-8812-d33b293d169d.png">
         - Track 2 Risk Factors 
@@ -1932,7 +1926,25 @@ sizes (Columns 8-15)
           
       </p>
       </details>
-
+      
+      <details><summary>Preview for 2014 dataset</summary>
+      <p>
+      
+      Sample extract from clinical narrative: ![image](https://user-images.githubusercontent.com/66881214/182996754-ce870e12-ac49-49bc-b9f2-89fee0ec4e8a.png)
+            
+      Its corresponding tag can be found at the bottom of the document (Track 1) : ![image](https://user-images.githubusercontent.com/66881214/182996829-5ff127a9-d135-4add-bec4-1bb413593141.png)
+            
+      Other details such as medication can also be found in the clinical narrative 
+          
+      In track 2, tags for risk factors can be found after the clinical narrative
+      - Gold: ![image](https://user-images.githubusercontent.com/66881214/183010076-7d4fe328-5a32-4b32-b84c-3d9baacc8436.png)
+          
+        This folder contains the gold standard annotations that will be used for evaluation. These are document-level tags which are defined in the annotation guidelines. Valid tags and attributes are outlined in the provided cardiac risk DTD
+          
+      - Complete: ![image](https://user-images.githubusercontent.com/66881214/183010238-6904bcc7-af65-4b00-a1d0-06286c674991.png)
+          
+        This folder contains complete annotations for the entire text. It contains document level annotations. Each document level annotation is supplemented with tags that show the the evidence found by our annotators for a particular document level tag. These annotator tags include position information and are included with the hope that they will ease system development and error analysis.
+          
   -   Note: NA
   -   Citations
       ```
