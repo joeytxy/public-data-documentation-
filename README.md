@@ -75,7 +75,7 @@ Type of datasets include
     - [Adapting Phrase-based Machine Translation to Normalise Medical Terms in Social Media Messages](#Adapting-Phrase-based-Machine-Translation-to-Normalise-Medical-Terms-in-Social-Media-Messages)
     - [ADE Corpus V2 - Abstracts regarding various drugs](#ADE-Corpus-V2)
     - [CDR BioCreative V Chemical Disease Relation corpus - Title + Abstract + List of chemicals](#CDR-BioCreative-V-Chemical-Disease-Relation-corpus)
-    - [i2b2 dataset(no preview) - Discharge summaries](#i2b2-dataset-no-preview)
+    - [i2b2 dataset(Limited preview) - Discharge summaries](#i2b2-dataset-no-preview)
     - [MeDAL Dataset -  Medical text with corresponding medical label](#MeDAL-Dataset)
     - [MedMCQA - Medical MCQ with Answer + Subject and Topic names](#MedMCQA)
     - [MedMentions - Title + Abstract + List of medical terms](#MedMentions)
@@ -1811,7 +1811,7 @@ sizes (Columns 8-15)
       ```
       - Li, J., Sun, Y., Johnson, R. J., Sciaky, D., Wei, C. H., Leaman, R., Davis, A. P., Mattingly, C. J., Wiegers, T. C., & Lu, Z. (2016). BioCreative V CDR task corpus: a resource for chemical disease relation extraction. Database : the journal of biological databases and curation, 2016, baw068. https://doi.org/10.1093/database/baw068
       ```
-#### i2b2 dataset (no preview)
+#### i2b2 dataset (Limited preview)
       
   -   Source: [Click here to proceed to site](https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/)
   -   Data Type: Free Text
@@ -1885,9 +1885,16 @@ sizes (Columns 8-15)
           - Letters between medical professionals: “Dear [Dr]: I had the pleasure of seeing [patient] today for a follow up visit. I last saw him in November of last year. As you know, [patient] is a 72 year old man…” (Background information on the patient + details on the patient’s current health and latest check-up)
           - Discharge summaries and notes written by the doctor after a patient visit: “The patient is a 40-year-old woman with history of coronary disease and has had intermittent chest pain over the past 4 days…” 
         - [Automated systems for the de-identification of longitudinal clinical narratives: Overview of 2014 i2b2/UTHealth shared task Track 1](https://www.sciencedirect.com/science/article/pii/S1532046415001173?via%3Dihub)
-          - Consists of 1,304 medical records for 296 diabetic patients
+          - Sample extract from clinical narrative: ![image](https://user-images.githubusercontent.com/66881214/182996754-ce870e12-ac49-49bc-b9f2-89fee0ec4e8a.png)
+            
+            Its corresponding tag can be found at the bottom of the document: ![image](https://user-images.githubusercontent.com/66881214/182996829-5ff127a9-d135-4add-bec4-1bb413593141.png)
+            
+            Other details such as medication can also be found in the clinical narrative 
+
         - [Annotating longitudinal clinical narratives for de-identification: The 2014 i2b2/UTHealth corpus](https://www.sciencedirect.com/science/article/pii/S1532046415001823?via%3Dihub)
           - Sample of clinical text before and after surrogate generation using simplified XML representation: <img width="481" alt="Screenshot 2022-07-26 at 2 40 42 PM" src="https://user-images.githubusercontent.com/66881214/180940359-b2c31de4-541c-4d6b-8812-d33b293d169d.png">
+        - Track 2 Risk Factors 
+         
       </p>
       </details>
       <details><summary>2018 (Track 1) - Clinical Trial Cohort Selection</summary>   
